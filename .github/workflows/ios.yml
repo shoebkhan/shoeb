@@ -1,44 +1,264 @@
-name: iOS starter workflow
+name: IPA
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+  workflow_dispatch:
+    inputs:
+      buildConfiguration:
+        required: true
+        type: choice
+        description: Build configuration
+        options:
+          - AdHocPreRelease
+          - Release
+      store:
+        required: true
+        type: choice
+        description: Store
+        options:
+          - firebaseDistribution
+          - appCenter
+          - testflight
+        default: firebaseDistribution
+      comment:
+        description: 'Comment'
+        required: false
+        type: string
+        default: ''
+
+env:
+  BUILD_URL: https://github.com/${{github.repository}}/commit/${{github.sha}}/checks/${{github.run_id}}
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+  BRANCH_URL: https://github.com/${{github.repository}}/tree/${{ github.head_ref || github.ref_name }}
+  COMMIT_URL: https://github.com/${{github.repository}}/commit/${{ github.sha }}
 
 jobs:
-  build:
-    name: Build and Test default scheme using any available iPhone simulator
-    runs-on: macos-latest
+  ipa:
+    runs-on: macos-15-xlarge
 
     steps:
-      - name: Checkout
+      - name: Input to summary
+        run: |
+          echo "### Input" >> $GITHUB_STEP_SUMMARY
+          echo "- buildConfiguration: ${{ inputs.buildConfiguration }}" >> $GITHUB_STEP_SUMMARY
+          echo "- store: ${{ inputs.store }}" >> $GITHUB_STEP_SUMMARY
+          echo "- comment: ${{ inputs.comment }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack build started
+        uses: slackapi/slack-github-action@v1.25.0
+        with:
+          payload: |
+            {
+              "text": "IPA. Started...",
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "IPA"
+                  }
+                },
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Status:*\n:runner: Started..."
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Build:*\n<${{ env.BUILD_URL }}|GitHub>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Branch:*\n<${{ env.BRANCH_URL }}|${{ env.BRANCH_NAME }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Commit:*\n<${{ env.COMMIT_URL }}|${{ github.sha }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*User:*\n${{ github.actor }}"
+                    }
+                  ]
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
+      - name: Git checkout
         uses: actions/checkout@v4
-      - name: Set Default Scheme
-        run: |
-          scheme_list=$(xcodebuild -list -json | tr -d "\n")
-          default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
-          echo $default | cat >default
-          echo Using default scheme: $default
-      - name: Build
+
+      - name: Set Xcode version
+        run: ./scripts/github/configureXcode.sh
+
+      - name: Print xCode version
+        run: xcodebuild -version
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+
+      - name: Ability to clone Match repo
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.GIT_SECRETS_REPO_PRIVATE_KEY }}
+
+      - name: Cache Bundle
+        id: cache-bundle
+        uses: actions/cache@v4
         env:
-          scheme: ${{ 'default' }}
-          platform: ${{ 'iOS Simulator' }}
-        run: |
-          # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
-          device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
-          if [ $scheme = default ]; then scheme=$(cat default); fi
-          if [ "`ls -A | grep -i \\.xcworkspace\$`" ]; then filetype_parameter="workspace" && file_to_build="`ls -A | grep -i \\.xcworkspace\$`"; else filetype_parameter="project" && file_to_build="`ls -A | grep -i \\.xcodeproj\$`"; fi
-          file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
-          xcodebuild build-for-testing -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
+          cache-name: bundle
+        with:
+          path: ./vendor
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('./Gemfile.lock') }}
+
+      - if: ${{ steps.cache-bundle.outputs.cache-hit != 'true' }}
+        name: Bundle install
+        continue-on-error: false
+        run: ./bundleInstall.sh
+
+      - name: Setup
+        run: ./setup.sh --passphrase ${{ secrets.GIT_SECRETS_REPO_PASSPHRASE }}
+
       - name: Test
-        env:
-          scheme: ${{ 'default' }}
-          platform: ${{ 'iOS Simulator' }}
+        run: ./test.sh
+
+      - name: Deploy IPA binaries
         run: |
-          # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
-          device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
-          if [ $scheme = default ]; then scheme=$(cat default); fi
-          if [ "`ls -A | grep -i \\.xcworkspace\$`" ]; then filetype_parameter="workspace" && file_to_build="`ls -A | grep -i \\.xcworkspace\$`"; else filetype_parameter="project" && file_to_build="`ls -A | grep -i \\.xcodeproj\$`"; fi
-          file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
-          xcodebuild test-without-building -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
+          ./deployIpa.sh \
+            --buildConfiguration ${{ github.event.inputs.buildConfiguration }} \
+            --store ${{ github.event.inputs.store }} \
+            --comment "${{ github.event.inputs.comment }}" \
+            --ciCdBuildNumber "${{ github.run_number }}"
+
+      - name: Info txt files to env
+        run: |
+          echo "NOTIFICATION_BUILD_CONFIGURATION=$(<./build/githubAction/buildConfiguration.txt)" >> $GITHUB_ENV
+          echo "NOTIFICATION_VERSION_NAME=$(<./build/githubAction/versionName.txt)" >> $GITHUB_ENV
+          echo "NOTIFICATION_BUILD_NUMBER=$(<./build/githubAction/buildNumber.txt)" >> $GITHUB_ENV
+          echo "NOTIFICATION_STORE_URL=$(<./build/githubAction/storeUrl.txt)" >> $GITHUB_ENV
+
+      - name: Changelog to summary
+        run: |
+          echo "### Changelog" >> $GITHUB_STEP_SUMMARY
+          cat ./build/githubAction/changelog.txt >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify Slack
+        if: success()
+        uses: slackapi/slack-github-action@v1.25.0
+        with:
+          payload: |
+            {
+              "text": "IPA. Status: ${{ job.status }}",
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "IPA"
+                  }
+                },
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Status:*\n:white_check_mark: Success"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Build:*\n<${{ env.BUILD_URL }}|GitHub>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Branch:*\n<${{ env.BRANCH_URL }}|${{ env.BRANCH_NAME }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Commit:*\n<${{ env.COMMIT_URL }}|${{ github.sha }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Build configuration:*\n${{ env.NOTIFICATION_BUILD_CONFIGURATION }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Version name:*\n${{ env.NOTIFICATION_VERSION_NAME }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Build number*\n${{ env.NOTIFICATION_BUILD_NUMBER }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Store url:*\n<${{ env.NOTIFICATION_STORE_URL }}|Store>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Comment:*\n${{ inputs.comment }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*User:*\n${{ github.actor }}"
+                    }
+                  ]
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+      
+      - name: Notify Slack
+        if: failure() || cancelled()
+        uses: slackapi/slack-github-action@v1.25.0
+        with:
+          payload: |
+            {
+              "text": "IPA. Status: ${{ job.status }}",
+              "blocks": [
+                {
+                  "type": "header",
+                  "text": {
+                    "type": "plain_text",
+                    "text": "IPA"
+                  }
+                },
+                {
+                  "type": "section",
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Status:*\n${{ job.status == 'cancelled' && ':octagonal_sign: Canceled' || ':x: Failure' }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Build:*\n<${{ env.BUILD_URL }}|GitHub>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Branch:*\n<${{ env.BRANCH_URL }}|${{ env.BRANCH_NAME }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Commit:*\n<${{ env.COMMIT_URL }}|${{ github.sha }}>"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Comment:*\n${{ inputs.comment }}"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": "*User:*\n${{ github.actor }}"
+                    }
+                  ]
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
