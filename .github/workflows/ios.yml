@@ -30,14 +30,31 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show selected options
+      - name: Setup Ruby (for Fastlane)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install Fastlane
+        run: gem install fastlane
+
+      - name: Run Fastlane
         run: |
-          echo "Build Configuration: ${{ github.event.inputs.buildConfiguration }}"
-          echo "Store: ${{ github.event.inputs.store }}"
+          echo "Running build with config: ${{ github.event.inputs.buildConfiguration }}"
+          echo "Target store: ${{ github.event.inputs.store }}"
           echo "Comment: ${{ github.event.inputs.comment }}"
+
+          # Call appropriate Fastlane lane based on input
+          if [[ "${{ github.event.inputs.store }}" == "firebaseDistribution" ]]; then
+            fastlane ios firebase build_config:${{ github.event.inputs.buildConfiguration }} comment:"${{ github.event.inputs.comment }}"
+          elif [[ "${{ github.event.inputs.store }}" == "appStore" ]]; then
+            fastlane ios appstore build_config:${{ github.event.inputs.buildConfiguration }} comment:"${{ github.event.inputs.comment }}"
+          else
+            fastlane ios testflight build_config:${{ github.event.inputs.buildConfiguration }} comment:"${{ github.event.inputs.comment }}"
+          fi
