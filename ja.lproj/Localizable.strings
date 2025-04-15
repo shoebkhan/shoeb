@@ -1,0 +1,771 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+
+"Ok" = "OK";
+"Cancel" = "キャンセル";
+"Loading" = "読み込み中";
+"Logged in" = "ログイン";
+"Sending" = "送信";
+"Completed" = "完了";
+"Leave" = "Leave" ;
+"Left" = "左" ;
+
+"Leaving" = "出発";
+"Warning" = "警告";
+"Block" = "ブロック";
+"Unblock" = "ブロックを解除";
+"Login as" = "ログイン";
+"Logout..." = "ログアウト";
+
+"Typing..." = "入力しています...";
+"Connecting to chat..." = "チャットに接続しています...";
+"Connected" = "接続済み";
+"Disconnected" = "切断されました";
+"Reconnected" = "再接続";
+"Logging in REST as " = "としてログイン";
+"Loading dialog" = "読み込みダイアログ";
+"Loading dialogs" = "ダイアログの読み込み";
+"Done" = "完了";
+"added" = "追加";
+"created the group chat" = "グループチャットを作成しました";
+"Call" = "通話";
+"Message" = "メッセージ";
+"Can't send a message" = "メッセージ";
+"Loading users" = "ユーザーの読み込み";
+
+
+"Can't download users" = "ユーザーをダウンロードできません";
+"Can't download dialogs" = "ダイアログをダウンロードできません";
+"Failed to load dialogs" = "ダイアログの読み込みに失敗しました";
+"You are in the blacklist" = "あなたはブラックリストに載っています";
+"forbidden" = "禁止";
+"Loading messages" = "メッセージの読み込み";
+"Uploading attachment" = "添付ファイルのアップロード";
+"Enter chat name" = "チャット名を入力してください";
+"Dialog created" = "作成されたダイアログ";
+"Send" = "送信";
+"last activity date" = "最終活動日";
+"Add occupants" = "居住者を追加";
+"Create" = "作成";
+"New chat" = "新しいチャット";
+"New message" = "新しいメッセージ";
+"has left dialog." = "「ダイアログを残しました。」";
+"Chat info" = "チャット情報";
+"Read" = "読み取り";
+"Delivered" = "配信済み";
+"Seen" = "見た";
+"Sent" = "送信済み";
+"Didn't send" = "送信しませんでした";
+"Sending" = "送信";
+"Unknown" = "不明";
+
+
+"Note that you will not receive any private message from this user" = "このユーザーからプライベートメッセージを受信しないことに注意してください";
+"Note that you will not receive any group chat message from this user" = "このユーザーからグループチャットメッセージを受信しないことに注意してください";
+"Do you really want to leave selected dialog?" = "「本当に選択したダイアログを残しますか？」 ";
+"Unblock user in 1-1 chat" = "1-1チャットでユーザーのブロックを解除する";
+"Try again" = "再試行";
+"Delete" = "削除";
+"Error" = "エラー";
+"Error leaving" = "退出エラー";
+"Bad Gateway, please try again" = "ゲートウェイが不良です。もう一度お試しください";
+"Connection network error, please try again" = "接続ネットワークエラー、再試行してください";
+"Did not connect with error:" = "エラーで接続しませんでした：";
+"Chat failed with error:" = "チャットがエラーで失敗しました：";
+"Message failed to send" = "メッセージの送信に失敗しました";
+"Group Name" = "グループ名";
+"Choose photo from..." = "写真を...から選択してください";
+"Camera" = "カメラ";
+"Gallery" = "ギャラリ";
+" (You)" = "（あなた）";
+"Loading users" = "ユーザーの読み込み";
+"Please add group image." = "「グループ画像を追加してください。」";
+"Create" = "作成";
+"SEARCH" = "検索";
+
+
+"Dialog created" = "作成されたダイアログ";
+"No user with that name" = "その名前のユーザーはいない";
+"Calling..." = "呼び出し中...";
+"Closed" = "クローズ";
+"Failed" = "失敗";
+"Hung Up" = "ハングアップ";
+"Rejected" = "拒否されました";
+"No Answer" = "無回答";
+"Time out" = "タイムアウト";
+"Unmute" = "ミュート解除";
+"Mute" = "ミュート";
+"Cam on" = "カムオン";
+"Cam off" = "カムオフ";
+"Mic" = "マイク";
+"Speaker" = "スピーカー";
+"End call" = "通話終了";
+"Stop sharing" = "共有を停止";
+"Screen share" = "画面共有";
+"Swap cam" = "スワップカム";
+"Swap cam" = "スワップカム";
+"Loading stats report..." = "統計レポートを読み込んでいます...";
+"Search" = "検索";
+"Login" = "ログイン";
+"Incoming" = "着信";
+"Calling" = "呼び出し中";
+"TuDime" = "TuDime" ;
+"You have no credit recharge please!" = "「クレジットリチャージはありません！」 ";
+"Blocked User" = "ブロックされたユーザー";
+"Subscription Manager" = "サブスクリプションマネージャー";
+"Reload" = "リロード";
+
+"Your account suspended please purchased subscription." = "「アカウントが停止されました。サブスクリプションを購入してください。」";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "「このサブスクリプションはすでに購入されています。次の方法でこのサブスクリプションを復元できます。";
+"Product load from the itunes." = "「iTunesからの製品のロード。」";
+"Free Trial is Expired" = "無料試用期間が終了しました";
+"Days Free Trial of Premium Features" = "プレミアム機能の無料トライアル";
+"Leave Chat" = "チャットを終了";
+"Chat info" = "チャット情報";
+"Edit Message" = "メッセージの編集";
+"Delete" = "削除";
+"Forward" = "転送";
+"Delivered to..." = "配信先...";
+"Viewed by..." = "閲覧者...";
+"Save attachment" = "添付ファイルを保存";
+"Delete For Me" = "Delete For Me";
+"Delete For All" = "すべて削除";
+"Re-Translate" = "再翻訳";
+"Self-Destruct" = "自己破壊";
+"Quote Reply" = "引用返信";
+"Share Via" = "共有経由";
+"View file" = "ファイルを表示";
+" is typing..." = "は入力中です...";
+" are typing..." = "入力しています...";
+" and 2 more are typing..." = "とさらに2つ入力しています...";
+"No user with that name" = "その名前のユーザーはいない";
+"Add Occupants" = "居住者を追加";
+
+"Message forwarded" = "転送されたメッセージ";
+"Error" = "転送されたメッセージ";
+"Create" = "作成";
+"Message delivered to" = "メッセージの配信先";
+"Message viewed by" = "表示されたメッセージ";
+"Finish" = "終了";
+"New Chat" = "新しいチャット";
+"QBChat is not Connected" = "QBChatが接続されていません";
+"New Group Chat" = "新しいグループチャット";
+"New Chat" = "新しいチャット";
+"No user with that name" = "その名前のユーザーはいない";
+"Please allow the app to access your contacts through the device's settings." = "「アプリがデバイスの設定から連絡先にアクセスできるようにしてください。」";
+"No user with that name" = "その名前のユーザーはいない";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "スマートフォン用のTuDimeをチェックしてください。今日（https://www.TuDime.com）からダウンロードしてください";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "スマートフォン用のTuDimeをチェックしてください。今日（https://www.TuDime.com）からダウンロードしてください";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "「メールアドレスまたは英数字を3〜50文字で使用してください。最初の文字は文字である必要があります。」";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "「3〜20の範囲の英数字とスペースを使用してください。1行に複数のスペースを含めることはできません。」 ";
+"Send eCards" = "eカードを送信";
+"Details View" = "詳細ビュー";
+"Delete Chat" = "チャットの削除";
+"Archive Chat" = "アーカイブチャット";
+"Chat Disappearing timer" = "チャットが消えるタイマー";
+"Block" = "ブロック";
+"Category" = "カテゴリ";
+"5 Minutes" = "5分";
+"10 Minutes" = "10分";
+"20 Minutes" = "20分";
+"30 Minutes" = "30分";
+"40 Minutes" = "40分";
+"50 Minutes" = "50分";
+"60 Minutes" = "60分";
+"Online" = "オンライン";
+"Offline" = "オフライン";
+"Today" = "今日";
+"Yesterday" = "昨日";
+
+
+"Bad Gateway, please try again" = "ゲートウェイが不良です。もう一度お試しください";
+"Connection network error, please try again" = "接続ネットワークエラー、再試行してください";
+"Doodle" = "Doodle" ;
+"Image" = "画像";
+"Location" = "場所";
+"Theme" = "テーマ";
+"Contact" = "連絡先";
+"Files" = "ファイル";
+"Audio/Video" = "オーディオ/ビデオ";
+"TuDime Translation" = "TuDime翻訳";
+"Select language in which you want to convert the text" = "テキストを変換する言語を選択してください";
+"Enter Text:" = "テキストを入力してください：";
+"Edit Message" = "メッセージの編集";
+"Do you really want to Archieve this chat?" = "「本当にこのチャットをアーカイブしたいですか？」";
+"Archiving Chat" = "チャットのアーカイブ";
+"Can't use options when you are in secret chat" = "秘密のチャット中はオプションを使用できません";
+"Details View" = "詳細ビュー";
+"Leave Chat" = "チャットを終了";
+"Send eCards" = "eカードを送信";
+"Details View" = "詳細ビュー";
+"Delete Chat" = "チャットの削除";
+"Chat Disappearing timer" = "チャットが消えるタイマー";
+"Can't set theme when you are in secret chat" = "秘密のチャット中にテーマを設定できません";
+"Choose photo from..." = "写真を...から選択してください";
+"Sorry,no language found" = "申し訳ありませんが、言語が見つかりません";
+"Please select translate language first" = "最初に翻訳言語を選択してください";
+"Do you really want to leave selected dialog?" = "「本当に選択したダイアログを残しますか？」";
+"Open Settings" = "設定を開く";
+"This message will be self destruct after 10 Seconds" = "このメッセージは10秒後に自己破壊します";
+"You can send 1 attachment per message" = "メッセージごとに1つの添付ファイルを送信できます";
+
+
+
+"Save error" = "保存エラー";
+"Your Device can't make a phone call" = "お使いのデバイスは電話をかけることができません";
+"User denied access to speech recognition" = "ユーザーが音声認識へのアクセスを拒否しました";
+"Speech recognition restricted on this device" = "このデバイスでは音声認識が制限されています";
+"Speech recognition not yet authorized" = "音声認識はまだ許可されていません";
+"Recognition not available" = "認識できません";
+"Add Photos" = "写真を追加";
+"Choose photo from..." = "写真を...から選択してください";
+"You don't have camera" = "あなたはカメラを持っていません";
+"Alert" = "アラート";
+"Are you sure want to unblock this user?" = "「このユーザーのブロックを解除してもよろしいですか？」";
+"Are you sure want to block this user? Later you can unblock from setting." = "「このユーザーをブロックしてもよろしいですか？後で設定のブロックを解除できます。」";
+"Unblock" = "ブロックを解除";
+"The uploaded file exceeds maximum file size (100MB)" = "アップロードされたファイルが最大ファイルサイズ（100MB）を超えています";
+"Error loading image" = "画像の読み込みエラー";
+"Saved!" = "「救われた！」";
+"Video is not compatible With Photos Album" = "ビデオはフォトアルバムと互換性がありません";
+"Camera error" = "カメラエラー";
+"The app doesn't have access to the camera, please go to settings and enable it." = "「アプリはカメラにアクセスできません。設定に移動して有効にしてください。」";
+"Microphone error" = "マイクエラー";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "「アプリはマイクにアクセスできません。設定に移動して有効にしてください。」";
+"Settings" = "設定";
+"Unknown user" = "不明なユーザー";
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "メモリ警告：通話を終了します。ビデオ設定の品質を下げてください";
+"Session did close due to time out" = "タイムアウトのためセッションが終了しました";
+"Call" = "通話";
+"New" = "新規";
+"Pending" = "保留中";
+"Closed" = "クローズ";
+"Failed" = "失敗";
+"Hung Up" = "ハングアップ";
+"Rejected" = "拒否されました";
+"No Answer" = "無回答";
+
+
+"Time out" = "タイムアウト";
+"Please select your Language first" = "最初に言語を選択してください";
+"Registration" = "登録";
+"Select your country" = "国を選択してください";
+"Nick name must be 3 characters long." = " ニックネームは 3 文字にする必要があります。 「」";
+"Select Country" = "国を選択";
+"Sorry, no country found by this name!" = "「申し訳ありませんが、この名前で国が見つかりません！」 ";
+"Too many Attempts! Try again after sometime" = "試行回数が多すぎます！しばらくしてから再試行してください";
+"Incomplete Pin" = "不完全なピン";
+"Please Enter Your Security Answer" = "セキュリティの回答を入力してください";
+"Security Answer is incorrect!" = "「セキュリティの答えが間違っています！」";
+"Success" = "成功";
+"Pin setted Successfully!" = "「ピンがうまくセットされました！」";
+"Confirm Pin Mismatched!" = "「ピンの不一致を確認してください！」";
+"Please Enter The New Pin Again!" = "「新しいピンをもう一度入力してください！」";
+"Please Enter A New Pin!" = "「新しいピンを入力してください！」 ";
+"Subscription Details" = "サブスクリプションの詳細";
+"Your Payment is successfull!" = "「お支払いは成功です！」";
+"Payment Details" = "支払いの詳細";
+"Address" = "住所";
+"Country" = "国" ;
+"State" = "状態";
+"ZIP" = "ZIP" ;
+"City" = "都市";
+"Email" = "メール";
+"Country Code" = "国コード";
+"Valid email" = "有効なメール";
+"address field can't be blank!" = "「アドレスフィールドを空白にすることはできません！」";
+"state field can't be blank!" = "「状態フィールドを空白にすることはできません！」";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "数値文字なしで入力してください（例：John Doe）";
+"pincode field can't be blank!" = "「ピンコードフィールドを空白にすることはできません！」";
+"country field can't be blank!" = "「国のフィールドを空白にすることはできません！」";
+"Please enter with out special Charecter(e.g John Doe)" = "特別な文字なしで入力してください（例：John Doe）";
+
+
+
+
+"city field can't be blank!" = "「都市フィールドを空白にすることはできません！」";
+"Email field can't be blank!" = "「メールフィールドを空白にすることはできません！」";
+"Entered email is not valid!" = "「入力したメールは無効です！」";
+"Some Data is missing" = "一部のデータが欠落しています";
+"Your Payment is successfull!" = "「お支払いは成功です！」";
+"Please enter a Number" = "番号を入力してください";
+"Please enter a country code" = "国コードを入力してください";
+"You have no credit recharge please!" = "「クレジットリチャージはありません！」";
+"Sinch Client not" = "Sinch Client not";
+"Intitialised.!" = "「始めた！」 ";
+"Please wait Inititalising..." = "初期化をお待ちください...";
+"Sinch Client" = "シンチクライアント";
+"No number available!" = "「番号がありません！」 ";
+"Can't be placed more!" = "「これ以上配置できません！」";
+"Call ended" = "通話が終了しました";
+"Call connected" = "通話接続";
+"Calling..." = "呼び出し中...";
+"Edit Profile" = "プロファイルの編集";
+"Accounts" = "アカウント";
+"Appearance" = "外観";
+"Contact Us" = "お問い合わせ";
+"About & Help"= "About＆Help";
+"Secret Chat" = "シークレットチャット";
+"Blocked User" = "ブロックされたユーザー";
+"Store Stickers/Gifs" = "ストアステッカー/ GIF";
+"Font successfully defualt set" = "フォントのデフォルト設定に成功しました";
+"Font Color successfully defualt set" = "フォントの色が正常に無効化されました";
+
+"Font size successfully defualt set" = "フォントサイズが正常にデフォルト設定されました";
+"Font successfully set" = "フォントが正常に設定されました";
+"Font size successfully set" = "フォントサイズが正常に設定されました";
+"Font color successfully set" = "フォントの色が正常に設定されました";
+"Delete Accounts" = "アカウントの削除";
+"Do you want to delete your account?" = "「アカウントを削除しますか？」 ";
+"Once you delete your account, all your data will be removed permanently" = "アカウントを削除すると、すべてのデータが完全に削除されます";
+
+
+"No Profile id found!" = "「プロファイルIDが見つかりません！」";
+"Contact Us" = "お問い合わせ";
+"Name field can't be blank!" = "「名前フィールドを空白にすることはできません！」";
+"Phone field can't be blank!" = "「電話フィールドを空白にすることはできません！」";
+"Please Enter a valid Phone Number" = "有効な電話番号を入力してください";
+"Email field can't be blank!" = "「メールフィールドを空白にすることはできません！」";
+"Please Enter a valid Email" = "有効なメールアドレスを入力してください";
+"Country field can't be blank!" = "「国のフィールドを空白にすることはできません！」";
+"Comments field can't be blank!" = "「コメントフィールドを空白にすることはできません！」";
+"Your response uploaded Successfully" = "あなたの回答は正常にアップロードされました";
+"Terms & Privacy Policy" = "利用規約とプライバシーポリシー";
+"Feedback" = "フィードバック";
+"Feedback field can't be empty!" = "「フィードバックフィールドを空にすることはできません！」";
+"Your feedback sent Successfully" = "フィードバックは正常に送信されました";
+"Work in Progress!" = "「作業中です！」";
+"Buy Call Credit" = "コールクレジットを購入";
+"You Choose $5 Package" = "あなたは5ドルのパッケージを選択します";
+"You Choose $10 Package" = "あなたは10ドルのパッケージを選択します";
+"You Choose $15 Package" = "あなたは15ドルのパッケージを選択します";
+"Please set Unique ID" = "一意のIDを設定してください";
+"Your Uniqe id is: " = "あなたのUniqeIDは次のとおりです：";
+"Public" = "パブリック";
+"Unique id created successfully" = "一意のIDが正常に作成されました";
+"Profile Privacy updated Successfully" = "プロファイルのプライバシーが正常に更新されました";
+
+"You don't have camera" = "あなたはカメラを持っていません";
+"Hey, I am using Tudime!" = "「ねえ、私はTudimeを使っています！」";
+"Enter Your Name" = "あなたの名前を入力してください";
+"Set Unique ID" = "一意のIDを設定";
+"Enter Your Name" = "あなたの名前を入力してください";
+"Enter Your Unique id" = "一意のIDを入力してください";
+"Nickname updated successfully" = "ニックネームが正常に更新されました";
+"No special characters allowed." = "特殊文字は使用できません。」";
+"Must be contain minimum 4 characters." = "「最低4文字が含まれている必要があります。」";
+"Set Status" = "ステータスの設定";
+"Status updated Successfully" = "ステータスが正常に更新されました";
+"Schedule Event" = "イベントのスケジュール";
+"Events Loading Error" = "イベント読み込みエラー";
+
+
+"The calender could not load system events. It is possibly a problem with permissions" = "カレンダーはシステムイベントを読み込めませんでした。権限に問題がある可能性があります";
+"New Event" = "新しいイベント";
+"Enter Event Name" = "イベント名を入力してください";
+"Enter Description" = "説明を入力";
+"Enter Time" = "時間を入力";
+"Enter Description" = "説明を入力";
+"Please enter event name" = "イベント名を入力してください";
+"Please enter event time" = "イベント時間を入力してください";
+"Schedule created successfully" = "スケジュールが正常に作成されました";
+"Time:" = "時間：";
+"Date:" = "日付：";
+"Profile Picture Gallery" = "プロフィール写真ギャラリー";
+"Profile Photo Updated Successfully!" = "「プロフィール写真が正常に更新されました！」";
+"Set as Profile Picture" = "プロフィール写真として設定";
+"Delete Photo" = "写真を削除";
+"No photo available!" = "「写真はありません！」";
+"Select one option" = "オプションを1つ選択してください";
+
+"Custom Status" = "カスタムステータス";
+"Status updated Successfully" = "ステータスが正常に更新されました";
+"This is already current status" = "これはすでに現在のステータスです";
+"Status can't be blank!" = "「ステータスを空白にすることはできません！」";
+"Sorry! no card is available right now" = "申し訳ありません！現在利用できるカードはありません";
+"Keeping more ecards, may slow down your device" = "より多くのeカードを保持すると、デバイスの速度が低下する可能性があります";
+"Love" = "愛" ;
+"Birthday"= "誕生日";
+"Friendship" = "友情";
+"Some1 Special" = "Some1 Special";
+"Miss You" = "ミスユー";
+"Congratulations" = "おめでとうございます";
+"Good Luck" = "幸運";
+"Get Well Soon" = "すぐに元気になる";
+"Invitations" = "招待状";
+"Thank You" = "ありがとう";
+"Sorry" = "申し訳ありません";
+"Tap to Stop Recording" = "録音を停止するためのタップ";
+"Tap to Record" = "タップして記録";
+"Recording Successfull." = "「録音に成功しました。」";
+"Recording Failed :(" = "記録に失敗しました:(";
+
+
+"Make it personal !" = "「それを個人的にしてください！」";
+"Choose photo from..." = "写真を...から選択してください";
+"Everything need to be selected!" = "「すべてを選択する必要があります！」";
+"You don't have camera" = "あなたはカメラを持っていません";
+"Something is wrong!" = "何かが間違っている！";
+"Please add recorded Audio." = "「録音した音声を追加してください。」 ";
+"Signature" = "署名";
+"No signature found!" = "「署名が見つかりません！」";
+"Enter text here" = "ここにテキストを入力してください";
+"Text Dialog" = "テキストダイアログ";
+"Sorry,no language found" = "申し訳ありませんが、言語が見つかりません";
+"Please select translate language first" = "最初に翻訳言語を選択してください";
+"TuDime Translation" = "TuDime翻訳";
+"Select language in which you want to convert the text" = "テキストを変換する言語を選択してください";
+"Enter Text:" = "テキストを入力してください：";
+"Enter text here" = "ここにテキストを入力してください";
+"User denied access to speech recognition" = "ユーザーが音声認識へのアクセスを拒否しました";
+"Speech recognition restricted on this device" = "このデバイスでは音声認識が制限されています";
+"Speech recognition not yet authorized" = "音声認識はまだ許可されていません";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "スマートフォン用のTuDimeをチェックしてください。今日（https://www.TuDime.com）からダウンロードしてください";
+"Group Chat" = "グループチャット";
+"Secret Chat" = "シークレットチャット";
+"CONTACTS" = "連絡先";
+"Bad Gateway, please try again" = "ゲートウェイが不良です。もう一度お試しください";
+"Connection network error, please try again" = "接続ネットワークエラー、再試行してください";
+"Select a user to start Chat" = "チャットを開始するユーザーを選択してください";
+"Please add more members for Group Chat!" = "「グループチャットのメンバーを追加してください！」";
+"Theme changed successfully!" = "「テーマが無事に変わりました！」 ";
+"You don't have camera" = "あなたはカメラを持っていません";
+"Theme changed successfully!" = "「テーマが無事に変わりました！」";
+"Archive Chat" = "アーカイブチャット";
+"25%% discount if you join with in %d days %@" = "％d日以内に参加すると25 %%割引 %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "「25 %%割引の有効期限が切れています。停止を回避するために％d日で参加してください";
+"ACCOUNT SUSPENDED" = "アカウントが一時停止";
+"Your account suspended please purchased subscription." = "アカウントが停止されました。サブスクリプションを購入してください。";
+"Please select a color" = "色を選択してください";
+
+
+"Please select a Picture" = "画像を選択してください";
+"Opss! Cliend Error." = "「おっと！クラインドエラー。」";
+"Failed to fetch data" = "データのフェッチに失敗しました";
+"No Internet Connection." = "「インターネットに接続できません。」 ";
+"Server Error." = "サーバーエラー。";
+"Successful Fetch." = "「成功したフェッチ。」";
+"Failed to covert data to stirng." = "「データを秘密にしてかき混ぜることができなかった。」";
+"Data couldn't JSONSerialize" = "データをJSONSerializeできませんでした";
+"Couldn't convert link string to NSURL" = "リンク文字列をNSURLに変換できませんでした";
+"couldn't format json body for the request." = "「リクエストのjson本体をフォーマットできませんでした。」";
+"Image not available" = "画像がありません";
+"Welcome to TuDime" = "TuDimeへようこそ";
+"TuDime Chat App - More Features than any other !" = "「TuDimeチャットアプリ-他のどの機能よりも多くの機能！」 ";
+"Set Language" = "言語の設定";
+"Select a language for your convenience" = "都合の良い言語を選択してください";
+"Select your Language" = "言語を選択してください";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "「TuDimeは、世界中のユーザーにメッセージ、電話での直接通話、その他のサービスを提供します。TuDimeの使用法を理解するには、利用規約をお読みください。」";
+"Terms & Policies" = "利用規約";
+"Chinese" = "中国語";
+"English" = "英語";
+"AGREE & CONTINUE" = "同意して続行";
+"Choose a way to verify" = "確認する方法を選択してください";
+"Please select to continue TuDime registration with your Email/Mobile No" = "Eメール/携帯番号でTuDime登録を続行することを選択してください";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDimeメッセンジャーは1回限りのSMSを送信します。あなたの電話番号は共有されません。検証目的でのみ使用されます";
+"Enter phone number." = "「電話番号を入力してください。」";
+"Enter your NickName." = "あなたのニックネームを入力します。";
+"Registration" = "登録";
+"Please enter your email address for registration" = "登録用のメールアドレスを入力してください";
+"Enter your email id" = "メールIDを入力してください";
+"We have sent a verification code to" = "に確認コードを送信しました";
+"Please enter the received verification code below" = "受け取った確認コードを以下に入力してください";
+"Enter verification code" = "確認コードを入力してください";
+"A code was sent to you by text message.\n if not, click on this link." = "「コードがテキストメッセージで送信されました。\ nそうでない場合は、このリンクをクリックしてください。」";
+"A code was sent to you by email.\n if not, click on this link." = "「コードがメールで送信されました。\ nそうでない場合は、このリンクをクリックしてください。」 ";
+"VERIFY" = "VERIFY";
+"Send Code" = "コードを送信";
+
+
+"again" = "再び";
+"Store-Stickers & Gifs" = "Store-Stickers＆Gifs";
+"Schedule Events" = "イベントのスケジュール";
+"Subscription Manager" = "サブスクリプションマネージャー";
+"TuDime CAN" = "TuDime CAN";
+"Change Language" = "言語の変更";
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "「これはユーザー名やピンではありません。この名前はTuDimeの連絡先に表示されます。」 ";
+"Status and phone" = "ステータスと電話番号";
+"Your Current Status" = "あなたの現在のステータス";
+"Select Your Status" = "ステータスを選択";
+"Urgent calls only" = "緊急電話のみ";
+"Available" = "利用可能";
+"Busy" = "ビジー";
+"At School" = "学校で";
+"At work" = "職場で";
+"At the movies" = "映画で";
+"Battery about to die" = "バッテリーが切れそうです";
+"Can't talk, TuDime only" = "話せない、TuDimeのみ";
+"Sleeping" = "眠っている";
+"In a meeting" = "会議中";
+"Keeping more eCards may slow down the speed of the app" = "より多くのeカードを保持すると、アプリの速度が低下する可能性があります";
+"Personalize" = "パーソナライズ";
+"Make it personal!" = "「それを個人的にしてください！」";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "「良い選択です！\ n今、この美しいカードを通して\ nあなたの伐採を表現してください！」 ";
+"Add Photos" = "写真を追加";
+"Add Text" = "テキストを追加";
+"Add Signature" = "署名を追加";
+"Add Frames" = "フレームの追加";
+"Add Voice" = "音声を追加";
+"Preview" = "プレビュー";
+"Go!" = "行け！";
+"Download More" = "もっとダウンロード";
+"Schedule Events" = "イベントのスケジュール";
+"Long Tap On Date To Set Schedule" = "スケジュールを設定するための日付のロングタップ";
+"New Event" = "新しいイベント";
+"Enter Event Name" = "イベント名を入力してください";
+"Enter Time" = "時間を入力";
+
+
+"Enter Description" = "説明を入力";
+"SAVE" = "SAVE" ;
+"Edit Profile" = "プロファイルの編集" ;
+"Accounts" = "アカウント";
+"Contact Us" = "お問い合わせ";
+"About & Help" = "About＆Help";
+"Privacy" = "プライバシー";
+"Archive Chat" = "アーカイブチャット";
+"Remove Account" = "アカウントを削除";
+"Activate TuDime Pin" = "TuDimeピンをアクティブにする";
+"Set Pin to TuDime" = "ピンをTuDimeに設定";
+"Remove Pin" = "ピンを外す";
+"Welcome Back" = "おかえりなさい";
+" Pin" = "ピン";
+"Forgot" = "忘れた";
+"Enter Pin to Open TuDime" = "ピンを入力してTuDimeを開く";
+"Save" = "保存";
+"Security Answer" = "セキュリティ回答";
+"Security Questions"= "セキュリティの質問";
+"Confirm New Pin" = "新しいピンの確認";
+"Your New Pin" = "あなたの新しいピン";
+"What time of the day was your first child born? (hh:mm)" = "あなたの最初の子供は何時に生まれましたか？（hh：mm）";
+"What time of the day were you born? (hh:mm)" = "あなたは一日の何時に生まれましたか？（hh：mm）";
+"In what town or city did your mother and father meet?" = "「あなたのお母さんとお父さんはどの町や都市で出会ったのですか？」 ";
+"What is your spouse or partner's mother's maiden name?" = "「あなたの配偶者またはパートナーの母親の旧姓は何ですか？」";
+"What is your grandmother's (on your mother's side) maiden name?" = "「あなたのおばあさん（お母さん側）の旧姓は何ですか？」";
+"What are the last five digits of your driver's licence number?" = "「運転免許証番号の下5桁は何ですか？」";
+"What is the middle name of your oldest child?" = "「あなたの一番上の子供のミドルネームは何ですか？」";
+"In what town or city did you meet your spouse/partner?" = "「あなたはどの町や都市であなたの配偶者/パートナーに会いましたか？」";
+"In what town or city was your first full time job?" = "「あなたの最初のフルタイムの仕事はどの町や都市でしたか？」";
+"What primary school did you attend?" = "「あなたはどの小学校に通いましたか？」";
+"What were the last four digits of your childhood telephone number?" = "「あなたの子供の電話番号の下4桁は何でしたか？」";
+"What was the house number and street name you lived in as a child?" = "「子供の頃に住んでいた家番号と通りの名前は何でしたか？」";
+"Select a Sequrity Question" = "Sequrityの質問を選択してください";
+
+
+"Send" = "送信";
+"Comments" = "コメント";
+"Pincode" = "ピンコード";
+"Phone No" = "電話番号";
+"Email" = "メール";
+"Full Name" = "フルネーム";
+"Write us your concern here and we will get back to you shortly." = "「ここにあなたの懸念を書いてください。まもなくご連絡いたします。」";
+"GET IN TOUCH" = "GET IN TOUCH";
+"Contact Us" = "お問い合わせ";
+"Application Version" = "アプリケーションバージョン";
+"Version no:" = "バージョン番号：";
+"FAQ" = "FAQ" ;
+"Terms & Privacy Policy" = "利用規約とプライバシーポリシー";
+"10. Can i restore messages that i deleted?" = "「10.削除したメッセージを復元できますか？」 ";
+"9. How to find out friends?" = "「9.友達を見つける方法は？」";
+
+
+"8. The difference between ID and Nickname?" = "「8.IDとニックネームの違いは？」";
+"7. What is ID?" = "「7.IDとは？」";
+"6. My friend can see my phone number?" = "「6.友達は私の電話番号を見ることができますか？」";
+"5. How to subscribe service?" = "「5.サービスの申し込み方法は？」";
+"4. Everybody can use TuDime??" = "「4.誰でもTuDimeを使用できますか??」";
+"3. Service packages?" = "「3.サービスパッケージ？」";
+"2. What is TuDime?" = "「2.TuDimeとは何ですか？」";
+
+
+"1. With a feature phone, can i use this service?" = "「1.フィーチャーフォンでこのサービスを利用できますか？」";
+
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "「もちろんです。TuDimeはSMS、IVR、Web、アプリで提供されます。フィーチャーフォンを使用すると、ユーザーはSMSとIVRを介してサービスを体験できます。」";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" =
+"「TuDimeはプレミアムソリューションであり、Viettelサブスクライバーが簡単にアクセスして友達とチャットしたり、SMS、Web、アプリ、IVRを介してすぐに友達を作ったりできる優れたエクスペリエンスをサポートします。SMSとIVRでは、ユーザーは他のユーザーを見つけて対話したり、作成したりできます。アプリTuDimeは、音声メッセージ、ビデオ、写真、テキストの送信をサポートしています。グループでチャットしたり、友達を見つけたりすることもできます。TuDimeアプリは、すべてのiOSデバイス、Android、Windows Phone、Symbian、Blackberryで動作します";
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1.毎日：1.500 d /日、2。毎週：7.000 d /週、3。毎月：22.000 d /月";
+
+
+"All Viettel subscribers can use service." = "「すべてのViettelサブスクライバーはサービスを使用できます。」 ";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "a。SMSコマンド：DK1 send to 1517：Daily package DK3 send to1517：Weekly package DK30 send to1517：Monthly packageb。IVR：1517に電話し、指示を聞いて従うc。Web/ App：指示に従う";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "「いいえ。SMS、アプリ、Webの場合：友達はあなたのニックネームしか見ることができません。IVRの場合：友達はあなたのIDしか見ることができません。」";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "「Dチャットは7桁のコードで、TuDimeに参加する各ユーザーには変更できないIDが1つ提供されます。」";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "「ID：ユーザーは変更できません。システムによって提供されます。ニックネーム：ユーザーは変更できます。ユーザーが作成します。」";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "次の方法で友達を見つけることができます：-SMS：テキストTIMを1517に送信IVR：サブスクライブした後、1517に電話し、1を押して新しい友達を見つけ、聞いて指示に従いますApp / Web：見回す機能";
+"No." = "番号。";
+"Please give your feedback" = "フィードバックをお寄せください";
+
+"SUBMIT" = "SUBMIT" ;
+"Please enter valid OTP" = "有効なOTPを入力してください";
+"OTP field can't be blank" = "OTPフィールドを空白にすることはできません";
+"A New OTP Sended Successfully" = "新しいOTPが正常に送信されました";
+"OTP verified Successfully" = "OTPが正常に検証されました";
+"Please fill all the details" = "すべての詳細を入力してください";
+"Please select a language." = "「言語を選択してください。」";
+"Please enter your phone number." = "電話番号を入力してください。";
+"Please enter a valid phone number." = "有効な電話番号を入力して下さい。";
+"Please enter your email id." = "「メールIDを入力してください。」";
+"Please enter a valid email id." = "「有効なメールIDを入力してください。」";
+"Please select your NickName." = "「ニックネームを選択してください。」";
+"Please enter a valid Nickname between 4-12 characters." = "「有効なニックネームを4〜12文字で入力してください。」";
+"Entered nickname is already taken." = "「入力したニックネームはすでに使用されています。」";
+"Please select a country" = "国を選択してください";
+"Secret Chat" = "シークレットチャット";
+"Delete Chat" = "チャットの削除";
+"Detail View" = "詳細ビュー";
+"Archive Chat" = "アーカイブチャット";
+
+
+"Enter text here" = "ここにテキストを入力してください";
+"Enter Text:" = "テキストを入力してください：";
+"Select language in which you want to convert the text" = "テキストを変換する言語を選択してください";
+"TuDime Translation" = "TuDime翻訳";
+"Contacts" = "連絡先";
+"Invite" = "招待";
+"Refresh Contacts" = "連絡先の更新";
+"Proceed To Chat" = "チャットに進む";
+"Archive Chat" = "アーカイブチャット";
+"Unarchive" = "アーカイブ解除";
+"Account Details" = "アカウントの詳細";
+"For any changes in details, Please contact support" = "詳細の変更については、サポートにお問い合わせください";
+"Plan Type" = "プランタイプ";
+"Plan Details" = "プランの詳細";
+"Buy TuDime Membership" = "TuDimeメンバーシップを購入";
+"365-Days TuDime Annual Membership" = "365日TuDime年間メンバーシップ";
+"30-Days Free Trial of Premium Features" = "プレミアム機能の30日間無料トライアル";
+"TuDime Annual Membership" = "TuDime年間メンバーシップ";
+
+
+"Free Trial" = "無料トライアル";
+"Next Renew Date" = "次の更新日";
+"Best Chat App In The World - More Features than any other!" = "「世界で最高のチャットアプリ-他のどのアプリよりも多くの機能！」";
+"25% discount if you join with in 15 days - $11.25" = "15日以内に参加すると25％割引-$ 11.25";
+"Text Chat" = "テキストチャット";
+"Call Any number In The World" = "世界の任意の番号に電話をかける";
+"Send Greeting Cards" = "グリーティングカードを送る";
+
+
+"Built in Translation" = "Built in Translation";
+"About 20 other incredible features" = "他の約20の素晴らしい機能";
+"1 Year TuDime Membership" = "1年間のTuDimeメンバーシップ";
+"Stats" = "統計";
+"Please select to continue Tudime registration with your Email/Mobile No" = "Eメール/携帯番号でTudime登録を続行することを選択してください";
+"Select your Language" = "言語を選択してください";
+"Search your country" = "あなたの国を検索";
+"Enter email address" = "メールアドレスを入力してください";
+"Enter your NickName" = "ニックネームを入力してください";
+"Your Security Question :" = "セキュリティ保護用の質問：";
+"What was the house number and street name you lived in as a child?" = "「子供の頃に住んでいた家番号と通りの名前は何でしたか？」";
+"Buy" = "購入";
+
+
+
+"No Membership Yet" = "まだメンバーシップはありません";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "「登録から最初の 15 暦日以内に購入すると、TuDime Now のメンバーシップを 25%% 割引で購入できます。このメンバーシップは %@ ではなく %@ になります。この特典は、初回登録の 15 日目まで有効です。その後そのメンバーシップは %@ 年単位となります。無料試用期間は登録後 30 日で終了します。TuDime を引き続き使用するには、%@ の正規メンバーシップ価格が必要です。今何をしますか?\n* TuDime を年単位で購入します。メンバーシップ\n* 30 日間の無料トライアル期間を継続してください。\n引き続きバリュー メンバーとしてご利用いただけることを楽しみにしています。\nありがとうございます。\nTuDime スタッフ";
+"Subscribe Now" = "今すぐ登録";
+"Personalize" = "パーソナライズ";
+"Good Choice! Now, express your feelings through this beautiful card !" = "「いい選択だ！さあ、この美しいカードであなたの気持ちを表現しよう！」";
+"Add Frames" = "フレームの追加";
+"Add Audio" = "オーディオを追加";
+"Tap to record Audio" = "タップして音声を録音";
+"To place a TuDime call, open a chat and tap at the top" = "TuDimeに電話をかけるには、チャットを開いて上部をタップします";
+"Your Unique id is : " = "あなたの一意のIDは：";
+"Profile Photo Gallary" = "プロフィール写真ギャラリー";
+"Enter Your Name" = "あなたの名前を入力してください";
+"Tap To Change Group Icon" = "タップしてグループアイコンを変更";
+"Users" = "ユーザー";
+"Add Participants" = "参加者を追加";
+"Enter new group Name" = "新しいグループ名を入力してください";
+"Create Group Chat" = "グループチャットを作成";
+"Invite Contacts" = "連絡先を招待";
+"Add Profile Picture" = "プロフィール写真を追加";
+"Enter Your Status" = "ステータスを入力してください";
+"Set Defualt" = "Set Defualt";
+"Drag left or right to see font size:" = "左または右にドラッグしてフォントサイズを確認します：";
+"Select Font Color: " = "フォントの色を選択：";
+"Select Font Style: " = "フォントの色を選択：";
+"FILL ADDRESS" = "FILL ADDRESS";
+
+"Pay Now" = "今すぐ支払う";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "番号は「+」と国コードで始まる必要があることに注意してください。例：「+ 14155522233」。ここでは「+」が必須のプレフィックスで、「1」は米国の国コードです。";
+"Click here to check call cradit rates." = "「通話料金を確認するには、ここをクリックしてください。」";
+"Calling..." = "呼び出し中...";
+"Please choose a Plan For Continue Recharge" = "継続充電のプランを選択してください";
+"My Balance" = "マイバランス";
+"BUY CALL CREDIT" = "BUY CALL CREDIT";
+"Device Contacts" = "デバイスの連絡先";
+"Proceed To Chat" = "チャットに進む";
+"Search with phone, name, email, or unique id" = "電話、名前、メールアドレス、または一意のIDで検索";
+"Select your Language" = "言語を選択してください";
+"Get started with disappearing messages" = "メッセージが消えることから始めましょう";
+"Select files..." = "ファイルを選択...";
+"Cancel" = "キャンセル";
+"Tap to change group icon" = "タップしてグループアイコンを変更";
+"Username" = "ユーザー名";
+"Leaving..." = "「去る";
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "選択したチャットを本当に削除しますか?\n削除すると完全に削除されます";
+"Yes" = "はい";
+"Call Credit Amount" = "コールクレジット金額";
+"Invite\nFriends" = "友達を招待";
+"CALLS" = "電話をかける";
+"CHATS" = "チャット";
+"Archived" = "アーカイブ済み";
+"Notes" = "ノート";
+"Star Message" = "スターメッセージ";
+"Report" = "報告";
+"Phone/Email" = "電話/メール";
+"E-Cards" = "Eカード";
+"Voice call" = "音声電話";
+"Video call" = "ビデオ通話";
+"Disappear Chat" = "チャットを消す";
+
+"Default theme setting" = "デフォルトのテーマ設定";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "デフォルトのテーマをロックしてもよろしいですか? デフォルトのテーマをロックすると、連絡先はあなたと一緒にテーマを設定できなくなります。";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70 以上の機能、おそらく世界中のどのチャット アプリよりも多い ! 期間限定オファー! TuDime の 1 年間のサブスクリプションを購入してください。カードに請求される前に 15 暦日の無料試用期間があります。請求を避けるため、15 暦日以前であればいつでもキャンセルできます。」 .\nTudime の年間サブスクリプションを、わずか %@ のお試し価格で購入してください。";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "知らせ";
+"Unlock default Theme" = "デフォルトのテーマのロックを解除";
+"Theme unlocked" = "テーマのロックが解除されました";
+"Post" = "役職";
+"Add a comment" = "コメントを追加";
+"Write Post..." = "書き込みポスト...";
+"Create Post" = "投稿を作成";
+"Tudime Feature List" = "Tudime機能リスト";
+"Share Everywhere" = "どこでも共有";
+"Share on Tudime" = "Tudimeでシェア";
+"Choose one" = "1 つ選択してください";

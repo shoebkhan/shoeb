@@ -1,0 +1,755 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+
+
+"Ok" = "확인" ;
+"Cancel" = "취소" ;
+"Loading" = "로드 중";
+"Logged in" = "로그인" ;
+"Sending" = "보내기";
+"Completed" = "완료" ;
+"Leave" = "떠나다";
+"Left" = "왼쪽";
+"Leaving" = "떠나다";
+"Warning" = "경고" ;
+"Block" = "차단";
+"Unblock" = "차단 해제";
+"Login as" = "다음으로 로그인";
+"Logout" = "로그아웃" ;
+"Typing..." = "입력 중...";
+"Connecting to chat..." = "채팅 연결 중...";
+"Connected" = "연결됨" ;
+"Disconnected" = "연결 끊김" ;
+"Reconnected" = "다시 연결됨";
+
+"Logging in REST as " = "로 로그인합니다.";
+"Loading dialogs" = "로드 대화 상자";
+"Done" = "완료" ;
+"added" = "추가됨" ;
+"created the group chat" = "그룹 채팅을 만들었습니다";
+"Call" = "통화" ;
+"Message" = "메시지" ;
+"Can't send a message" = "메시지를 보낼 수 없습니다";
+"Loading users" = "사용자 로드 중";
+"Can't download users" = "사용자를 다운로드할 수 없습니다.";
+"Can't download dialogs" = "대화 상자를 다운로드할 수 없습니다";
+"Failed to load dialogs" = "대화 상자 로드 실패";
+"You are in the blacklist" = "당신은 블랙리스트에 있습니다";
+"forbidden" = "금지" ;
+"Loading messages" = "메시지 로드 중";
+"Uploading attachment" = "첨부파일 업로드 중";
+"Enter chat name" = "채팅 이름 입력";
+"Dialog created" = "대화 생성됨";
+"Send" = "보내기" ;
+"last activity date" = "마지막 활동 날짜";
+"Add occupants" = "거주자 추가";
+"Create" = "만들기";
+"New chat" = "새 채팅";
+"New message" = "새 메시지";
+"has left dialog." = "남은 대화 상자가 있습니다.";
+"Chat info" = "채팅 정보";
+"Read" = "읽기" ;
+"Delivered" = "배송됨" ;
+"Seen" = "본" ;
+
+"Sent" = "보냄" ;
+"Didn't send" = "보내지 않음";
+"Sending" = "보내기" ;
+"Unknown" = "알 수 없음";
+"Note that you will not receive any private message from this user" = "이 사용자로부터 어떠한 개인 메시지도 받지 않을 것입니다.";
+"Note that you will not receive any group chat message from this user" = "이 사용자로부터 그룹 채팅 메시지를 수신하지 않을 것입니다.";
+"Do you really want to leave selected dialog?" = "선택한 대화 상자에서 나가시겠습니까?";
+"Unblock user in 1-1 chat" = "1-1 채팅에서 사용자 차단 해제";
+"Try again" = "다시 시도";
+"Delete" = "삭제" ;
+"Error" = "오류" ;
+"Error leaving" = "나가기 오류";
+"Bad Gateway, please try again" = "잘못된 게이트웨이, 다시 시도하십시오";
+"Connection network error, please try again" = "연결 네트워크 오류, 다시 시도하십시오";
+"Did not connect with error:" = "오류로 연결하지 않았습니다:";
+"Chat failed with error:" = "오류로 인해 채팅 실패";
+"Message failed to send" = "메시지 보내기 실패";
+"Group Name" = "그룹 이름";
+"Choose photo from..." = "다음에서 사진 선택...";
+
+
+
+"Camera" = "카메라" ;
+"Gallery" = "갤러리" ;
+" (You)" = "(당신)" ;
+"Loading users" = "사용자 로드 중";
+"Please add group image." = "그룹 이미지를 추가해주세요";
+"Search" = "검색" ;
+"Dialog created" = "대화 생성됨";
+"No user with that name" = "해당 이름을 가진 사용자가 없습니다.";
+"Calling..." = "통화 중...";
+"Closed" = "닫힘" ;
+"Failed" = "실패" ;
+"Hung Up" = "끊었다" ;
+"Rejected" = "거부됨" ;
+"No Answer" = "무응답" ;
+"Time out" = "시간 초과";
+"Unmute" = "음소거 해제";
+"Mute" = "음소거";
+"Cam on" = "캠 켜기";
+"Cam off" = "캠 오프";
+"Mic" = "마이크" ;
+
+
+"Speaker" = "스피커";
+"End call" = "통화 종료";
+"Stop sharing" = "공유 중지";
+"Screen share" = "화면 공유";
+"Swap cam" = "캠 교체";
+"Swap cam" = "캠 교체";
+"Loading stats report..." = "통계 보고서 로드 중...";
+"Search" = "Search";
+"Login" = "Login";
+"Incoming" = "Incoming";
+"Calling" = "Calling";
+"TuDime" = "TuDime" ;
+
+"You have no credit recharge please!" = "크레딧 충전이 없습니다!";
+"Blocked User" = "차단된 사용자";
+"Subscription Manager" = "구독 관리자";
+"Reload" = "다시 로드";
+"Your account suspended please purchased subscription." = "계정이 일시 중지되었습니다. 구독을 구입하세요.";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "이 구독을 이미 구매했습니다. 복원을 클릭하여 이 구독을 복원할 수 있습니다.";
+"Product load from the itunes." = "iTunes의 제품 로드.";
+"Free Trial is Expired" = "무료 평가판이 만료되었습니다";
+"Days Free Trial of Premium Features" = "프리미엄 기능의 일 무료 평가판";
+
+
+"Leave Chat" = "채팅 나가기";
+"Chat info" = "채팅 정보";
+"Edit Message" = "메시지 편집";
+"Delete" = "삭제" ;
+"Forward" = "앞으로" ;
+"Delivered to..." = "배달 대상...";
+"Viewed by..." = "본 사람...";
+"Save attachment" = "첨부파일 저장";
+"Delete For Me" = "나를 위해 삭제";
+"Delete For All" = "모두 삭제";
+
+"Re-Translate" = "다시 번역";
+"Self-Destruct" = "자폭" ;
+"Quote Reply" = "인용 회신";
+"Share Via" = "공유 경로";
+"View file" = "파일 보기";
+" is typing..." = "입력 중...";
+" are typing..." = " 입력 중...";
+" and 2 more are typing..." = " 외 2개 입력 중...";
+"No user with that name" = "해당 이름을 가진 사용자가 없습니다.";
+"Add Occupants" = "점유자 추가";
+
+"Message forwarded" = "메시지 전달";
+"Delete" = "삭제" ;
+"Send" = "보내기";
+"Error" = "오류" ;
+"Create" = "만들기";
+"Message delivered to" = "메시지 전달";
+"Message viewed by" = "본 메시지";
+"Finish" = "마침";
+"New Chat" = "새 채팅";
+
+
+
+"QBChat is not Connected" = "QBChat이 연결되지 않았습니다";
+"New Group Chat" = "새 그룹 채팅";
+"New Chat" = "새 채팅";
+"No user with that name" = "해당 이름을 가진 사용자가 없습니다.";
+"Please allow the app to access your contacts through the device's settings." = "앱이 기기의 설정을 통해 연락처에 액세스할 수 있도록 허용하세요.";
+"No user with that name" = "해당 이름을 가진 사용자가 없습니다.";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "스마트폰용 TuDime을 확인하세요. 오늘 (https://www.TuDime.com)에서 다운로드하세요.
+";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "스마트폰용 TuDime을 확인하세요. 오늘 (https://www.TuDime.com)에서 다운로드하세요.";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "이메일 또는 영숫자를 3~50자 범위에서 사용하세요. 첫 번째 문자는 문자여야 합니다.";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "3에서 20 사이의 영숫자와 공백을 사용하십시오. 한 행에 둘 이상의 공백을 포함할 수 없습니다.";
+"Send eCards" = "전자 카드 보내기";
+"Details View" = "세부 사항 보기";
+"Delete Chat" = "채팅 삭제";
+"Archive Chat" = "채팅 보관";
+"Chat Disappearing timer" = "채팅 사라지는 타이머";
+"Block" = "차단" ;
+
+
+"Category" = "카테고리" ;
+"5 Minutes" = "5분" ;
+"10 Minutes" = "10분";
+"20 Minutes" = "20분";
+"30 Minutes" = "30분";
+"40 Minutes" = "40분";
+"50 Minutes" = "50분";
+"60 Minutes" = "60분";
+"Online" = "온라인";
+"Offline" = "오프라인" ;
+"Today" = "오늘" ;
+"Yesterday" = "어제" ;
+
+"Bad Gateway, please try again" = "잘못된 게이트웨이, 다시 시도하십시오.";
+"Connection network error, please try again" = "연결 네트워크 오류, 다시 시도하십시오.";
+"Doodle" = "낙서" ;
+"Image" = "이미지" ;
+"Location" = "위치" ;
+"Theme" = "테마" ;
+"Contact" = "연락처" ;
+"Files" = "파일" ;
+"Audio/Video" = "오디오/비디오" ;
+"TuDime Translation" = "TuDime 번역";
+
+
+"Select language in which you want to convert the text" = "텍스트를 변환할 언어를 선택하십시오";
+"Enter Text:" = "텍스트 입력:";
+"Edit Message" = "메시지 편집";
+"Do you really want to Archieve this chat?" = "정말로 이 채팅을 보관하시겠습니까?";
+"Archiving Chat" = "채팅 보관";
+"Can't use options when you are in secret chat" = "비밀 채팅 중에는 옵션을 사용할 수 없습니다.";
+"Details View" = "세부 사항 보기";
+"Leave Chat" = "채팅 나가기";
+"Details View" = "세부 사항 보기";
+"Delete Chat" = "채팅 삭제";
+"Chat Disappearing timer" = "채팅 사라지는 타이머";
+"Can't set theme when you are in secret chat" = "비밀 채팅 중에는 테마를 설정할 수 없습니다";
+"Choose photo from..." = "다음에서 사진 선택...";
+"Sorry,no language found" = "죄송합니다. 언어를 찾을 수 없습니다.";
+"Please select translate language first" = "먼저 번역 언어를 선택하십시오";
+"Do you really want to leave selected dialog?" = "선택한 대화 상자에서 나가시겠습니까?";
+"DELETE" = "삭제" ;
+"Open Settings" = "설정 열기";
+"This message will be self destruct after 10 Seconds" = "이 메시지는 10초 후에 자동 소멸됩니다.";
+"You can send 1 attachment per message" = "메시지당 1개의 첨부 파일을 보낼 수 있습니다.";
+
+
+"Save error" = "저장 오류";
+"Your Device can't make a phone call" = "장치에서 전화를 걸 수 없습니다.";
+"User denied access to speech recognition" = "사용자가 음성 인식에 대한 액세스를 거부했습니다.";
+"Speech recognition restricted on this device" = "이 장치에서 음성 인식이 제한됨";
+"Speech recognition not yet authorized" = "음성 인식이 아직 승인되지 않았습니다.";
+"Recognition not available" = "인식 불가";
+"Add Photos" = "사진 추가";
+"Choose photo from..." = "다음에서 사진 선택...";
+"Warning" = "경고" ;
+"You don't have camera" = "카메라가 없습니다";
+"Alert" = "경고" ;
+"Are you sure want to unblock this user?" = "정말 이 사용자를 차단 해제하시겠습니까?";
+"Are you sure want to block this user? Later you can unblock from setting." = "정말 이 사용자를 차단하시겠습니까? 나중에 설정에서 차단을 해제할 수 있습니다.";
+"Unblock" = "";
+"The uploaded file exceeds maximum file size (100MB)" = "업로드된 파일이 최대 파일 크기(100MB)를 초과합니다.";
+"Error loading image" = "이미지 불러오기 오류";
+"Video is not compatible With Photos Album" = "비디오는 사진 앨범과 호환되지 않습니다.";
+
+
+
+"Camera error" = "카메라 오류";
+"The app doesn't have access to the camera, please go to settings and enable it." = "앱이 카메라에 액세스할 수 없습니다. 설정으로 이동하여 활성화하십시오.";
+"Microphone error" = "마이크 오류";
+"The app doesn't have access to the microphone, please go to settings and enable it.앱이 마이크에 액세스할 수 없습니다. 설정으로 이동하여 마이크를 활성화하세요." = "";
+"Unknown user" = "알 수 없는 사용자";
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "메모리 경고: 통화 중이 아닙니다. 비디오 품질을 낮추십시오.";
+"New" = "새" ;
+"Pending" = "보류 중";
+"Closed" = "닫힘" ;
+"Failed" = "실패" ;
+"Hung Up" = "끊었다";
+
+
+"Time out" = "시간 초과";
+"Please select your Language first" = "먼저 언어를 선택하십시오.";
+"Select your country" = "국가 선택";
+"Nick name must be 4 characters long." = "닉네임은 3자여야 합니다.";
+"Select Country" = "국가 선택";
+"Sorry, no country found by this name!" = "죄송합니다. 이 이름으로 검색된 국가가 없습니다!";
+"Too many Attempts! Try again after sometime" = "시도 횟수가 너무 많습니다! 잠시 후 다시 시도하십시오.";
+"Incomplete Pin" = "불완전한 핀";
+"Please Enter Your Security Answer" = "보안 답변을 입력하세요";
+"Security Answer is incorrect!" = "보안 답변이 잘못되었습니다!";
+"Success" = "성공" ;
+
+"Pin setted Successfully!" = "핀이 성공적으로 설정되었습니다!";
+"Confirm Pin Mismatched!" = "핀 불일치 확인!";
+"Please Enter The New Pin Again!" = "새 핀을 다시 입력하세요!";
+"Please Enter A New Pin!" = "새 핀을 입력하세요!";
+"Subscription Details" = "구독 세부정보";
+"Your Payment is successfull!" = "결제가 완료되었습니다!";
+"Payment Details" = "지불 세부 정보";
+"Address" = "주소";
+"Country" = "국가";
+"State" = "상태";
+"ZIP" = "ZIP";
+"City" = "도시" ;
+"Email" = "이메일" ;
+"Country Code" = "국가 코드";
+"Valid email" = "유효한 이메일";
+"address field can't be blank!" = "주소 필드는 비워둘 수 없습니다!";
+"state field can't be blank!" = "상태 필드는 비워둘 수 없습니다!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "숫자 없이 입력하십시오(예: John Doe)";
+"pincode field can't be blank!" = "암호 입력란은 비워둘 수 없습니다!";
+"country field can't be blank!" = "국가 필드는 비워둘 수 없습니다!";
+"Please enter with out special Charecter(e.g John Doe)" = "특수 문자 없이 입력하세요(예: John Doe)";
+
+
+"Please enter with out Numeric Charecter(e.g John Doe)" = "숫자 없이 입력하십시오(예: John Doe)";
+"city field can't be blank!" = "도시 필드는 비워둘 수 없습니다!";
+"Email field can't be blank!" = "이메일 필드는 비워둘 수 없습니다!";
+"Entered email is not valid!" = "입력한 이메일이 유효하지 않습니다!";
+"Some Data is missing" = "일부 데이터가 없습니다.";
+"Your Payment is successfull!" = "결제가 완료되었습니다!";
+"Please enter a Number" = "숫자를 입력하세요";
+"Please enter a country code" = "국가 코드를 입력하세요";
+"You have no credit recharge please!" = "크레딧 충전이 없습니다!";
+"Sinch Client not" = "신치 클라이언트 아님";
+"Intitialised.!" = "초기화.!" ;
+"Please wait Inititalising..." = "초기화 중...";
+"Sinch Client" = "신치 클라이언트";
+"No number available!" = "사용 가능한 번호가 없습니다!";
+"Can't be placed more!" = "더 놓을 수 없습니다!";
+"Call ended" = "통화 종료";
+"Call connected" = "통화 연결됨";
+"Calling..." = "통화 중...";
+"Edit Profile" = "프로필 편집";
+"Accounts" = "계정" ;
+"Appearance" = "외모";
+"Contact Us" = "문의하기" ;
+"About & Help"= "문의하기" ;
+"Secret Chat" = "비밀 대화";
+"Blocked User" = "차단된 사용자";
+"Store Stickers/Gifs" = "스티커/Gif 저장";
+"Font successfully defualt set" = "글꼴이 성공적으로 기본 설정되었습니다.";
+"Font Color successfully defualt set" = "글꼴 색상이 성공적으로 기본 설정됨";
+
+
+"Font size successfully defualt set" = "글꼴 크기가 성공적으로 기본 설정됨";
+"Font successfully set" = "글꼴이 성공적으로 설정되었습니다";
+"Font size successfully set" = "글꼴 크기가 성공적으로 설정되었습니다";
+"Font color successfully set" = "글꼴 색상이 성공적으로 설정되었습니다.";
+"Privacy" = "개인 정보";
+"Delete Accounts" = "계정 삭제";
+"Do you want to delete your account?" = "계정을 삭제하시겠습니까?";
+"Once you delete your account, all your data will be removed permanently" = "계정을 삭제하면 모든 데이터가 영구적으로 제거됩니다.";
+"No Profile id found!" = "프로필 ID를 찾을 수 없습니다!";
+"Name field can't be blank!" = "이름 필드는 비워둘 수 없습니다!";
+"Phone field can't be blank!" = "전화 입력란은 비워둘 수 없습니다!";
+"Please Enter a valid Phone Number" = "올바른 전화번호를 입력하세요";
+"Email field can't be blank!" = "이메일 필드는 비워둘 수 없습니다!";
+"Please Enter a valid Email" = "유효한 이메일을 입력하세요";
+"Country field can't be blank!" = "국가 필드는 비워둘 수 없습니다!";
+"Comments field can't be blank!" = "댓글 필드는 비워둘 수 없습니다!";
+"Your response uploaded Successfully" = "귀하의 응답이 성공적으로 업로드되었습니다.";
+"Terms & Privacy Policy" = "약관 및 개인 정보 보호 정책";
+"Feedback" = "피드백" ;
+"Feedback field can't be empty!" = "피드백 필드는 비워둘 수 없습니다!";
+"Your feedback sent Successfully" = "귀하의 피드백이 성공적으로 전송되었습니다.";
+"Work in Progress!" = "진행중인 작업!";
+"Buy Call Credit" = "통화 크레딧 구매";
+"You Choose $5 Package" = "당신은 $5 패키지를 선택했습니다";
+"You Choose $10 Package" = "당신은 $10 패키지를 선택했습니다";
+"You Choose $15 Package" = "당신은 $15 패키지를 선택했습니다";
+"Please set Unique ID" = "고유 ID를 설정하십시오";
+"Your Uniqe id is: " = "귀하의 고유 ID는 다음과 같습니다. ";
+
+"Choose" = "선택" ;
+"Unique id created successfully" = "고유 아이디가 성공적으로 생성되었습니다.";
+"Profile Privacy updated Successfully" = "프로필 개인 정보가 성공적으로 업데이트되었습니다";
+
+"You don't have camera" = "카메라가 없습니다";
+"Status:" = "상태:" ;
+"Hey, I am using Tudime!" = "안녕하세요, 저는 Tudime을 사용하고 있습니다!";
+"Enter Your Name" = "이름을 입력하세요";
+"Set Unique ID" = "고유 ID 설정";
+"Enter Your Name" = "이름을 입력하세요";
+"Enter Your Unique id" = "고유 아이디를 입력하세요";
+"Nickname updated successfully" = "닉네임이 성공적으로 업데이트되었습니다.";
+"No special characters allowed." = "특수문자를 사용할 수 없습니다.";
+"Must be contain minimum 4 characters." = "최소 4자 이상이어야 합니다.";
+"Set Status" = "상태 설정";
+"Status updated Successfully" = "상태가 성공적으로 업데이트되었습니다.";
+"Schedule Event" = "일정 이벤트";
+"Enter Description" = "설명 입력";
+"Events Loading Error" = "이벤트 로드 오류";
+"The calender could not load system events. It is possibly a problem with permissions" = "캘린더가 시스템 이벤트를 로드할 수 없습니다. 권한에 문제가 있을 수 있습니다.";
+"New Event" = "새 이벤트";
+"Enter Event Name" = "이벤트 이름 입력";
+"Enter Description" = "설명 입력";
+"Enter Time" = "시간 입력";
+"Please enter event name" = "이벤트 이름을 입력하세요";
+"Schedule created successfully" = "스케줄 생성 성공";
+"Time:" = "시간:" ;
+"Date:" = "날짜:" ;
+
+"Profile Picture Gallery" = "프로필 사진 갤러리";
+"Profile Photo Updated Successfully!" = "프로필 사진이 업데이트되었습니다!";
+"Set as Profile Picture" = "프로필 사진으로 설정";
+"Delete Photo" = "사진 삭제";
+"No photo available!" = "사진이 없습니다!";
+"Select one option" = "하나의 옵션을 선택하십시오";
+"Select one option" = "하나의 옵션을 선택하십시오";
+
+"Custom Status" = "사용자 정의 상태";
+"Status updated Successfully" = "상태가 성공적으로 업데이트되었습니다.";
+"This is already current status" = "이미 현재 상태입니다.";
+"Status can't be blank!" = "상태는 비워둘 수 없습니다!";
+
+"Sorry! no card is available right now" = "죄송합니다! 현재 사용할 수 있는 카드가 없습니다.";
+"Keeping more ecards, may slow down your device" = "ecard를 더 많이 보관하면 장치가 느려질 수 있습니다.";
+"Love" = "사랑" ;
+"Birthday"= "생일" ;
+
+
+
+
+"Friendship" = "우정" ;
+"Some1 Special" = "Some1 Special";
+"Miss You" = "보고싶다" ;
+"Congratulations" = "축하합니다" ;
+"Good Luck" = "행운을 빕니다";
+"Get Well Soon" = "빨리 나으세요";
+"Invitations" = "초대장" ;
+"Thank You" = "감사합니다" ;
+"Sorry" = "죄송합니다" ;
+"Tap to Record" = "탭하여 녹음";
+"Tap to Stop Recording" = "녹화를 중지하려면 탭하세요";
+"Tap to Record" = "";
+"Recording Successfull." = "녹화 성공.";
+"Recording Failed :(" = "녹화 실패 :(";
+"Make it personal !" = "개인적으로 만들어라!";
+
+
+"Choose photo from..." = "다음에서 사진 선택...";
+"Everything need to be selected!" = "모두 선택해야 합니다!";
+"You don't have camera" = "카메라가 없습니다";
+"Something is wrong!" = "뭔가 잘못되었다!";
+"Please add recorded Audio." = "녹음된 오디오를 추가하세요.";
+"No signature found!" = "서명을 찾을 수 없습니다!";
+"Enter text here" = "여기에 텍스트를 입력하세요";
+"Text Dialog" = "텍스트 대화";
+"Sorry,no language found" = "죄송합니다. 언어를 찾을 수 없습니다.";
+"Please select translate language first" = "먼저 번역 언어를 선택하십시오";
+"TuDime Translation" = "TuDime 번역";
+"Select language in which you want to convert the text" = "텍스트를 변환할 언어를 선택하십시오";
+"Enter Text:" = "텍스트 입력:";
+"User denied access to speech recognition" = "사용자가 음성 인식에 대한 액세스를 거부했습니다.";
+"Speech recognition restricted on this device" = "이 장치에서 음성 인식이 제한됨";
+"Speech recognition not yet authorized" = "음성 인식이 아직 승인되지 않았습니다.";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "스마트폰용 TuDime을 확인하세요. 오늘 (https://www.TuDime.com)에서 다운로드하세요.";
+"Group Chat" = "그룹 채팅";
+"Secret Chat" = "비밀 대화";
+"CHATS" = "채팅" ;
+"Bad Gateway, please try again" = "잘못된 게이트웨이, 다시 시도하십시오.";
+"Connection network error, please try again" = "연결 네트워크 오류, 다시 시도하십시오.";
+"Select a user to start Chat" = "채팅을 시작할 사용자 선택";
+"Please add more members for Group Chat!" = "채팅을 시작할 사용자 선택";
+"Theme changed successfully!" = "테마가 성공적으로 변경되었습니다!";
+"You don't have camera" = "카메라가 없습니다";
+
+"Theme changed successfully!" = "테마가 성공적으로 변경되었습니다!";
+"Archive Chat" = "채팅 보관";
+"25%% discount if you join with in %d days %@" = "%d일 안에 가입하면 25%% 할인 %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "25%% 할인 유효 기간이 만료되었습니다. 계정 정지를 방지하려면 %d일 후에 가입하십시오";
+"ACCOUNT SUSPENDED" = "계정 정지";
+"Your account suspended please purchased subscription." = "계정이 일시 중지되었습니다. 구독을 구입하세요.";
+"Please select a color" = "색상을 선택하세요";
+"Please select a Picture" = "사진을 선택하세요";
+"Opss! Cliend Error." = "Ops! 클라이언트 오류입니다.";
+"Failed to fetch data" = "데이터 가져오기 실패";
+"No Internet Connection." = "인터넷에 연결되지 않음.";
+"Server Error." = "서버 오류.";
+"Successful Fetch." = "가져오기 성공.";
+"Failed to covert data to stirng." = "stirng에 데이터를 숨기는 데 실패했습니다.";
+"Data couldn't JSONSerialize" = "데이터를 JSONSerialize할 수 없습니다.";
+"Couldn't convert link string to NSURL" = "링크 문자열을 NSURL로 변환할 수 없습니다";
+"couldn't format json body for the request." = "요청에 대한 json 본문을 형식화할 수 없습니다.";
+"Image not available" = "이미지를 사용할 수 없음";
+"Welcome to TuDime" = "TuDime에 오신 것을 환영합니다";
+"TuDime Chat App - More Features than any other !" = "TuDime 채팅 앱 - 다른 어떤 것보다 더 많은 기능!";
+"Set Language" = "언어 설정";
+"Select a language for your convenience" = "편의를 위해 언어를 선택하십시오";
+"Select your Language" = "언어 선택";
+
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "TuDime은 전 세계 사용자에게 메시징, 전화 직접 통화 및 기타 서비스를 제공합니다. TuDime 사용을 이해할 수 있도록 서비스 약관을 읽으십시오.";
+"Terms & Policies" = "약관 및 정책";
+"Chinese" = "중국어" ;
+"English" = "영어" ;
+"AGREE & CONTINUE" = "동의 및 계속";
+"Choose a way to verify" = "확인 방법 선택";
+"Please select to continue TuDime registration with your Email/Mobile No" = "이메일/휴대폰 번호로 TuDime 등록을 계속하려면 선택하십시오.";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDime Messenger는 일회성 SMS를 보냅니다. 귀하의 전화번호는 공유되지 않습니다.확인 목적으로만 사용됩니다.";
+"Enter phone number." = "전화번호를 입력하세요.";
+"Enter your NickName." = "닉네임을 입력하세요.";
+"Please enter your email address for registration" = "등록을 위해 이메일 주소를 입력하십시오";
+"Enter your email id" = "이메일 아이디를 입력하세요";
+"We have sent a verification code to" = "인증 코드를 다음으로 보냈습니다.";
+"Please enter the received verification code below" = "인증 코드를 다음으로 보냈습니다.";
+"Enter verification code" = "인증 코드 입력";
+"A code was sent to you by text message.\n if not, click on this link." = "문자 메시지로 코드가 전송되었습니다.\n 그렇지 않은 경우 이 링크를 클릭하십시오.";
+"A code was sent to you by email.\n if not, click on this link." = "코드가 이메일로 전송되었습니다.\n 그렇지 않은 경우 이 링크를 클릭하십시오.";
+"VERIFY" = "확인" ;
+"Send Code" = "코드 보내기";
+"again" = "다시" ;
+"Store-Stickers & Gifs" = "스토어 스티커 및 GIF";
+"Schedule Events" = "일정 이벤트";
+"Subscription Manager" = "구독 관리자";
+"TuDime CAN" = "TuDime CAN";
+"Change Language" = "언어 변경";
+"Sign Out" = "로그아웃";
+
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "이것은 사용자 이름이나 핀이 아닙니다. 이 이름은 TuDime 연락처에 표시됩니다.";
+"Status and phone" = "상태 및 전화";
+"Private" = "비공개" ;
+"Your Current Status" = "귀하의 현재 상태";
+"Select Your Status" = "상태 선택";
+"Urgent calls only" = "긴급전화만" ;
+"Available" = "사용 가능";
+"Busy" = "바쁨" ;
+"At School" = "학교에서";
+"At work" = "직장에서" ;
+"At the movies" = "영화에서" ;
+"Battery about to die" = "배터리가 곧 죽습니다";
+"Can't talk, TuDime only" = "말할 수 없음, TuDime만 가능";
+"Sleeping" = "자고" ;
+"In a meeting" = "회의 중";
+
+"Keeping more eCards may slow down the speed of the app" = "eCard를 더 많이 보관하면 앱 속도가 느려질 수 있습니다.";
+"Personalize" = "개인화";
+"Make it personal!" = "개인적으로 만들어라!";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "좋은 선택입니다!\n이제 이 아름다운 카드를 통해\n당신의 벌목을 표현하세요!";
+"Add Photos" = "사진 추가";
+"Add Text" = "텍스트 추가";
+"Add Signature" = "서명 추가";
+"Add Frames" = "프레임 추가";
+"Add Voice" = "음성 추가";
+"Preview" = "미리보기";
+"Go!" = "가다!";
+"Download More" = "더 다운로드";
+"Schedule Events" = "일정 이벤트";
+"Long Tap On Date To Set Schedule" = "일정을 설정하려면 날짜를 길게 누르십시오";
+"New Event" = "새 이벤트";
+
+"Enter Event Name" = "이벤트 이름 입력";
+"Enter Time" = "시간 입력";
+"Remove Account" = "계정 제거";
+"Activate TuDime Pin" = "TuDime 핀 활성화";
+"Set Pin to TuDime" = "핀을 TuDime으로 설정";
+"Remove Pin" = "핀 제거";
+"Welcome Back" = "환영합니다";
+" Pin" = "핀" ;
+"Forgot" = "잊었다" ;
+"Enter Pin to Open TuDime" = "TuDime을 열려면 핀을 입력하세요.";
+"Security Answer" = "보안 답변";
+"Security Questions"= "보안 질문";
+"Confirm New Pin" = "새 핀 확인";
+"Your New Pin" = "새 핀" ;
+"What time of the day was your first child born? (hh:mm)" = "첫 아이는 몇 시에 태어났습니까? (hh:mm)";
+"What time of the day were you born? (hh:mm)" = "몇 시에 태어났습니까? (hh:mm)";
+"In what town or city did your mother and father meet?" = "어머니와 아버지는 어느 마을이나 도시에서 만났습니까?";
+"What is your spouse or partner's mother's maiden name?" = "배우자 또는 파트너의 어머니의 결혼 전 성은 무엇입니까?";
+"What is your grandmother's (on your mother's side) maiden name?" = "할머니(어머니 쪽)의 결혼 전 이름은 무엇입니까?";
+"What are the last five digits of your driver's licence number?" = "당신의 운전 면허증 번호의 마지막 다섯 자리는 무엇입니까?";
+"What is the middle name of your oldest child?" = "큰 아이의 중간 이름은 무엇입니까?";
+"In what town or city did you meet your spouse/partner?" = "배우자/파트너를 어느 마을이나 도시에서 만났습니까?";
+"In what town or city was your first full time job?" = "첫 정규직은 어느 마을이나 도시에서 했습니까?";
+"What primary school did you attend?" = "당신은 어떤 초등학교를 다녔습니까?";
+"What were the last four digits of your childhood telephone number?" = "당신의 어린 시절 전화번호의 마지막 네 자리는 무엇이었습니까?";
+"What was the house number and street name you lived in as a child?" = "어렸을 때 살았던 집 번호와 거리 이름은 무엇이었습니까?";
+"Select a Sequrity Question" = "순서 질문 선택";
+"Send" = "보내기";
+"Comments" = "댓글" ;
+"Pincode" = "암호" ;
+"Country" = "국가" ;
+"Phone No" = "전화번호" ;
+"Email" = "이메일" ;
+"Full Name" = "전체 이름";
+"Write us your concern here and we will get back to you shortly." = "여기에 우려 사항을 적어 주시면 곧 연락 드리겠습니다.";
+
+"GET IN TOUCH" = "연락하세요";
+"Application Version" = "응용 프로그램 버전";
+"Version no:" = "버전 번호:";
+"FAQ" = "FAQ" ;
+"Terms & Privacy Policy" = "약관 및 개인 정보 보호 정책";
+"10. Can i restore messages that i deleted?" = "10. 삭제한 메시지를 복원할 수 있나요?";
+"9. How to find out friends?" = "9. 친구를 찾는 방법은?";
+
+"8. The difference between ID and Nickname?" = "8. 아이디와 닉네임의 차이는?";
+"7. What is ID?" = "7. 아이디가 뭐야?";
+"6. My friend can see my phone number?" = "6. 내 친구가 내 전화번호를 볼 수 있나요?";
+"5. How to subscribe service?" = "5. 서비스 가입은 어떻게 하나요?";
+"4. Everybody can use TuDime??" = "4. 누구나 TuDime을 사용할 수 있습니까??";
+"3. Service packages?" = "3. 서비스 패키지?";
+"2. What is TuDime?" = "2. 투다임이란?";
+"1. With a feature phone, can i use this service?" = "1. 피처폰으로 이 서비스를 이용할 수 있나요?";
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "물론입니다. TuDime은 SMS, IVR, Web, App에서 제공됩니다. 피처폰으로 사용자는 SMS 및 IVR을 통해 서비스를 경험할 수 있습니다.";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" = "TuDime은 프리미엄 솔루션으로 Viettel 가입자가 쉽게 액세스하여 친구와 채팅하거나 훌륭한 경험을 제공하는 SMS, 웹, 앱 및 IVR을 통해 즉시 친구가 될 수 있도록 지원합니다. SMS 및 IVR에서 사용자는 다른 사람을 찾아 상호 작용하거나 생성할 수 있습니다. TuDime 앱은 음성 메시지, 비디오, 사진 및 텍스트 전송을 지원합니다. 그룹에서 채팅하거나 친구를 찾을 수도 있습니다. TuDime 앱은 모든 iOS 장치, Android, Windows Phone, Symbian 및 Blackberry에서 작동합니다.";
+
+
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. 매일: 1.500 d/일, 2. 주간: 7.000 d/주, 3. 월간: 22.000 d/월";
+"All Viettel subscribers can use service." = "비엣텔 가입자라면 누구나 서비스를 이용하실 수 있습니다.";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "a. SMS 명령: DK1 1517로 보내기: 일간 패키지 DK3 보내기 1517: 주간 패키지 DK30 보내기 1517: 월간 패키지 b. IVR: 1517로 전화하고, 지침을 듣고 따르십시오. c. 웹/앱: 지침을 따르십시오";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "아니요. SMS, 앱, 웹: 친구만 귀하의 닉네임을 볼 수 있습니다. IVR: 친구만 귀하의 ID를 볼 수 있습니다.";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "디챗은 7자리의 코드가 포함되어 있으며, TuDime에 가입한 각 사용자에게는 변경할 수 없는 1개의 ID가 제공됩니다.";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "ID: 사용자는 변경할 수 없으며 시스템에서 제공합니다. 닉네임: 사용자는 변경할 수 있으며 사용자가 생성합니다.";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "다음을 통해 친구를 찾을 수 있습니다. -SMS: TIM이 1517 IVR로 문자 보내기: 구독 후, 1517로 전화하고, 1을 눌러 새 친구를 찾고, 지침을 듣고 따르십시오. 앱/웹: 둘러보기 기능";
+"No." = "아니요." ;
+"Please give your feedback" = "의견을 주세요";
+
+
+"SUBMIT" = "제출" ;
+"Please enter valid OTP" = "유효한 OTP를 입력하세요";
+"OTP field can't be blank" = "OTP 필드는 비워둘 수 없습니다.";
+"A New OTP Sended Successfully" = "새 OTP가 성공적으로 전송되었습니다.";
+"OTP verified Successfully" = "OTP 확인 성공";
+"Please fill all the details" = "모든 세부 정보를 입력하십시오.";
+"Please select a language." = "언어를 선택하세요";
+"Please enter your phone number." = "전화번호를 입력해주세요";
+"Please enter a valid phone number." = "유효한 전화 번호를 입력하세요";
+"Please enter your email id." = "이메일 아이디를 입력해주세요";
+"Please enter a valid email id." = "유효한 이메일 ID를 입력하세요.";
+"Please select your NickName." = "닉네임을 선택해 주세요.";
+"Please enter a valid Nickname between 4-12 characters." = "4-12자 사이의 유효한 닉네임을 입력하십시오.";
+"Entered nickname is already taken." = "입력한 닉네임은 이미 사용 중입니다.";
+"Please select a country" = "국가를 선택하십시오";
+"Secret Chat" = "비밀 대화";
+"Delete Chat" = "채팅 삭제";
+"Detail View" = "상세 보기";
+
+
+"Select language in which you want to convert the text" = "텍스트를 변환할 언어를 선택하십시오";
+"TuDime Translation" = "TuDime 번역";
+"Proceed To Chat" = "채팅 진행";
+"Unarchive" = "보관 취소";
+"Account Details" = "계정 세부 정보";
+"For any changes in details, Please contact support" = "세부 사항에 대한 변경 사항은 지원팀에 문의하십시오";
+"Plan Type" = "계획 유형";
+"Plan Details" = "계획 세부 사항";
+"Buy TuDime Membership" = "TuDime 멤버십 구매";
+"365-Days TuDime Annual Membership" = "365일 TuDime 연간 회원권";
+"30-Days Free Trial of Premium Features" = "프리미엄 기능 30일 무료 평가판";
+"TuDime Annual Membership" = "TuDime 연간 회원권";
+"Free Trial" = "무료 시험판";
+"Next Renew Date" = "다음 갱신 날짜";
+
+"Best Chat App In The World - More Features than any other!" = "세계 최고의 채팅 앱 - 다른 어떤 앱보다 더 많은 기능!";
+"25% discount if you join with in 15 days - $11.25" = "15일 이내에 가입하면 25% 할인 - $11.25";
+"Text Chat" = "텍스트 채팅" ;
+"Video Chat" = "영상 채팅";
+"Call Any number In The World" = "전 세계의 모든 번호로 전화 걸기";
+"Send Greeting Cards" = "인사말 보내기";
+"Built in Translation" = "번역 내장";
+"About 20 other incredible features" = "약 20개의 다른 놀라운 기능";
+"1 Year TuDime Membership" = "1년 TuDime 멤버십";
+"Please select to continue Tudime registration with your Email/Mobile No" = "이메일/휴대폰 번호로 Tudime 등록을 계속하려면 선택하십시오.";
+"Select your Language" = "언어 선택";
+"Search your country" = "국가 검색";
+"Enter email address" = "이메일 주소를 입력하세요";
+"Enter your NickName" = "닉네임 입력";
+"Your Security Question :" = "귀하의 보안 질문:";
+"What was the house number and street name you lived in as a child?" = "어렸을 때 살았던 집 번호와 거리 이름은 무엇이었습니까?";
+"Enter Security answer" = "보안 답변 입력";
+
+"Buy" = "구매";
+"No Membership Yet" = "아직 멤버십 없음";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "등록 후 처음 15일 이내에 TuDime Now 멤버십을 구매하시면 25%% 할인을 받으실 수 있습니다. 이 멤버십은 %@ 대신 %@이 됩니다. 이 제안은 최초 등록일로부터 15일까지 유효합니다. 이후 해당 멤버십은 매년 %@이 됩니다. 무료 평가판 기간은 등록 후 30일 후에 종료되며 TuDime을 계속 사용하려면 %@의 전체 멤버십 가격이 필요합니다. 지금 무엇을 하시겠습니까?\n* 연간 TuDime 구매 멤버십\n* 30일 무료 평가판 기간을 계속 진행하세요.\n귀하를 소중한 회원으로 계속 모실 수 있기를 기대합니다.\n감사합니다.\nTuDime 직원";
+"Subscribe Now" = "지금 구독";
+"Good Choice! Now, express your feelings through this beautiful card !" = "Good Choice! 이제 이 아름다운 카드로 마음을 표현해보세요!";
+"Add Frames" = "프레임 추가";
+"Add Audio" = "오디오 추가";
+"Tap to record Audio" = "탭하여 오디오 녹음";
+"Enter text here" = "여기에 텍스트를 입력하세요";
+"To place a TuDime call, open a chat and tap at the top" = "TuDime에 전화를 걸려면 채팅을 열고 상단을 탭하세요.";
+
+"Your Unique id is : " = "귀하의 고유 ID는 다음과 같습니다. ";
+"Profile Photo Gallary" = "프로필 사진 갤러리";
+"Tap To Change Group Icon" = "탭하여 그룹 아이콘 변경";
+"Users" = "사용자" ;
+"Add Participants" = "참가자 추가";
+"Enter new group Name" = "새 그룹 이름 입력";
+"Create Group Chat" = "새 그룹 이름 입력";
+"그룹 채팅 만들기";
+"Invite Contacts" = "연락처 초대";
+"Add Profile Picture" = "프로필 사진 추가";
+"Enter Your Status" = "상태를 입력하십시오";
+"Set Defualt" = "기본 설정";
+"Drag left or right to see font size:" = "글꼴 크기를 보려면 왼쪽이나 오른쪽으로 드래그하십시오.";
+"Select Font Color: " = "글꼴 색상 선택: ";
+"Select Font Style: " = "글꼴 스타일 선택:";
+"FILL ADDRESS" = "주소 채우기";
+"Pay Now" = "지금 지불";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "번호는 “+”와 국가 코드로 시작해야 합니다. 예: “+14155522233”. 여기서 “+”는 필수 접두사이고 “1”은 미국 국가 코드입니다.";
+"Click here to check call cradit rates." = "콜 크레딧 요금을 확인하려면 여기를 클릭하세요";
+"Please choose a Plan For Continue Recharge" = "계속 충전 계획을 선택하십시오";
+"My Balance" = "내 잔액";
+
+"BUY CALL CREDIT" = "통화 크레딧 구매";
+"Device Contacts" = "장치 연락처";
+"Proceed To Chat" = "채팅 진행";
+"Search with phone, name, email, or unique id" = "전화, 이름, 이메일 또는 고유 ID로 검색";
+"Select your Language" = "언어 선택";
+"Get started with disappearing messages" = "사라지는 메시지 시작하기";
+"Select files..." = "파일 선택...";
+"Cancel" = "";
+"Tap to change group icon" = "탭하여 그룹 아이콘 변경";
+"Username" = "사용자 이름";
+"Leaving..." = "떠나는 중...";
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "선택한 채팅을 정말 삭제하시겠습니까?\n삭제하면 영구적으로 삭제됩니다.";
+"Yes" = "예";
+"Call Credit Amount" = "통화 금액";
+"Invite\nFriends" = "친구를 초대";
+"CALLS" = "통화";
+"Archived" = "보관됨";
+"Notes" = "노트";
+"Star Message" = "별 메시지";
+"Report" = "보고서";
+"Phone/Email" = "전화/이메일";
+"E-Cards" = "전자 카드";
+"Voice call" = "음성 통화";
+"Video call" = "영상 통화";
+"Disappear Chat" = "사라지다 채팅";
+
+"Default theme setting" = "기본 테마 설정";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "기본 테마를 잠그시겠습니까? 기본 테마를 잠그면 연락처에 있는 사람들이 귀하와 함께 테마를 설정할 수 없습니다.";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70개 이상의 기능, 아마도 세계의 다른 채팅 앱보다 많을 것입니다! 기간 한정 혜택! TuDime 1년 구독을 구입하세요. 카드에 요금이 청구되기 전 15일 무료 평가판 기간이 있습니다. 청구를 방지하려면 15일 이전에 언제든지 취소할 수 있습니다. .\n%@의 할인 가격으로 Tudime 연간 구독을 구매하세요.";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "알아채다";
+"Unlock default Theme" = "기본 테마 잠금 해제";
+"Theme unlocked" = "테마 잠금 해제됨";
+"Post" = "우편";
+"Add a comment" = "의견을 추가하다";
+"Write Post..." = "글 쓰기...";
+"Create Post" = "게시물 작성";
+"Tudime Feature List" = "Tudime 기능 목록";
+"Share Everywhere" = "어디서나 공유";
+"Share on Tudime" = "Tudime에서 공유하기";
+"Choose one" = "하나를 선택하세요";
