@@ -1,0 +1,149 @@
+{
+    "data" : [
+        {
+            "title" : "1. What is TuDime?",
+            "text" : "Official description would be that TuDime is a chat app for doing text messages, sending pictures, videos, files, share locations/contact info/doodle etc, app to app audio / video calling, app to phone/landline calling using TuDime credit call feature which is the best and most feature of the app providing cheapest call rates across the globe. Also, TuDime has some awesome features like Encounters – which an advanced version of a dating requirements, eCards – which facilitates sending expression to someone special to make them feel special by greeting with awesome eGreeting cards and many more…",
+            
+        },
+        {
+            "title" : "2. How do I install TuDime?",
+            "text" : "You can install the application from Google Play Store or Apple Store. Find the application on either Google Play Store or Apple Store and install it from there. It will automatically install in the mobile device. TuDime is free for everyone to use for first 30 calendar days after registration.",
+        },
+        
+        {
+            "title" : "3. Are TuDime App to App calls free or are there hidden charges?",
+            "text" : "TuDime is completely free during the first 30 day trial period after registration. After that, it is $19.99 USD per year (TuDime CAN calls excluded). If the registered user joins as a paid subscriber within the first 15 calendar days, the user will enjoy a 25% discount, bringing the total to just only $14.99 per that year of registration.",
+        },
+        
+        
+        {
+            "title" : "4. Does TuDime include advertisements?",
+            "text" : "No, It does not.",
+        },
+        {
+            "title" : "5. What devices are not supported?",
+            "text" : "TuDime supports both iPhone and Android cellphone and tablet devices. Blackberry phones are not supported.",
+        },
+        {
+            "title" : "6. Can I install TuDime on my BlackBerry?",
+            "text" : "No. TuDime does not support BlackBerry devices.",
+        },
+        {
+            "title" : "7. I did not get my Registration Access Code to my phone or email. What can I do?",
+            "text" : "This may be due to a slow internet connection or unavailability of internet You may click on “send code again”. TuDime will send you the access code again.",
+        },
+        {
+            "title" : "8. Why can’t I use TuDime on some Wi-Fi networks?",
+            "text" : "You can use TuDime on all Wifi networks but it should have a good speed. On very low speed it will not work properly. To use TuDime you need high speed internet.",
+        },
+        
+        {
+            "title" : "9. Is the chat data safe with TuDime?",
+            "text" : "Yes. It is completely safe. No one can hack your chat data. TuDime chat is end to end encrypted, meaning that TuDime does not store your texts or other information sent in a chat in a database. Your TuDime chat is backed up automatically. However, If you want to save your chat to another source, we recommend that you back your chat history up to a third party account, such as Google Cloud.",
+        },
+        
+        {
+            "title" : "10. What is End to end encryption in TuDime?",
+            "text" : "Endtoend encryption is a technology that keeps the content you share private and secure, from one endpoint (such as your phone) to another (such as the phone of the person you are talking to). The content you share will be unreadable if it is intercepted in transit.. No one can read your messages from Cloud. Not even the TuDime staff are able to read your encrypted messages. That means you data is travelled over the network in encrypted format. This is referred to as “end to end encryption",
+        },
+        {
+            "title" : "11. Can I send text messages and conduct video calls with TuDime?",
+            "text" : "Yes. TuDime is a chatting application.  You can send the text message or video chat to any of your friends if he/she is also a user of TuDime. Group texting is also available up to 300 users. Group video calls can be made with up to 5 different TuDime users at once. After January 2023, TuDime hopes to add to be able to video chat with at least 10 different users same time.",
+        },
+        {
+            "title" : "12. Can I have same TuDime account on two different devices?",
+            "text" : "NO.",
+        },
+        {
+            "title" : "13. Is TuDime sound quality good?",
+            "text" : "The sound quality on TuDime is excellent. It is one of many great features with the app.",
+        },
+        {
+            "title" : "14. How many images I can send on TuDime at a time?",
+            "text" : "You can send 50 images on TuDime at a time.",
+        },
+        {
+            "title" : "15. Are the calls on TuDime really free?",
+            "text" : "Yes. App to App Audio and video calls are free during the first 30 day trial period. However, TuDime also has TuDime CAN (Call Any Number), meaning non TuDime users is paid.",
+        },
+        {
+            "title" : "16. Is there a Desktop or MAC version of TuDime?",
+            "text" : "No, not now. It will be available soon in a later release.",
+        },
+        {
+            "title" : "17. Can I use TuDime on an iPad or an iPod Touch?",
+            "text" : "This feature is coming soon…",
+        },
+        {
+            "title" : "18. Can I delete Sent Messages with TuDime?",
+            "text" : "Yes. Messages can be deleted with TuDime. It’s up to the user to decide how whether or not to delete messages means delete messages from user’s own side or from recipient side also.",
+        },
+        {
+            "title" : "19. May I edit sent messages with TuDime?",
+            "text" : "Yes. Messages can be edited. Do long click on the message which you want to edit and choose edit option from there. Then you can easily resend your edited your message.",
+        },
+        {
+            "title" : "20. Does TuDime decrease battery life?",
+            "text" : "TuDime is a lightweight application, and it usually does not drain a lot of battery. It does not decrease battery life. However, keep in mind that the battery life also depends on the features and brightness level of your device.",
+        },
+        {
+            "title" : "21. What are “eCards” in TuDime?",
+            "text" : "TuDime facilitates selecting, personalizing and sharing awesome greeting cards from your phone to other TuDime user or others via email, Facebook, Twitter, Messenger, WhatsApp, etc…You will find a perfect card for a particular moment from TuDime eCards section at your fingertips—cards that will work for every who, what, where, and when in your crazy life. You can always customize cards like you can do in real greeting cards: Adding own note/photo, and you can even add your own signature and a voice message. This feature also has a built-in translation feature with either typed text or spoken words and it will instantly translate to 15 of the most popular languages in the world. ",
+
+        },
+        {
+            "title" : "22. Is sending eCards free on TuDime?",
+            "text" : "Yes. Sending TuDime eCards are free for TuDime users.",
+        },
+
+        {
+            "title" : "23. How to Block a person on TuDime?",
+            "text" : "On a chatting page , you will find an icon (three vertical dotted icon) click on that, there is a option to block the person. When clicked on that you will be able to not to get any message from that person. And the list of block person, you can see on Settings -> Accounts -> Privacy -> Block users.",
+        },
+        {
+            "title" : "24. Why do my TuDime Stickers unable to download?",
+            "text" : "It is available only after you have purchased that. Please look for the payment options to pay and download the awesome stickers!",
+
+        },
+        {
+            "title" : "25. Maximum size of attach Files with TuDime?",
+            "text" : "Maximum Size will be 10 mb. If a user tries to send file(s) more than 10 mb then the user will not be able to send those files through TuDime.",
+        },
+
+        {
+            "title" : "26. How to check TuDime CAN (Call Any Number) Call Rates?",
+            "text" : "To check the TuDime Out Call rates, please click here.",
+        },
+        {
+            "title" : "27. Why does TuDime fails to recognize my contacts as TuDime users?",
+            "text" : "Some device contact list is not accessible by a third party app. Please go to phone settings and allow contacts sharing for application TuDime.",
+
+        },
+        {
+            "title" : "28. What is Encounters in TuDime?",
+            "text" : "Encounters in TuDime app is an awesome dating feature which provide an individual to look for specified match specifying age, gender, location and other important specifications. Encounters feature allow individuals to share gifts cards, chat messages and show interest in some ones profiles. It is a secured way of impressing interest in someone’s profile and all the data/chat/gifts are secured and kept at high level of privacy.It is an optional feature and one can opt it at the time of running app for first time after installing it. This is only for the age group 18 years and above. This feature is expected to be released around January of 2023.",
+        },
+
+        {
+            "title" : "29. How to re-activate my old TuDime account?",
+            "text" : "If you have already deleted your account then when you try to again login from that, on verification page TuDime will detect that your account has already deleted. So from there it will take you to the page to enable or activate your account again when you click on “Continue” button. So first enable your account after that you can use TuDime features easily.You can also restore all your old messages on re-activation by confirming to download the old message option at the re-activation page.",
+        },
+        {
+            "title" : "30. How to send request to a person on TuDime Encounters?",
+            "text" : "There is a HEART Shape icon below image. Click on that and a request will be sent to that person. That request will be shown on INVITATIONS page of that person on Encounters. You can also send maximum of 3 messages to your the person you are interested in to help you make them understand you better and if still that person don’t accept your proposal then it will be a spam and you will no longer share your interest to that person. In case you start getting messages from the other side that will be deemed as you both know each other and then you can keep continuing messages.",
+
+        },
+        {
+            "title" : "31. How to accept friend request of from TuDime encounters?",
+            "text" : "If someone sends you a friend request then it will show on the INVITATIONS on TuDime Encounters page. There you will get the Accept or reject button. And you can see the person profile by clicking on his name.",
+        },
+
+        {
+            "title" : "32. How can I delete my TuDime account?",
+            "text" : "In Settings you will find a Disable Account option. Just click on that, your account will be deleted. Then you cannot reopen your account with the same mobile number or email address. To use TuDime you have to enable your account first or have to login with some different number or email to create your different account.",
+        },
+
+    ],
+    
+}
+

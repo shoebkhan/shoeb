@@ -1,0 +1,781 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+
+
+"Ok" = "OK";
+"Cancel" = "Cancelar";
+"Loading" = "Cargando";
+"Logged in" = "Conectado";
+"Sending" = "Enviando";
+"Completed" = "Terminada";
+"Leave" = "Dejar";
+"Left" = "Izquierda";
+"Leaving" = "Dejando";
+"Warning" = "Advertencia";
+"Block" = "Cuadra";
+"Unblock" = "Desatascar";
+"Login as" = "Iniciar sesión como";
+"Logout" = "Cerrar sesión";
+"Typing..." = "Mecanografía..";
+"Connecting to chat..." = "Conectando al chat ...";
+"Connected" = "Conectada";
+"Disconnected" = "Desconectada";
+"Reconnected" = "Reconectado";
+"Logging in REST as " = "Iniciar sesión en REST como";
+"Loading dialogs" = "Cargando diálogos";
+"Done" = "Hecho";
+"added" = "adicional";
+"created the group chat" = "creó el chat grupal";
+"Call" = "Llama";
+"Message" = "Mensaje";
+"Can't send a message" = "No puedo enviar un mensaje";
+"Loading users" = "Cargando usuarios";
+"Can't download users" = "No puedo descargar usuarios";
+"Can't download dialogs" = "No se pueden descargar los diálogos";
+"Failed to load dialogs" = "No se pudieron cargar los diálogos";
+"You are in the blacklist" = "Estas en la lista negra";
+"forbidden" = "prohibida";
+"Loading messages" = "Cargando mensajes";
+"Uploading attachment" = "Subiendo archivo adjunto";
+"Enter chat name" = "Ingrese el nombre del chat";
+"Dialog created" = "Diálogo creado";
+"Send" = "Enviar";
+"last activity date" = "última fecha de actividad";
+"Add occupants" = "Agregar ocupantes";
+"Create" = "Crear";
+"New chat" = "Nueva conversación";
+"New message" = "Nuevo mensaje";
+"has left dialog." = "ha dejado el diálogo";
+"Chat info" = "Información de chat";
+"Read" = "";
+"Delivered" = "Entregada";
+"Seen" = "Vista";
+"Didn't send" = "No enviaste";
+"Sending" = "Enviando";
+"Unknown" = "Desconocida";
+"Note that you will not receive any private message from this user" = "Tenga en cuenta que no recibirá ningún mensaje privado de este usuario.";
+"Do you really want to leave selected dialog?" = "¿Realmente desea dejar el cuadro de diálogo seleccionado?";
+"Unblock user in 1-1 chat" = "Desbloquear usuario en el chat 1-1";
+"Try again" = "Intentar otra vez";
+"Delete" = "Borrar";
+"Error" = "Error";
+"Error leaving" = "Error al salir";
+"Bad Gateway, please try again" = "Puerta de enlace incorrecta, inténtelo de nuevo";
+"Connection network error, please try again" = "Error de conexión a la red, inténtalo de nuevo.";
+"Did not connect with error:" = "No se conectó con error:";
+"Chat failed with error:" = "Chat falló con error:";
+"Message failed to send" = "No se pudo enviar el mensaje";
+"Group Name" = "Nombre del grupo";
+"Choose photo from..." = "Elige una foto de ...";
+"Camera" = "Cámara";
+"Gallery" = "Galería";
+
+" (You)" = "(Usted)";
+"Loading users" = "Cargando usuarios";
+"Please add group image." = "Agregue una imagen de grupo.";
+"Create" = "Crear";
+"Search" = "Buscar";
+"Dialog created" = "Diálogo creado";
+"No user with that name" = "Ninguna usuaria con ese nombre";
+"Calling..." = "Vocación...";
+"Closed" = "Cerrada";
+"Failed" = "Fallida";
+"Hung Up" = "Colgar";
+"Rejected" = "Rechazada";
+"No Answer" = "Sin respuesta";
+"Time out" = "Se acabó el tiempo";
+"Disconnected" = "Desconectada";
+"Unmute" = "Activar sonido";
+"Mute" = "Muda";
+"Cam on" = "Cam en";
+"Cam off" = "Cam fuera";
+"Mic" = "Mic";
+"Speaker" = "Oradora";
+"End call" = "Finalizar llamada";
+"Stop sharing" = "Deja de compartir";
+"Screen share" = "Compartir pantalla";
+"Swap cam" = "Cámara de intercambio";
+"Loading stats report..." = "Cargando informe de estadísticas ...";
+"SEARCH" = "Buscar";
+"Incoming" = "Entrante";
+"TuDime" = "TuDime";
+"You have no credit recharge please!" = "¡No tienes recarga de crédito, por favor!";
+"Blocked User" = "Usuario bloqueada";
+"Subscription Manager" = "Gerente de suscripción";
+"Reload" = "Recargar";
+"Your account suspended please purchased subscription." = "Su cuenta suspendida por favor compró la suscripción.";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "Ya ha comprado esta suscripción, puede restaurar esta suscripción haciendo clic en restaurar.";
+"Product load from the itunes." = "Carga de producto de itunes.";
+"Free Trial is Expired" = "La prueba gratuita ha caducado";
+"Days Free Trial of Premium Features" = "Días de prueba gratuita de funciones premium";
+"Leave Chat" = "Salir del chat";
+"Chat info" = "Información de chat";
+"Edit Message" = "Editar mensaje";
+"Delete" = "Borrar";
+"Forward" = "Hacia adelante";
+"Delivered to..." = "Entregado a...";
+"Viewed by..." = "Visto por ...";
+"Save attachment" = "Guardar archivo adjunto";
+"Delete For Me" = "Eliminar para mí";
+
+
+"Delete For All" = "Eliminar para todos";
+"Re-Translate" = "Volver a trasladar";
+"Self-Destruct" = "Auto destrucción";
+"Quote Reply" = "Citar respuesta";
+"Share Via" = "Compartir via";
+"View file" = "Ver archivo";
+" is typing..." = "esta escribiendo...";
+" are typing..." = "están escribiendo ...";
+" and 2 more are typing..." = "y 2 más están escribiendo ...";
+"No user with that name" = "Ninguna usuaria con ese nombre";
+"Add Occupants" = "Agregar ocupantes";
+
+"Message forwarded" = "Mensaje reenviado";
+"Message delivered to" = "mensaje entregado a";
+"Message viewed by" = "Mensaje visto por";
+"Finish" = "Terminar";
+"New Chat" = "Nueva conversación";
+"QBChat is not Connected" = "QBChat no está conectada";
+"New Group Chat" = "Nuevo chat grupal";
+"New Chat" = "Nueva conversación";
+"No user with that name" = "Ninguna usuaria con ese nombre";
+"Please allow the app to access your contacts through the device's settings." = "Permita que la aplicación acceda a sus contactos a través de la configuración del dispositivo.";
+"No user with that name" = "Ningún usuario con ese nombre";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Consulte TuDime para su teléfono inteligente. Descárguelo hoy desde (https://www.TuDime.com)";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "Utilice su correo electrónico o caracteres alfanuméricos en un rango de 3 a 50. El primer carácter debe ser una letra.";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "Utilice caracteres alfanuméricos y espacios en un rango de 3 a 20. No puede contener más de un espacio en una fila.";
+"Send eCards" = "Enviar tarjetas electrónicas";
+"Details View" = "Vista de detalles";
+"Delete Chat" = "Eliminar chat";
+"Archive Chat" = "Archivar chat";
+"Chat Disappearing timer" = "Temporizador de desaparición de chat";
+"Block" = "Cuadra";
+"Category" = "Categoría";
+"5 Minutes" = "5 Minutos";
+"10 Minutes" = "10 Minutos";
+"20 Minutes" = "20 Minutos";
+"30 Minutes" = "30 Minutos";
+"40 Minutes" = "40 Minutos";
+"50 Minutes" = "50 Minutos";
+"60 Minutes" = "60 Minutos";
+"Online" = "En línea";
+"Offline" = "Desconectada";
+"Today" = "Hoy dia";
+"Yesterday" = "El dia de ayer";
+
+"Bad Gateway, please try again" = "Puerta de enlace incorrecta, inténtelo de nuevo";
+"Connection network error, please try again" = "Error de conexión a la red, inténtalo de nuevo.";
+"Doodle" = "Garabatear";
+"Image" = "Imagen";
+"Location" = "Localización";
+"Theme" = "Tema";
+"Contact" = "Contacto";
+"Files" = "Archivos";
+"Audio/Video" = "Audio Video";
+"TuDime Translation" = "Traducción TuDime";
+"Select language in which you want to convert the text" = "Seleccione el idioma en el que desea convertir el texto.";
+"Enter Text:" = "Ingrese texto:";
+"Edit Message" = "Editar mensaje";
+"WARNING" = "Editar mensaje";
+"Do you really want to Archieve this chat?" = "¿Realmente quieres Archivar este chat?";
+"Archiving Chat" = "Archivar chat";
+"Can't use options when you are in secret chat" = "No puedo usar opciones cuando estás en un chat secreto";
+"Details View" = "Vista de detalles";
+"Leave Chat" = "Salir del chat";
+"Send eCards" = "Enviar tarjetas electrónicas";
+"Details View" = "Vista de detalles";
+"Delete Chat" = "Eliminar chat";
+"Chat Disappearing timer" = "Temporizador de desaparición de chat";
+"Can't set theme when you are in secret chat" = "No se puede establecer el tema cuando estás en un chat secreto";
+"Choose photo from..." = "Elige una foto de ...";
+"Camera" = "Cámara";
+"Gallery" = "Galería";
+"Sorry,no language found" = "Lo siento, no se ha encontrado ningún idioma";
+"Please select translate language first" = "Seleccione primero el idioma de traducción";
+"You" = "Usted";
+"Do you really want to leave selected dialog?" = "¿Realmente desea dejar el cuadro de diálogo seleccionado?";
+"DELETE" = "ELIMINAR";
+"Open Settings" = "Configuración abierta";
+"Warning" = "Advertencia";
+"This message will be self destruct after 10 Seconds" = "Este mensaje se autodestruirá después de 10 segundos.";
+"You can send 1 attachment per message" = "Puedes enviar 1 archivo adjunto por mensaje";
+
+"Save error" = "Guardar error";
+"Your Device can't make a phone call" = "Su dispositivo no puede realizar una llamada telefónica";
+"User denied access to speech recognition" = "Su dispositivo no puede realizar una llamada telefónica";
+"Speech recognition restricted on this device" = "Reconocimiento de voz restringido en este dispositivo";
+"Speech recognition not yet authorized" = "El reconocimiento de voz aún no está autorizado";
+"Recognition not available" = "Reconocimiento no disponible";
+"Add Photos" = "Agregar fotos";
+"Choose photo from..." = "Elige una foto de ...";
+"You don't have camera" = "No tienes camara";
+"Alert" = "Alerta";
+"Are you sure want to unblock this user?" = "¿Estás segura de que quieres desbloquear a esta usuario?";
+"Are you sure want to block this user? Later you can unblock from setting." = "¿Estás seguro de que deseas bloquear a este usuario? Más tarde, podrás desbloquearlo desde la configuración.";
+"Unblock" = "Desatascar";
+"The uploaded file exceeds maximum file size (100MB)" = "El archivo cargado supera el tamaño máximo de archivo (100 MB)";
+"Error loading image" = "Error al cargar la imagen";
+
+"Video is not compatible With Photos Album" = "El video no es compatible con el álbum de fotos";
+"The app doesn't have access to the camera, please go to settings and enable it." = "La aplicación no tiene acceso a la cámara, vaya a la configuración y habilítela.";
+"Microphone error" = "Error de micrófono";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "La aplicación no tiene acceso al micrófono, vaya a la configuración y habilítela.";
+"Settings" = "Ajustes";
+"Unknown user" = "Usuario desconocida";
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "ADVERTENCIA DE MEMORIA: saliendo de la llamada. Por favor, reduzca la calidad de la configuración de video.";
+"Session did close due to time out" = "La sesión se cerró debido al tiempo de espera";
+"New" = "Nueva";
+"Pending" = "Pendiente";
+"Closed" = "Cerrada";
+"Failed" = "Fallida";
+"Hung Up" = "Colgar";
+"Rejected" = "Rechazada";
+"No Answer" = "Sin respuesta";
+
+"Time out" = "Se acabó el tiempo";
+"Please select your Language first" = "Primero seleccione su idioma";
+"Registration" = "Registro";
+"Select your country" = "Selecciona tu pais";
+"Nick name must be 3 characters long." = "El apodo debe tener 3 caracteres.";
+"Sorry, no country found by this name!" = "Lo sentimos, no se ha encontrado ningún país con este nombre.";
+"Too many Attempts! Try again after sometime" = "¡Demasiados intentos! Inténtalo de nuevo después de algún tiempo";
+"Incomplete Pin" = "Pin incompleto";
+"Please Enter Your Security Answer" = "Ingrese su respuesta de seguridad";
+"Security Answer is incorrect!" = "¡La respuesta de seguridad es incorrecta!";
+"Success" = "Éxito";
+
+
+
+"Pin setted Successfully!" = "¡Pin establecido correctamente!";
+"Confirm Pin Mismatched!" = "¡Confirme que el PIN no coincide!";
+"Please Enter The New Pin Again!" = "¡Ingrese el nuevo PIN nuevamente!";
+"Please Enter A New Pin!" = "Introduzca un PIN nuevo.";
+"Subscription Details" = "Detalles de la suscripción";
+"Your Payment is successfull!" = "¡Tu pago se ha realizado correctamente!";
+"Payment Details" = "Detalles del pago";
+"Address" = "Dirección";
+"Country" = "País";
+"State" = "Estado";
+"ZIP" = "CÓDIGO POSTAL";
+"City" = "Ciudad";
+"Email" = "Correo electrónico";
+"Country Code" = "Código de país";
+"Valid email" = "Email valido";
+"address field can't be blank!" = "¡El campo de dirección no puede estar en blanco!";
+"state field can't be blank!" = "¡El campo de estado no puede estar en blanco!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "Ingrese sin caracteres numéricos (por ejemplo, John Doe)";
+"pincode field can't be blank!" = "¡El campo de código PIN no puede estar en blanco!";
+"country field can't be blank!" = "¡El campo del país no puede estar en blanco!";
+"Please enter with out special Charecter(e.g John Doe)" = "Ingrese sin carácter especial (por ejemplo, John Doe)";
+
+"city field can't be blank!" = "¡El campo de la ciudad no puede estar en blanco!";
+"Email field can't be blank!" = "¡El campo de correo electrónico no puede estar en blanco!";
+"Entered email is not valid!" = "¡El correo electrónico introducido no es válido!";
+"Some Data is missing" = "Faltan algunos datos";
+"Your Payment is successfull!" = "¡Tu pago se ha realizado correctamente!";
+"Please enter a Number" = "Por favor, introduzca un número";
+"Please enter a country code" = "Ingrese un código de país";
+"You have no credit recharge please!" = "No tienes recarga de crédito por favor";
+"Sinch Client not" = "Cliente Sinch no";
+"Intitialised.!" = "¡Inicializado!";
+"Please wait Inititalising..." = "Espere Iniciando ...";
+"Sinch Client" = "Cliente Sinch";
+"No number available!" = "¡No hay número disponible!";
+"Can't be placed more!" = "¡No se pueden colocar más!";
+"Call ended" = "Llamada terminada";
+"Call connected" = "Llamada conectada";
+"Calling..." = "Vocación...";
+"Edit Profile" = "Editar perfil";
+"Accounts" = "Cuentas";
+"Appearance" = "Apariencia";
+"Contact Us" = "Contacta con nosotras";
+"About & Help"= "Sobre ayuda";
+"Secret Chat" = "Chat secreto";
+"Blocked User" = "Usuario bloqueada";
+"Store Stickers/Gifs" = "Tienda de pegatinas / gifs";
+"Font successfully defualt set" = "Fuente defualt establecida con éxito";
+"Font Color successfully defualt set" = "Color de fuente definido correctamente";
+
+"Font successfully set" = "Fuente configurada correctamente";
+"Font size successfully set" = "El tamaño de fuente se estableció correctamente";
+"Font color successfully set" = "El color de la fuente se estableció correctamente";
+"Privacy" = "Intimidad";
+"Delete Accounts" = "Eliminar cuentas";
+"Archive Chat" = "Archivar chat";
+"Do you want to delete your account?" = "¿Quieres borrar tu cuenta?";
+"Once you delete your account, all your data will be removed permanently" = "Una vez que elimine su cuenta, todos sus datos se eliminarán de forma permanente";
+"No Profile id found!" = "¡No se encontró la identificación del perfil!";
+"Name field can't be blank!" = "¡El campo de nombre no puede estar en blanco!";
+"Phone field can't be blank!" = "¡El campo del teléfono no puede estar en blanco!";
+"Please Enter a valid Phone Number" = "Por favor ingrese un número de teléfono válido";
+"Email field can't be blank!" = "¡El campo de correo electrónico no puede estar en blanco!";
+"Please Enter a valid Email" = "Por favor introduzca una dirección de correo electrónico válida";
+"Country field can't be blank!" = "¡El campo del país no puede estar en blanco!";
+"Comments field can't be blank!" = "¡El campo de comentarios no puede estar en blanco!";
+"Your response uploaded Successfully" = "Tu respuesta se cargó correctamente";
+"Terms & Privacy Policy" = "Condiciones y política de privacidad";
+"Feedback" = "Realimentación";
+"Feedback field can't be empty!" = "¡El campo de comentarios no puede estar vacío!";
+"Your feedback sent Successfully" = "Sus comentarios se enviaron con éxito";
+"Work in Progress!" = "¡Trabajo en progreso!";
+"Buy Call Credit" = "Comprar crédito de llamada";
+"You Choose $5 Package" = "Usted elige paquete de $ 5";
+"You Choose $10 Package" = "Usted elige paquete de $ 10";
+"You Choose $15 Package" = "Usted elige paquete de $ 15";
+"Please set Unique ID" = "Establezca un ID único";
+"Your Uniqe id is: " = "Tu ID de Uniqe es:";
+"Public" = "Pública";
+"Choose" = "Escoger";
+"Cancel" = "Escoger";
+"Unique id created successfully" = "Identificación única creada con éxito";
+"Profile Privacy updated Successfully" = "Privacidad del perfil actualizada correctamente";
+
+"You don't have camera" = "No tienes camara";
+"Profile" = "Perfil";
+"Hey, I am using Tudime!" = "¡Oye, estoy usando Tudime!";
+"Status:" = "Estado:";
+"Enter Your Name" = "Introduzca su nombre";
+"Set Unique ID" = "Establecer ID único";
+"Done" = "Hecho";
+"Enter Your Name" = "Introduzca su nombre";
+"Enter Your Unique id" = "Ingrese su identificación única";
+"Set" = "Colocar";
+"Nickname updated successfully" = "Apodo actualizado correctamente";
+"No special characters allowed." = "No se permiten caracteres especiales.";
+"Must be contain minimum 4 characters." = "Debe contener un mínimo de 4 caracteres.";
+"Set Status" = "Establecer estado";
+"Status updated Successfully" = "Estado actualizado con éxito";
+"Schedule Event" = "Programar evento";
+"Enter Description" = "Ingrese descripción";
+"Events Loading Error" = "Error de carga de eventos";
+"The calender could not load system events. It is possibly a problem with permissions" = "El calendario no pudo cargar eventos del sistema. Posiblemente sea un problema con los permisos.";
+
+
+"New Event" = "Nuevo evento";
+"Enter Event Name" = "Ingrese el nombre del evento";
+"Enter Description" = "Ingrese descripción";
+"Enter Time" = "Ingrese la hora";
+"Enter Description" = "Ingrese descripción";
+"Please enter event name" = "Ingrese el nombre del evento";
+"Please enter event time" = "Ingrese la hora del evento";
+"Schedule created successfully" = "Programa creado con éxito";
+"Time:" = "Tiempo:";
+"Date:" = "Fecha:";
+"Profile Picture Gallery" = "Galería de imágenes de perfil";
+"Profile Photo Updated Successfully!" = "¡Foto de perfil actualizada correctamente!";
+"Set as Profile Picture" = "Establecer como foto de perfil";
+"Delete Photo" = "Borrar foto";
+"No photo available!" = "¡No hay foto disponible!";
+"Select one option" = "Seleccione una opción";
+"Select one option" = "Seleccione una opción";
+
+"Custom Status" = "Estado personalizado";
+"Status updated Successfully" = "Estado actualizado con éxito";
+"This is already current status" = "Este ya es el estado actual";
+"Status can't be blank!" = "¡El estado no puede estar en blanco!";
+"Sorry! no card is available right now" = "¡Perdón! no hay tarjeta disponible en este momento";
+"Keeping more ecards, may slow down your device" = "Mantener más tarjetas electrónicas puede ralentizar su dispositivo";
+"Love" = "Amor";
+"Birthday"= "Cumpleaños";
+"Friendship" = "Amistad";
+"Some1 Special" = "Some1 Especial";
+"Miss You" = "Te extraño";
+"Congratulations" = "Felicidades";
+"Good Luck" = "Buena suerte";
+"Get Well Soon" = "Mejorate pronto";
+"Invitations" = "Invitaciones";
+"Thank You" = "Gracias";
+"Sorry" = "Perdón";
+"Tap to Record" = "Toque para grabar";
+"Tap to Stop Recording" = "Toque para detener la grabación";
+"Tap to Record" = "Toque para grabar";
+"Recording Successfull." = "Grabación exitosa.";
+"Recording Failed :(" = "Grabación fallida:";
+"Make it personal !" = "Hazlo personal !";
+"Choose photo from..." = "Elige una foto de ...";
+"Everything need to be selected!" = "¡Todo debe ser seleccionado!";
+"Everything need to be selected!" = "¡Todo debe ser seleccionado!";
+"You don't have camera" = "No tienes camara";
+"Something is wrong!" = "¡Algo está mal!";
+"Please add recorded Audio." = "Agregue audio grabado.";
+"Signature" = "Firma";
+"No signature found!" = "¡No se encontró ninguna firma!";
+"Enter text here" = "Introducir texto aquí";
+"Text Dialog" = "Diálogo de texto";
+"Sorry,no language found" = "Lo siento, no se ha encontrado ningún idioma";
+"Please select translate language first" = "Seleccione primero el idioma de traducción";
+"TuDime Translation" = "Traducción TuDime";
+"Select language in which you want to convert the text" = "Seleccione el idioma en el que desea convertir el texto.";
+"Enter Text:" = "Ingrese texto";
+"Enter text here" = "Introducir texto aquí";
+"User denied access to speech recognition" = "Usuario denegado el acceso al reconocimiento de voz";
+"Speech recognition restricted on this device" = "";
+"Speech recognition not yet authorized" = "El reconocimiento de voz aún no está autorizado";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Consulte TuDime para su teléfono inteligente. Descárguelo hoy desde (https://www.TuDime.com)";
+"Group Chat" = "Grupo de chat";
+"Secret Chat" = "Chat secreto";
+"CHATS" = "CHATS";
+"CONTACTS" = "CONTACTOS";
+"CALLS" = "LLAMADAS";
+"SEARCH" = "BUSCAR";
+"Bad Gateway, please try again" = "Puerta de enlace incorrecta, inténtelo de nuevo";
+"Connection network error, please try again" = "Error de conexión a la red, inténtalo de nuevo.";
+"Select a user to start Chat" = "Seleccione una usuario para iniciar el chat";
+"Please add more members for Group Chat!" = "¡Agregue más miembros para el chat grupal!";
+"Theme changed successfully!" = "¡El tema cambió con éxito!";
+"You don't have camera" = "No tienes camara";
+"Theme changed successfully!" = "¡El tema cambió con éxito!";
+"25%% discount if you join with in %d days %@" = "25 %% de descuento si se inscribe en% d días %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "La validez del descuento del 25% ha expirado. Únase con% d días para evitar la suspensión de la cuenta";
+"ACCOUNT SUSPENDED" = "CUENTA SUSPENDIDA";
+"Your account suspended please purchased subscription." = "Su cuenta suspendida por favor compró la suscripción.";
+"Please select a color" = "Por favor seleccione un color";
+"Please select a Picture" = "Por favor seleccione una imagen";
+"Opss! Cliend Error." = "¡Opss! Error de cliente";
+"Failed to fetch data" = "No se pudieron recuperar los datos.";
+"No Internet Connection." = "Sin conexión a Internet.";
+"Server Error." = "Error del Servidor.";
+"Successful Fetch." = "Recuperación exitosa.";
+"Failed to covert data to stirng." = "Error al convertir los datos en agitación.";
+"Data couldn't JSONSerialize" = "Los datos no pudieron JSONSerialize";
+"Couldn't convert link string to NSURL" = "No se pudo convertir la cadena de enlace a NSURL";
+"couldn't format json body for the request." = "No se pudo formatear el cuerpo json para la solicitud.";
+"Image not available" = "Imagen no disponible";
+"Welcome to TuDime" = "Bienvenida a tuDime";
+"TuDime Chat App - More Features than any other !" = "Aplicación TuDime Chat - ¡Más funciones que cualquier otra!";
+"Set Language" = "Elegir lenguaje";
+"CONTINUE" = "SEGUIR";
+"Select a language for your convenience" = "Seleccione un idioma para su conveniencia";
+"Select your Language" = "Elige tu idioma";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "TuDime proporciona mensajería, llamadas directamente por teléfono y otros servicios a usuarios de todo el mundo. Lea nuestros Términos de servicio para comprender el uso de TuDime.";
+"Terms & Policies" = "Política de condiciones";
+"Chinese" = "China";
+"English" = "Inglesa";
+"AGREE & CONTINUE" = "ACEPTAR Y CONTINUAR";
+"Choose a way to verify" = "Elija una forma de verificar";
+"Please select to continue TuDime registration with your Email/Mobile No" = "Seleccione continuar con el registro de TuDime con su correo electrónico / número de teléfono móvil";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDime Messenger enviará un SMS por única vez. Su número de teléfono no se compartirá.Se utilizará solo con fines de verificación";
+"Enter phone number." = "Ingresa número telefónico.";
+"Enter your NickName." = "Ingresa tu alias.";
+"Registration" = "Registro";
+"Please enter your email address for registration" = "Ingrese su dirección de correo electrónico para registrarse";
+"Enter your email id" = "Ingrese su identificación de correo electrónico";
+"We have sent a verification code to" = "Hemos enviado un código de verificación a";
+"Please enter the received verification code below" = "Ingrese el código de verificación recibido a continuación";
+"Enter verification code" = "Ingrese el código de verificación";
+"A code was sent to you by text message.\n if not, click on this link." = "Se le envió un código por mensaje de texto. \ N si no es así, haga clic en este enlace.";
+"A code was sent to you by email.\n if not, click on this link." = "Se le envió un código por correo electrónico. \ N si no es así, haga clic en este enlace.";
+"VERIFY" = "VERIFICAR";
+"Send Code" = "Enviar código";
+"again" = "de nuevo";
+"Profile" = "Perfil";
+"eCards" = "eCards";
+"Store-Stickers & Gifs" = "Tienda-Stickers y Gifs";
+"Schedule Events" = "Programar eventos";
+"Subscription Manager" = "Gerente de suscripción";
+"TuDime CAN" = "TuDime CAN";
+"Change Language" = "Cambiar idioma";
+"Settings" = "Ajustes";
+"Sign Out" = "Desconectar";
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "Este no es su nombre de usuario o pin. Este nombre será visible para sus contactos de TuDime";
+"Status and phone" = "Estado y teléfono";
+"Your Current Status" = "Tu estado actual";
+"Select Your Status" = "Seleccione su estado";
+"Urgent calls only" = "Solo llamadas urgentes";
+"Available" = "Disponible";
+
+
+
+"Busy" = "Ocupada";
+"At School" = "En la escuela";
+"At work" = "En el trabajo";
+"At the movies" = "En el cine";
+"Battery about to die" = "batería a punto de morir";
+"Can't talk, TuDime only" = "No puedo hablar, solo TuDime";
+"Sleeping" = "Dormida";
+"In a meeting" = "En una reunión";
+"Keeping more eCards may slow down the speed of the app" = "Mantener más tarjetas electrónicas puede ralentizar la velocidad de la aplicación";
+"Personalize" = "Personalizar";
+"Make it personal!" = "¡Hazlo personal!";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "¡Buena elección! \ NAhora, expresa tus sentimientos \ na través de esta hermosa tarjeta.";
+"Add Photos" = "Agregar fotos";
+"Add Text" = "Añadir texto";
+"Add Signature" = "Agregar firma";
+"Add Frames" = "Agregar marcos";
+"Add Voice" = "Agregar voz";
+"Preview" = "Avance";
+"Go!" = "¡Ir!";
+"Download More" = "Descargar más";
+"Schedule Events" = "Programar eventos";
+"Long Tap On Date To Set Schedule" = "Toque largo en la fecha para establecer el horario";
+"New Event" = "Nuevo evento";
+"Enter Event Name" = "Ingrese el nombre del evento";
+"Enter Time" = "Ingrese la hora";
+"Enter Description" = "Ingrese descripción";
+"Remove Account" = "Eliminar cuenta";
+"Activate TuDime Pin" = "Activar TuDime Pin";
+"Set Pin to TuDime" = "Establecer Pin en TuDime";
+"Remove Pin" = "Quitar Pin";
+"Welcome Back" = "Bienvenido de nuevo";
+" Pin" = "Alfiler";
+"Forgot" = "Olvidó";
+"Enter Pin to Open TuDime" = "Ingrese el PIN para abrir TuDime";
+"Security Answer" = "Respuesta de seguridad";
+"Security Questions"= "Preguntas de seguridad";
+"Confirm New Pin" = "Confirmar PIN nuevo";
+"Your New Pin" = "Tu nuevo pin";
+"What time of the day was your first child born? (hh:mm)" = "¿A qué hora del día nació su primer hijo? (hh: mm)";
+"What time of the day were you born? (hh:mm)" = "¿A qué hora del día naciste? (hh: mm)";
+"In what town or city did your mother and father meet?" = "¿En qué pueblo o ciudad se conocieron tu padre y tu madre?";
+"What is your spouse or partner's mother's maiden name?" = "¿Cuál es el apellido de soltera de la madre de su cónyuge o pareja?";
+"What is your grandmother's (on your mother's side) maiden name?" = "¿Cuál es el apellido de soltera de tu abuela (por parte de tu madre)?";
+"What are the last five digits of your driver's licence number?" = "¿Cuáles son los últimos cinco dígitos del número de su licencia de conducir?";
+"What is the middle name of your oldest child?" = "¿Cuál es el segundo nombre de su hijo mayor?";
+"In what town or city did you meet your spouse/partner?" = "¿En qué pueblo o ciudad conoció a su cónyuge / pareja?";
+"In what town or city was your first full time job?" = "¿En qué pueblo o ciudad fue su primer trabajo a tiempo completo?";
+"What primary school did you attend?" = "¿A qué escuela primaria asististe?";
+"What were the last four digits of your childhood telephone number?" = "¿Cuáles fueron los últimos cuatro dígitos del número de teléfono de su niñez?";
+"What was the house number and street name you lived in as a child?" = "¿Cuál era el número de la casa y el nombre de la calle donde vivía cuando era niño?";
+"Select a Sequrity Question" = "Seleccione una pregunta de seguridad";
+"Send" = "Enviar";
+"Comments" = "Comentarios";
+"Pincode" = "Código PIN";
+"Write us your concern here and we will get back to you shortly." = "Escríbanos aquí su inquietud y a la brevedad nos comunicaremos con usted.";
+"GET IN TOUCH" = "PONERSE EN CONTACTO";
+
+"Application Version" = "Versión de la aplicación";
+"Version no:" = "Versión no";
+"FAQ" = "PREGUNTAS MÁS FRECUENTES";
+"10. Can i restore messages that i deleted?" = "10. ¿Puedo restaurar los mensajes que borré?";
+"9. How to find out friends?" = "9. ¿Cómo encontrar amigas?";
+
+"8. The difference between ID and Nickname?" = "8. ¿La diferencia entre ID y Nickname?";
+"7. What is ID?" = "7. ¿Qué es la identificación?";
+"6. My friend can see my phone number?" = "6. ¿Mi amiga puede ver mi número de teléfono?";
+"5. How to subscribe service?" = "5. ¿Cómo suscribirme al servicio?";
+"4. Everybody can use TuDime??" = "4. ¿Todo el mundo puede usar TuDime?";
+"3. Service packages?" = "3. ¿Paquetes de servicios?";
+"2. What is TuDime?" = "2. ¿Qué es TuDime?";
+"1. With a feature phone, can i use this service?" = "1. Con un teléfono de funciones, ¿puedo usar este servicio?";
+
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "Seguro. TuDime proporcionado en SMS, IVR, Web, App. Con un teléfono de funciones, el usuario puede experimentar el servicio a través de SMS e IVR. ";
+
+
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry"  = "TuDime es una solución premium, admite que los suscriptores de Viettel pueden acceder fácilmente y chatear con amigos o hacer amigos al instante a través de SMS, Web, App e IVR con una gran experiencia. En SMS e IVR, el usuario puede averiguar e interactuar con los demás o crear perfil para ellos mismos. La aplicación TuDime admite el envío de mensajes de voz, videos, imágenes y texto. También puede chatear en grupo o encontrar amigos. La aplicación TuDime funciona en todos los dispositivos iOS, Android, Windows Phone, Symbian y Blackberry";
+
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. Diariamente: 1.500 d / día, 2. Semanal: 7.000 d / semana, 3. Mensual: 22.000 d / mes";
+"All Viettel subscribers can use service." = "Todos los suscriptores de Viettel pueden utilizar el servicio.";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "una. Comandos SMS: DK1 enviar a 1517: paquete diario DK3 enviar a 1517: paquete semanal DK30 enviar a 1517: paquete mensual b. IVR: Llame al 1517, escuche y siga las instrucciones c. Web / Aplicación: siga las instrucciones";
+
+
+
+
+
+
+
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "No. En SMS, aplicación, web: los amigos solo pueden ver su apodo. En IVR: los amigos solo pueden ver su identificación.";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "D chat es un código que incluye 7 dígitos, a cada usuario que se une a TuDime se le proporcionará 1 ID que no se puede cambiar";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "ID: El usuario no puede cambiar, lo proporcionará el sistema. Apodo: el usuario puede cambiarlo, lo creará el usuario.";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "Puede encontrar amigos a través de: -SMS: envíe un mensaje de texto con TIM a 1517 IVR: después de suscribirse, llame al 1517, presione 1 para encontrar un nuevo amigo, escuche y siga las instrucciones Aplicación / Web: función de mirar alrededor";
+"No." = "No.";
+"Please give your feedback" = "Por favor, dé su opinión";
+
+
+
+"SUBMIT" = "ENVIAR";
+"Please enter valid OTP" = "Ingrese una OTP válida";
+"OTP field can't be blank" = "El campo OTP no puede estar en blanco";
+"A New OTP Sended Successfully" = "Una nueva OTP enviada con éxito";
+"OTP verified Successfully" = "OTP verificada con éxito";
+"Please fill all the details" = "Por favor complete todos los detalles";
+"Please select a language." = "Por favor, seleccione un idioma.";
+"Please enter your phone number." = "Por favor, introduzca su número de teléfono";
+"Please enter a valid phone number." = "Por favor ingrese un número de teléfono válido";
+"Please enter your email id." = "Ingrese su ID de correo electrónico.";
+"Please enter a valid email id." = "Ingrese una identificación de correo electrónico válida.";
+"Please select your NickName." = "Seleccione su NickName.";
+"Please enter a valid Nickname between 4-12 characters." = "Ingrese un apodo válido entre 4 y 12 caracteres.";
+"Entered nickname is already taken." = "El apodo introducido ya está en uso.";
+"Please select a country" = "Por favor seleccione un país";
+"Secret Chat" = "Chat secreto";
+"Delete Chat" = "Eliminar chat";
+"Detail View" = "Vista de detalles";
+
+
+
+
+"Files" = "Archivos";
+"Video call" = "Videollamada";
+"Voice call" = "Llamada de voz";
+"TRANSLATE" = "TRADUCIR";
+"Select language in which you want to convert the text" = "Seleccione el idioma en el que desea convertir el texto.";
+"Refresh Contacts" = "Actualizar contactos";
+"Proceed To Chat" = "Continuar con el chat";
+"Unarchive" = "Desarchivar";
+"Account Details" = "detalles de la cuenta";
+"For any changes in details, Please contact support" = "Para cualquier cambio en los detalles, comuníquese con el soporte";
+"Plan Type" = "Tipo de plan";
+"Plan Details" = "Detalles del plan";
+"Buy TuDime Membership" = "Comprar membresía TuDime";
+"365-Days TuDime Annual Membership" = "Membresía anual de 365 días de TuDime";
+"30-Days Free Trial of Premium Features" = "Prueba gratuita de 30 días de funciones premium";
+"TuDime Annual Membership" = "Membresía anual de TuDime";
+"Free Trial" = "Prueba gratis";
+
+
+
+
+
+
+
+"Next Renew Date" = "Próxima fecha de renovación";
+"Best Chat App In The World - More Features than any other!" = "La mejor aplicación de chat del mundo: ¡más funciones que cualquier otra!";
+"25% discount if you join with in 15 days - $11.25" = "25% de descuento si se inscribe en 15 días - $ 11.25";
+"Text Chat" = "Chat de texto";
+"Video Chat" = "Video chat";
+"Call Any number In The World" = "Llame a cualquier número del mundo";
+"Send Greeting Cards" = "Enviar tarjetas de felicitación";
+"Built in Translation" = "Traducción incorporada";
+"About 20 other incredible features" = "Aproximadamente otras 20 características increíbles";
+"1 Year TuDime Membership" = "Membresía TuDime de 1 año";
+"SUBSCRIBE" = "SUSCRIBIR";
+"Please select to continue Tudime registration with your Email/Mobile No" = "Seleccione continuar con el registro de Tudime con su correo electrónico / número de teléfono móvil";
+"Select your Language" = "Elige tu idioma";
+"Search your country" = "Busca tu pais";
+"Enter email address" = "Introduzca la dirección de correo electrónico";
+"Enter your NickName" = "Ingresa tu alias";
+"Your Security Question :" = "Tu pregunta de seguridad:";
+"What was the house number and street name you lived in as a child?" = "¿Cuál era el número de la casa y el nombre de la calle donde vivía cuando era niño?";
+"Security Answer :" = "Respuesta de seguridad :";
+"Enter Security answer" = "Ingrese la respuesta de seguridad";
+"Your New Pin :" = "Tu nuevo pin:";
+"Confirm New Pin :" = "Confirmar nuevo PIN:";
+"Buy" = "Comprar";
+"No Membership Yet" = "Sin membresía todavía";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "Obtendrá un 25% de descuento en la compra de una membresía de TuDime Now si compra dentro de los primeros 15 días calendario desde el registro. Esta membresía será de %@ en lugar de %@. Esta oferta es válida hasta el día 15 del registro inicial. Después de esa membresía será de %@ anuales. El período de prueba gratuito finalizará 30 días después del registro y se requerirá el precio total de membresía de %@ para continuar usando TuDime. ¿Qué quieres hacer ahora?
+* Compre una membresía anual de TuDime
+* Continúe con la prueba gratuita de 30 días.
+Esperamos seguir teniéndolo como un miembro valioso.
+Gracias. Personal de TuDime";
+"Subscribe Now" = "Subscribe Now";
+"Personalize" = "Personalizar";
+"Good Choice! Now, express your feelings through this beautiful card !" = "¡Buena elección! ¡Ahora, expresa tus sentimientos a través de esta hermosa tarjeta!";
+"Preview" = "Avance";
+"Share" = "Cuota";
+"Add Frames" = "Agregar marcos";
+"Add Audio" = "Agregar audio";
+"Tap to record Audio" = "Toque para grabar audio";
+"TRANSLATE" = "TRADUCIR";
+"To place a TuDime call, open a chat and tap at the top" = "Para realizar una llamada TuDime, abra un chat y toque en la parte superior";
+"Your Unique id is : " = "Tu identificación única es:";
+"Profile Photo Gallary" = "Foto de perfil Gallary";
+"Add Participants" = "Añadir participantes";
+"Exit Group" = "Grupo de salida";
+"Enter new group Name" = "Ingrese el nuevo nombre del grupo";
+"Okay" = "Okey";
+"Create Group Chat" = "Crear chat grupal";
+"Invite Contacts" = "Invitar contactos";
+"Invite" = "Invitación";
+"Clipart" = "Clipart";
+"Text" = "Texto";
+
+
+"Brush" = "Cepillar";
+"Enter Your Status" = "Ingrese su estado";
+"Set Defualt" = "Establecer predeterminado";
+"Drag left or right to see font size:" = "Arrastre hacia la izquierda o hacia la derecha para ver el tamaño de fuente:";
+"Select Font Color: " = "Seleccionar color de fuente:";
+"Select Font Style: " = "Seleccionar estilo de fuente:";
+"FILL ADDRESS" = "LLENAR DIRECCIÓN";
+
+"Pay Now" = "Pagar ahora";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "Tenga en cuenta que su número debe comenzar con “+” y su código de país. P.ej. “+14155522233”. Aquí “+” es el prefijo obligatorio, “1” es el código de país de EE. UU.";
+"Click here to check call cradit rates." = "Haga clic aquí para consultar las tarifas de llamadas cradit.";
+"Please choose a Plan For Continue Recharge" = "Elija un plan para continuar con la recarga";
+
+"My Balance" = "Mi balance";
+"BUY CALL CREDIT" = "COMPRAR CRÉDITO DE LLAMADA";
+"Speaker" = "Oradora";
+"Mute" = "Muda";
+"Unmute" = "Activar sonido";
+"Accept" = "Aceptar";
+
+"Decline" = "Disminución";
+"Group Name" = "Group Name";
+"Device Contacts" = "Contactos del dispositivo";
+"Proceed To Chat" = "Continuar con el chat";
+"Search with phone, name, email, or unique id" = "Buscar con teléfono, nombre, correo electrónico o identificación única";
+"Select your Language" = "Elige tu idioma";
+"My Theme" = "Mi tema";
+"Select Timer" = "Seleccionar temporizador";
+"Get started with disappearing messages" = "Comience con los mensajes que desaparecen";
+"Select files..." = "Seleccione archivos...";
+"Cancel" = "Cancelar";
+"Tap to change group icon" = "Toca para cambiar el icono de grupo";
+"Login" = "Acceso";
+"Username" = "Nombre de usuario";
+"Leaving..." = "Dejando...";
+
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "¿Realmente desea eliminar el chat seleccionado?\nSi lo hace, se eliminará de forma permanente";
+"Yes" = "Sí";
+"Call Credit Amount" = "Cantidad de crédito de llamada";
+"Invite\nFriends" = "Invitar\na amigas";
+"Archived" = "Archivada";
+"Notes" = "notas";
+"Star Message" = "Mensaje de estrella";
+"Report" = "Informe";
+"Phone/Email" = "Teléfono/Correo electrónico";
+"E-Cards" = "Tarjetas electrónicas";
+"Disappear Chat" = "Desaparecer chat";
+
+"Default theme setting" = "Configuración de tema predeterminada";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "¿Está seguro de que desea bloquear el tema predeterminado? Si bloquea el tema predeterminado, sus contactos no podrán configurar el tema con usted.";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "¡Más de 70 funciones, posiblemente más que cualquier otra aplicación de chat en el mundo! ¡Oferta por tiempo limitado! Compre una suscripción de un año a TuDime. Período de prueba gratuito de 15 días calendario antes de que se cargue su tarjeta. Puede cancelar en cualquier momento antes del día 15 del calendario para evitar que se le cobre\nCompre la suscripción anual de Tudime al precio de lanzamiento de solo %@";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "Aviso";
+"Unlock default Theme" = "Desbloquear tema predeterminado";
+"Theme unlocked" = "Tema desbloqueado";
+"Post" = "Correo";
+"Add a comment" = "Añadir un comentario";
+"Write Post..." = "Escribir post...";
+"Create Post" = "Crear publicación";
+"Tudime Feature List" = "Lista de funciones de Tudime";
+"Share Everywhere" = "Comparte en todas partes";
+"Share on Tudime" = "Compartir en Tudime";
+"Choose one" = "Elige uno";

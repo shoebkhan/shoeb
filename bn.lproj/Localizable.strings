@@ -1,0 +1,783 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+
+
+
+
+
+
+// chat dialog
+
+// message text statuses
+
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+"Ok" = "ঠিক আছে";
+"Cancel" = "বাতিল করুন";
+"Loading" = "লোড";
+"Logged in" = "লগ ইন";
+"Sending" = "পাঠাচ্ছে";
+"Completed" = "সমাপ্ত";
+"Leave" = "ছাড়ো";
+"Left" = "বাম";
+"Leaving" = "ত্যাগ";
+"Warning" = "সতর্কতা";
+"Block" = "ব্লক";
+"Unblock" = "আনব্লক";
+"Login as" = "হিসাবে লগইন করুন";
+"Logout" = "প্রস্থান";
+"Typing..." = "টাইপিং...";
+"Connecting to chat..." = "Connecting to chat...";
+"Connected" = "Connected";
+"Disconnected" = "সংযোগ বিচ্ছিন্ন";
+"Reconnected" = "Reconnected";
+"Logging in REST as " = "REST হিসাবে লগ ইন করুন";
+"Loading dialogs" = "ডায়ালগ লোড হচ্ছে";
+"Done" = "সম্পন্ন";
+"added" = "যোগ করা হয়েছে";
+"created the group chat" = "গ্রুপ চ্যাট তৈরি করেছে";
+"Call" = "কল";
+"Message" = "বার্তা";
+"Can't send a message" = "একটি বার্তা পাঠাতে পারবেন না";
+"Loading users" = "ব্যবহারকারী লোড হচ্ছে";
+"Can't download users" = "ব্যবহারকারীদের ডাউনলোড করতে পারবেন না";
+"Can't download dialogs" = "ডায়ালগ ডাউনলোড করা যাচ্ছে না";
+"Failed to load dialogs" = "ডায়ালগ লোড করতে ব্যর্থ হয়েছে৷";
+"You are in the blacklist" = "আপনি কালো তালিকায় আছেন";
+"forbidden" = "নিষিদ্ধ";
+"Loading messages" = "বার্তা লোড হচ্ছে";
+"Uploading attachment" = "সংযুক্তি আপলোড করা হচ্ছে";
+"Enter chat name" = "চ্যাটের নাম লিখুন";
+"Dialog created" = "ডায়ালগ তৈরি করা হয়েছে";
+
+"Send" = "পাঠান";
+"last activity date" = "শেষ কার্যকলাপ তারিখ";
+"Add occupants" = "দখলকারীদের যোগ করুন";
+"Create" = "সৃষ্টি";
+"New chat" = "নতুন আড্ডা";
+"New message" = "নতুন বার্তা";
+"has left dialog." = "ডায়ালগ ছেড়ে দিয়েছে।";
+"Chat info" = "চ্যাট তথ্য";
+"Read" = "পড়ুন";
+"Delivered" = "বিতরিত";
+"Seen" = "দেখা";
+"Sent" = "প্রেরিত";
+"Didn't send" = "পাঠাইনি";
+"Unknown" = "অজানা";
+"Note that you will not receive any private message from this user" = "মনে রাখবেন আপনি এই ব্যবহারকারীর কাছ থেকে কোনো ব্যক্তিগত বার্তা পাবেন না";
+"Note that you will not receive any group chat message from this user" = "মনে রাখবেন আপনি এই ব্যবহারকারীর কাছ থেকে কোনো গ্রুপ চ্যাট বার্তা পাবেন না";
+"Do you really want to leave selected dialog?" = "আপনি কি সত্যিই নির্বাচিত ডায়ালগ ছেড়ে যেতে চান?";
+"Unblock user in 1-1 chat" = "1-1 চ্যাটে ব্যবহারকারীকে আনব্লক করুন";
+"Try again" = "Try again";
+"Delete" = "মুছে ফেলা";
+"Error" = "ত্রুটি";
+"Error leaving" = "ছেড়ে যাওয়ার সময় ত্রুটি";
+"Bad Gateway, please try again" = "খারাপ গেটওয়ে, আবার চেষ্টা করুন";
+"Connection network error, please try again" = "সংযোগ নেটওয়ার্ক ত্রুটি, আবার চেষ্টা করুন";
+"Did not connect with error:" = "ত্রুটির সাথে সংযোগ করা হয়নি:";
+"Chat failed with error:" = "ত্রুটি সহ চ্যাট ব্যর্থ হয়েছে:";
+"Message failed to send" = "বার্তা পাঠাতে ব্যর্থ হয়েছে";
+"Group Name" = "দলের নাম";
+"Choose photo from..." = "থেকে ফটো চয়ন করুন..";
+
+
+"Camera" = "ক্যামেরা";
+"Gallery" = "গ্যালারি";
+"Cancel" = "বাতিল করুন";
+" (You)" =" (আপনি)";
+"Loading users" = "ব্যবহারকারী লোড হচ্ছে";
+"Please add group image." = "গ্রুপ ইমেজ যোগ করুন";
+"Create" = "সৃষ্টি";
+"SEARCH" = "অনুসন্ধান";
+"Dialog created" = "ডায়ালগ তৈরি করা হয়েছে";
+"No user with that name" = "এই নামের কোন ব্যবহারকারী নেই";
+"Calling..." = "কল করছে...";
+"Closed" = "বন্ধ";
+"Failed" = "ব্যর্থ হয়েছে";
+"Hung Up" = "ঝুলে থাকা";
+"Rejected" = "প্রত্যাখ্যাত";
+"No Answer" = "উত্তর নেই";
+"Time out" = "সময় শেষ";
+"Unmute" = "সশব্দ করুন";
+"Mute" = "নিঃশব্দ";
+"Cam on" = "ক্যাম অন";
+"Cam off" = "ক্যাম বন্ধ";
+"Mic" = "মাইক";
+"Speaker" = "স্পীকার";
+"End call" = "কল শেষ";
+"Stop sharing" = "ভাগ করা বন্ধ কর";
+"Screen share" = "স্ক্রিন শেয়ার";
+"Swap cam" = "ক্যাম অদলবদল করুন";
+"Loading stats report..." = "পরিসংখ্যান প্রতিবেদন লোড হচ্ছে...";
+"Login" = "প্রবেশ করুন";
+"Incoming" = "আগত";
+"Calling" = "কলিং";
+"TuDime" = "টুডাইম";
+
+
+"You have no credit recharge please!" = "আপনি কোন ক্রেডিট রিচার্জ আছে দয়া করে!";
+"Blocked User" = "অবরুদ্ধ ব্যবহারকারী";
+"Subscription Manager" = "সাবস্ক্রিপশন ম্যানেজার";
+"Reload" = "পুনরায় লোড করুন";
+"Your account suspended please purchased subscription." = "আপনার অ্যাকাউন্ট সাসপেন্ড হয়েছে অনুগ্রহ করে সাবস্ক্রিপশন ক্রয় করুন";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "আপনি ইতিমধ্যেই এই সদস্যতা কিনেছেন আপনি পুনরুদ্ধার ক্লিক করে এই সদস্যতা পুনরুদ্ধার করতে পারেন৷";
+"Product load from the itunes." = "আইটিউনস থেকে পণ্য লোড.";
+"Free Trial is Expired" = "বিনামূল্যে ট্রায়াল মেয়াদ শেষ হয়";
+"Days Free Trial of Premium Features" = "প্রিমিয়াম বৈশিষ্ট্যের দিন বিনামূল্যে ট্রায়াল";
+"Leave Chat" = "চ্যাট ত্যাগ করুন";
+"Chat info" = "চ্যাট তথ্য";
+"Edit Message" = "বার্তা সম্পাদনা করুন";
+"Delete" = "মুছে ফেলা";
+"Forward" = "ফরোয়ার্ড";
+"Delivered to..." = "বিতরণ করা হয়েছে...";
+"Viewed by..." = "দেখেছে...";
+"Save attachment" = "সংযুক্তি সংরক্ষণ করুন";
+"Delete For Me" = "আমার জন্য মুছুন";
+"Delete For All" = "সকলের জন্য মুছুন";
+"Re-Translate" = "পুনরায় অনুবাদ করুন";
+"Self-Destruct" = "আত্ম-ধ্বংস";
+"Quote Reply" = "উদ্ধৃতি উত্তর";
+"Share Via" = "এর মাধ্যমে শেয়ার করুন";
+"View file" = "নথি দেখ";
+" is typing..." = "টাইপ করছে...";
+" are typing..." = "টাইপ করছে...";
+" and 2 more are typing..." = "এবং আরও 2 জন টাইপ করছে...";
+"No user with that name" = "এই নামের কোন ব্যবহারকারী নেই";
+"Add Occupants" = "দখলকারীদের যোগ করুন";
+
+"Message forwarded" = "বার্তা ফরোয়ার্ড করা হয়েছে";
+"Delete" = "মুছে ফেলা";
+"Message delivered to" = "বার্তা পাঠানো হয়েছে";
+"Message viewed by" = "মেসেজ দেখেছে";
+"Finish" = "সমাপ্ত";
+"New Chat" = "নতুন চ্যাট";
+"QBChat is not Connected" = "QBChat সংযুক্ত নয়";
+"New Group Chat" = "নতুন গ্রুপ চ্যাট";
+"New Chat" = "নতুন চ্যাট";
+"No user with that name" = "এই নামের কোন ব্যবহারকারী নেই";
+"Please allow the app to access your contacts through the device's settings." = "অনুগ্রহ করে অ্যাপটিকে ডিভাইসের সেটিংসের মাধ্যমে আপনার পরিচিতি অ্যাক্সেস করার অনুমতি দিন।";
+"No user with that name" = "এই নামের কোন ব্যবহারকারী নেই";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "আপনার স্মার্টফোনের জন্য TuDime দেখুন। এটি আজই ডাউনলোড করুন (https://www.TuDime.com) থেকে";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "আপনার ইমেল বা আলফানিউমেরিক অক্ষর 3 থেকে 50 এর মধ্যে ব্যবহার করুন। প্রথম অক্ষর অবশ্যই একটি অক্ষর হতে হবে।";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "3 থেকে 20 পর্যন্ত পরিসরে আলফানিউমেরিক অক্ষর এবং স্পেস ব্যবহার করুন৷ এক সারিতে একাধিক স্থান থাকতে পারে না৷";
+"Send eCards" = "ইকার্ড পাঠান";
+"Details View" = "বিস্তারিত দেখুন";
+"Delete Chat" = "চ্যাট মুছুন";
+"Archive Chat" = "আর্কাইভ চ্যাট";
+"Chat Disappearing timer" = "চ্যাট অদৃশ্য টাইমার";
+"Block" = "ব্লক";
+"Category" = "বিভাগ";
+
+"5 Minutes" = "5 মিনিট";
+"10 Minutes" = "10 মিনিট";
+"20 Minutes" = "20 মিনিট";
+"30 Minutes" = "30 মিনিট";
+"40 Minutes" = "40 মিনিট";
+"50 Minutes" = "50 মিনিট";
+"60 Minutes" = "60 মিনিট";
+"Online" = "অনলাইন";
+"Offline" = "অফলাইন";
+"Today" = "আজ";
+"Yesterday" = "গতকাল";
+
+"Bad Gateway, please try again" = "খারাপ গেটওয়ে, আবার চেষ্টা করুন";
+"Connection network error, please try again" = "সংযোগ নেটওয়ার্ক ত্রুটি, আবার চেষ্টা করুন";
+
+
+"Doodle" = "ডুডল";
+"Image" = "ছবি";
+"Location" = "অবস্থান";
+"Theme" = "থিম";
+"Contact" = "যোগাযোগ";
+"Files" = "নথি পত্র";
+"Audio/Video" = "অডিও ভিডিও";
+"TuDime Translation" = "TuDime অনুবাদ";
+"Select language in which you want to convert the text" = "আপনি যে ভাষাতে পাঠ্য রূপান্তর করতে চান তা নির্বাচন করুন";
+"Enter Text:" = "লেখা অন্তর্ভুক্ত করুন:";
+"Edit Message" = "বার্তা সম্পাদনা করুন";
+"Do you really want to Archieve this chat?" = "আপনি কি সত্যিই এই চ্যাট আর্কাইভ করতে চান?";
+"Archiving Chat" = "আর্কাইভিং চ্যাট";
+"Can't use options when you are in secret chat" = "আপনি গোপন চ্যাট যখন বিকল্প ব্যবহার করতে পারবেন না";
+"Details View" = "বিস্তারিত দেখুন";
+"Leave Chat" = "চ্যাট ত্যাগ করুন";
+"Send eCards" = "ইকার্ড পাঠান";
+"Details View" = "বিস্তারিত দেখুন";
+"Delete Chat" = "চ্যাট মুছুন";
+"Chat Disappearing timer" = "চ্যাট অদৃশ্য টাইমার";
+"Can't set theme when you are in secret chat" = "আপনি গোপন চ্যাট যখন থিম সেট করতে পারবেন না";
+"Choose photo from..." = "থেকে ফটো চয়ন করুন...";
+"Sorry,no language found" = "দুঃখিত, কোন ভাষা খুঁজে পাওয়া যায়নি";
+"Please select translate language first" = "অনুগ্রহ করে প্রথমে অনুবাদ ভাষা নির্বাচন করুন";
+"You" = "আপনি";
+"Do you really want to leave selected dialog?" = "আপনি কি সত্যিই নির্বাচিত ডায়ালগ ছেড়ে যেতে চান?";
+"DELETE" = "মুছে ফেলা";
+"Open Settings" = "ওপেন সেটিংস";
+"This message will be self destruct after 10 Seconds" = "এই বার্তাটি 10 ​​সেকেন্ড পরে স্ব-ধ্বংস হয়ে যাবে";
+"You can send 1 attachment per message" = "আপনি প্রতি বার্তায় 1টি সংযুক্তি পাঠাতে পারেন";
+
+"Save error" = "ত্রুটি সংরক্ষণ করুন";
+"Your Device can't make a phone call" = "আপনার ডিভাইস একটি ফোন কল করতে পারে না";
+"User denied access to speech recognition" = "ব্যবহারকারী বক্তৃতা শনাক্তকরণ অ্যাক্সেস অস্বীকার করেছে";
+"Speech recognition restricted on this device" = "এই ডিভাইসে বক্তৃতা শনাক্তকরণ সীমাবদ্ধ";
+"Speech recognition not yet authorized" = "বক্তৃতা স্বীকৃতি এখনও অনুমোদিত নয়";
+"Recognition not available" = "";
+"Add Photos" = "ছবি যুক্ত করো";
+"Choose photo from..." = "থেকে ফটো চয়ন করুন...";
+"You don't have camera" = "আপনার ক্যামেরা নেই";
+"Alert" = "সতর্কতা";
+"Are you sure want to unblock this user?" = "আপনি কি এই ব্যবহারকারীকে অবরোধ মুক্ত করতে চান?";
+"Are you sure want to block this user? Later you can unblock from setting." = "আপনি কি নিশ্চিত এই ব্যবহারকারীকে ব্লক করতে চান? পরে আপনি সেটিং থেকে আনব্লক করতে পারেন।";
+"Unblock" = "আনব্লক";
+"The uploaded file exceeds maximum file size (100MB)" = "আপলোড করা ফাইলটি সর্বোচ্চ ফাইলের আকার (100MB) ছাড়িয়ে গেছে";
+"Error loading image" = "ছবি লোড করার সময় ত্রুটি";
+"Saved!" = "সংরক্ষিত!";
+"Video is not compatible With Photos Album" = "ভিডিও ফটো অ্যালবামের সাথে সামঞ্জস্যপূর্ণ নয়৷";
+"Camera error" = "ক্যামেরা ত্রুটি";
+"The app doesn't have access to the camera, please go to settings and enable it." = "অ্যাপটির ক্যামেরাতে অ্যাক্সেস নেই, অনুগ্রহ করে সেটিংসে যান এবং এটি সক্ষম করুন৷";
+"Microphone error" = "মাইক্রোফোন ত্রুটি";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "অ্যাপটির মাইক্রোফোনে অ্যাক্সেস নেই, দয়া করে সেটিংসে যান এবং এটি সক্ষম করুন৷";
+"Settings" = "সেটিংস";
+"Unknown user" = "অপরিচিত ব্যবহারকারী";
+
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "মেমরি সতর্কতা: কল আউট. দয়া করে, ভিডিও সেটিংসের গুণমান কমিয়ে দিন";
+"Session did close due to time out" = "";
+"Call" = "কল";
+"New" = "নতুন";
+"Pending" = "বিচারাধীন";
+"Closed" = "বন্ধ";
+"Failed" = "ব্যর্থ হয়েছে";
+"Hung Up" = "ঝুলে থাকা";
+"Rejected" = "প্রত্যাখ্যাত";
+"No Answer" = "উত্তর নেই";
+"Please select your Language first" = "প্রথমে আপনার ভাষা নির্বাচন করুন";
+"Registration" = "নিবন্ধন";
+"Select your country" = "তোমার দেশ নির্বাচন কর";
+"Nick name must be 3 characters long." = "ডাক নাম 3 অক্ষর দীর্ঘ হতে হবে।";
+"Sorry, no country found by this name!" = "দুঃখিত, এই নামে কোন দেশ খুঁজে পাওয়া যায়নি!";
+"Too many Attempts! Try again after sometime" = "অনেক প্রচেষ্টা! কিছুক্ষণ পর আবার চেষ্টা করুন";
+"Incomplete Pin" = "অসম্পূর্ণ পিন";
+"Please Enter Your Security Answer" = "অনুগ্রহ করে আপনার নিরাপত্তা উত্তর লিখুন";
+"Security Answer is incorrect!" = "নিরাপত্তা উত্তর ভুল!";
+"Success" = "সফল";
+"Pin setted Successfully!" = "পিন সফলভাবে সেট করা হয়েছে!";
+"Confirm Pin Mismatched!" = "নিশ্চিত করুন পিন মিলছে না!";
+"Please Enter The New Pin Again!" = "অনুগ্রহ করে আবার নতুন পিন লিখুন!";
+"Please Enter A New Pin!" = "একটি নতুন পিন লিখুন দয়া করে!";
+"Subscription Details" = "সদস্যতা বিবরণ";
+"Your Payment is successfull!" = "আপনার পেমেন্ট সফল হয়েছে!";
+"Payment Details" = "পেমেন্ট বিবরণ";
+"Address" = "ঠিকানা";
+"Country" = "দেশ";
+"State" = "রাষ্ট্র";
+"ZIP" = "জিপ";
+
+
+"City" = "শহর";
+"Email" = "ইমেইল";
+"Country Code" = "কান্ট্রি কোড";
+"Valid email" = "বৈধ ইমেইল";
+"address field can't be blank!" = "ঠিকানা ক্ষেত্র ফাঁকা হতে পারে না!";
+"state field can't be blank!" = "রাষ্ট্র ক্ষেত্র ফাঁকা হতে পারে না!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "অনুগ্রহ করে সংখ্যাসূচক অক্ষর ছাড়া প্রবেশ করুন (যেমন জন ডো)";
+"pincode field can't be blank!" = "পিনকোড ক্ষেত্র ফাঁকা হতে পারে না!";
+"country field can't be blank!" = "দেশের ক্ষেত্র ফাঁকা হতে পারে না!";
+"Please enter with out special Charecter(e.g John Doe)" = "অনুগ্রহ করে বিশেষ অক্ষর ছাড়া প্রবেশ করুন (যেমন জন ডো";
+
+"city field can't be blank!" = "শহরের মাঠ ফাঁকা হতে পারে না!";
+"Email field can't be blank!" = "ইমেল ক্ষেত্র ফাঁকা হতে পারে না!";
+"Entered email is not valid!" = "প্রবেশ করা ইমেল বৈধ নয়!";
+"Some Data is missing" = "কিছু ডেটা অনুপস্থিত";
+"Your Payment is successfull!" = "আপনার পেমেন্ট সফল হয়েছে!";
+"Please enter a Number" = "একটি নম্বর লিখুন";
+"Please enter a country code" = "একটি দেশের কোড লিখুন দয়া করে";
+"You have no credit recharge please!" = "আপনি কোন ক্রেডিট রিচার্জ আছে দয়া করে!";
+"Sinch Client not" = "সিঞ্চ ক্লায়েন্ট না";
+"Intitialised.!" = "প্রারম্ভিক.!";
+"Please wait Inititalising..." = "অনুগ্রহ করে সূচনা করার জন্য অপেক্ষা করুন...";
+"Sinch Client" = "সিঞ্চ ক্লায়েন্ট";
+"No number available!" = "কোন নম্বর পাওয়া যায় না!";
+"Can't be placed more!" = "বেশি রাখা যাবে না!";
+"Call ended" = "সংযোগ বিচ্ছিন্ন";
+"Call connected" = "Call connected";
+"Edit Profile" = "জীবন বৃত্তান্ত সম্পাদনা";
+"Accounts" = "অ্যাকাউন্ট";
+"Appearance" = "চেহারা";
+"Contact Us" = "যোগাযোগ করুন";
+"About & Help"= "সম্পর্কে & সাহায্য";
+"Secret Chat" = "গোপন চ্যাট";
+"Blocked User" = "অবরুদ্ধ ব্যবহারকারী";
+"Store Stickers/Gifs" = "স্টিকার/জিআইএফ স্টোর করুন";
+
+
+"Font successfully defualt set" = "ফন্ট সফলভাবে ডিফল্ট সেট";
+"Font Color successfully defualt set" = "ফন্টের রঙ সফলভাবে ডিফল্ট সেট";
+
+"Font size successfully defualt set" = "ফন্ট সাইজ সফলভাবে ডিফল্ট সেট";
+"Font successfully set" = "ফন্ট সফলভাবে সেট করা হয়েছে";
+"Font size successfully set" = "ফন্টের আকার সফলভাবে সেট করা হয়েছে";
+"Font color successfully set" = "ফন্টের রঙ সফলভাবে সেট করা হয়েছে";
+"Privacy" = "গোপনীয়তা";
+"Delete Accounts" = "অ্যাকাউন্ট মুছুন";
+"Archive Chat" = "আর্কাইভ চ্যাট";
+"Do you want to delete your account?" = "আপনি কি আপনার অ্যাকাউন্ট মুছতে চান?";
+"Once you delete your account, all your data will be removed permanently" = "একবার আপনি আপনার অ্যাকাউন্ট মুছে ফেললে, আপনার সমস্ত ডেটা স্থায়ীভাবে মুছে ফেলা হবে";
+"No Profile id found!" = "কোন প্রোফাইল আইডি পাওয়া যায়নি!";
+"Name field can't be blank!" = "নাম ক্ষেত্র ফাঁকা হতে পারে না!";
+"Phone field can't be blank!" = "ফোন ক্ষেত্র ফাঁকা হতে পারে না!";
+"Please Enter a valid Phone Number" = "একটি বৈধ ফোন নম্বর লিখুন দয়া করে";
+"Email field can't be blank!" = "ইমেল ক্ষেত্র ফাঁকা হতে পারে না!";
+"Please Enter a valid Email" = "একটি বৈধ ইমেইল প্রবেশ করুন";
+"Country field can't be blank!" = "দেশের মাঠ ফাঁকা হতে পারে না!";
+"Comments field can't be blank!" = "মন্তব্য ক্ষেত্র ফাঁকা হতে পারে না!";
+"Your response uploaded Successfully" = "";
+"Terms & Privacy Policy" = "শর্তাবলী এবং গোপনীয়তা নীতি";
+"Feedback" = "প্রতিক্রিয়া";
+"Feedback field can't be empty!" = "প্রতিক্রিয়া ক্ষেত্র খালি হতে পারে না!";
+"Your feedback sent Successfully" = "আপনার প্রতিক্রিয়া সফলভাবে পাঠানো হয়েছে";
+"Work in Progress!" = "কাজ চলছে!";
+"Buy Call Credit" = "কল ক্রেডিট কিনুন";
+"You Choose $5 Package" = "আপনি $5 প্যাকেজ চয়ন করুন";
+"You Choose $10 Package" = "আপনি $10 প্যাকেজ চয়ন করুন";
+"You Choose $15 Package" = "আপনি $15 প্যাকেজ চয়ন করুন";
+"Please set Unique ID" = "অনুগ্রহ করে ইউনিক আইডি সেট করুন";
+"Your Uniqe id is: " = "আপনার Uniqe আইডি হল:";
+"Public" = "পাবলিক";
+"Choose" = "পছন্দ করা";
+"Unique id created successfully" = "অনন্য আইডি সফলভাবে তৈরি করা হয়েছে";
+"Profile Privacy updated Successfully" = "প্রোফাইল গোপনীয়তা সফলভাবে আপডেট করা হয়েছে";
+
+
+"You don't have camera" = "আপনার ক্যামেরা নেই";
+"Hey, I am using Tudime!" = "আরে, আমি Tudime ব্যবহার করছি!";
+"Status:" ="স্থিতি:";
+"Enter Your Name" = "আপনার নাম প্রবেশ করুন";
+"Set Unique ID" = "ইউনিক আইডি সেট করুন";
+"Enter Your Unique id" = "আপনার অনন্য আইডি লিখুন";
+"Set" = "সেট";
+"Nickname updated successfully" = "ডাকনাম সফলভাবে আপডেট করা হয়েছে";
+"No special characters allowed." = "কোনো বিশেষ চিহ্ন গ্রহণযোগ্য নহে.";
+"Must be contain minimum 4 characters." = "ন্যূনতম 4টি অক্ষর থাকতে হবে।";
+"Set Status" = "স্থিতি সেট করুন";
+"Status updated Successfully" = "স্থিতি সফলভাবে আপডেট করা হয়েছে৷";
+"Schedule Event" = "ইভেন্টের সময়সূচী";
+"Enter Description" = "বর্ণনা লিখুন";
+"Events Loading Error" = "ইভেন্ট লোডিং ত্রুটি৷";
+"The calender could not load system events. It is possibly a problem with permissions" = "ক্যালেন্ডার সিস্টেম ইভেন্টগুলি লোড করতে পারেনি৷ এটি সম্ভবত অনুমতি নিয়ে একটি সমস্যা";
+"New Event" = "নতুন ঘটনা";
+"Enter Event Name" = "ইভেন্টের নাম লিখুন";
+"Enter Description" = "বর্ণনা লিখুন";
+"Enter Time" = "সময় লিখুন";
+"Please enter event time" = "ইভেন্ট সময় লিখুন দয়া করে";
+"Schedule created successfully" = "সময়সূচী সফলভাবে তৈরি করা হয়েছে";
+"Time:" = "সময়:";
+"Date:" = "তারিখ:";
+"Profile Picture Gallery" = "প্রোফাইল পিকচার গ্যালারি";
+"Profile Photo Updated Successfully!" = "প্রোফাইল ফটো সফলভাবে আপডেট হয়েছে!";
+"Set as Profile Picture" = "প্রোফাইল পিকচার হিসেবে সেট করুন";
+"Delete Photo" = "ছবি মুছুন";
+"No photo available!" = "কোন ছবি উপলব্ধ!";
+"Select one option" = "একটি বিকল্প নির্বাচন করুন";
+
+"Custom Status" = "কাস্টম স্থিতি";
+"Status updated Successfully" = "স্থিতি সফলভাবে আপডেট করা হয়েছে৷";
+"This is already current status" = "এটি ইতিমধ্যে বর্তমান অবস্থা";
+"Status can't be blank!" = "স্ট্যাটাস ফাঁকা হতে পারে না!";
+"Sorry! no card is available right now" = "দুঃখিত! এখন কোন কার্ড পাওয়া যাচ্ছে না";
+"Keeping more ecards, may slow down your device" = "আরো ecard রাখা, আপনার ডিভাইস ধীর হতে পারে";
+"Love" = "ভালবাসা";
+"Birthday"= "জন্মদিন";
+"Friendship" = "বন্ধুত্ব";
+"Some1 Special" = "Some1 বিশেষ";
+"Miss You" = "মিস ইউ";
+"Congratulations" = "অভিনন্দন";
+"Good Luck" = "শুভকামনা";
+"Get Well Soon" = "শীঘ্রই সুস্থ হয়ে উঠুন";
+"Invitations" = "আমন্ত্রণপত্র";
+"Thank You" = "ধন্যবাদ";
+
+
+"Sorry" = "দুঃখিত";
+"Tap to Record" = "রেকর্ড করতে ট্যাপ করুন";
+"Tap to Stop Recording" = "রেকর্ডিং বন্ধ করতে আলতো চাপুন";
+"Tap to Record" = "রেকর্ড করতে ট্যাপ করুন";
+"Recording Successfull." = "রেকর্ডিং সফল";
+"Recording Failed :(" = "রেকর্ডিং ব্যর্থ হয়েছে৷";
+"Make it personal !" = "এটা ব্যক্তিগত করুন";
+"Choose photo from..." = "থেকে ফটো চয়ন করুন...";
+"Everything need to be selected!" = "সবকিছু নির্বাচন করা প্রয়োজন!";
+"Everything need to be selected!" = "সবকিছু নির্বাচন করা প্রয়োজন!";
+"You don't have camera" = "আপনার ক্যামেরা নেই";
+"Something is wrong!" = "কিছু একটা সমস্যা!";
+"Please add recorded Audio." = "রেকর্ড করা অডিও যোগ করুন.";
+"Signature" = "স্বাক্ষর";
+"No signature found!" = "কোন স্বাক্ষর পাওয়া যায়নি!";
+"Enter text here" = "এখানে টেক্সট লিখুন";
+"Text Dialog" = "টেক্সট ডায়ালগ";
+"Sorry,no language found" = "দুঃখিত, কোন ভাষা খুঁজে পাওয়া যায়নি";
+"Please select translate language first" = "অনুগ্রহ করে প্রথমে অনুবাদ ভাষা নির্বাচন করুন";
+"TuDime Translation" = "TuDime অনুবাদ";
+"Select language in which you want to convert the text" = "আপনি যে ভাষাতে পাঠ্য রূপান্তর করতে চান তা নির্বাচন করুন";
+"Enter Text:" = "লেখা অন্তর্ভুক্ত করুন:";
+"User denied access to speech recognition" = "ব্যবহারকারী বক্তৃতা শনাক্তকরণ অ্যাক্সেস অস্বীকার করেছে";
+"Speech recognition restricted on this device" = "এই ডিভাইসে বক্তৃতা শনাক্তকরণ সীমাবদ্ধ";
+"Speech recognition not yet authorized" = "বক্তৃতা স্বীকৃতি এখনও অনুমোদিত নয়";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "আপনার স্মার্টফোনের জন্য TuDime দেখুন। এটি আজই ডাউনলোড করুন (https://www.TuDime.com) থেকে";
+"Group Chat" = "গ্রুপ চ্যাট";
+"Secret Chat" = "গোপন চ্যাট";
+"CHATS" = "চ্যাট";
+"CONTACTS" = "পরিচিতি";
+"Bad Gateway, please try again" = "খারাপ গেটওয়ে, আবার চেষ্টা করুন";
+"Connection network error, please try again" = "সংযোগ নেটওয়ার্ক ত্রুটি, আবার চেষ্টা করুন";
+"Select a user to start Chat" = "চ্যাট শুরু করতে একজন ব্যবহারকারী নির্বাচন করুন";
+"Please add more members for Group Chat!" = "গ্রুপ চ্যাটের জন্য আরও সদস্য যোগ করুন!";
+"Theme changed successfully!" = "থিম সফলভাবে পরিবর্তিত হয়েছে!";
+"You don't have camera" = "আপনার ক্যামেরা নেই";
+"Theme changed successfully!" = "থিম সফলভাবে পরিবর্তিত হয়েছে!";
+"25%% discount if you join with in %d days %@" = "আপনি %d দিনের মধ্যে যোগদান করলে 25%% ছাড় %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "25%% ডিসকাউন্টের মেয়াদ শেষ হয়ে গেছে। অ্যাকাউন্ট সাসপেনশন এড়াতে %d দিনের সাথে যোগ দিন";
+"ACCOUNT SUSPENDED" = "অ্যাকাউন্ট স্থগিত";
+"Your account suspended please purchased subscription." = "আপনার অ্যাকাউন্ট সাসপেন্ড হয়েছে অনুগ্রহ করে সাবস্ক্রিপশন ক্রয় করুন।";
+"Please select a color" = "একটি রঙ নির্বাচন করুন";
+"Please select a Picture" = "একটি ছবি নির্বাচন করুন";
+"Opss! Cliend Error." = "অপ্স! ক্লায়েন্ট ত্রুটি";
+"Failed to fetch data" = "ডেটা আনতে ব্যর্থ হয়েছে৷";
+"No Internet Connection." = "ইন্টারনেট সংযোগ নেই।";
+"Server Error." = "সার্ভার সমস্যা.";
+"Successful Fetch." = "সফল আনা.";
+"Failed to covert data to stirng." = "stirring গোপন তথ্য করতে ব্যর্থ.";
+"Data couldn't JSONSerialize" = "ডেটা JSON সিরিয়ালাইজ করা যায়নি";
+"Couldn't convert link string to NSURL" = "লিঙ্ক স্ট্রিংকে NSURL এ রূপান্তর করা যায়নি";
+"couldn't format json body for the request." = "অনুরোধের জন্য json বডি ফর্ম্যাট করতে পারেনি।";
+"Image not available" = "ইমেজ পাওয়া যায়নিই";
+"Welcome to TuDime" = "TuDime স্বাগতম";
+
+
+"TuDime Chat App - More Features than any other !" = "TuDime চ্যাট অ্যাপ - অন্য যেকোন থেকে বেশি বৈশিষ্ট্য!";
+"Set Language" = "ভাষা সেট করুন";
+"CONTINUE" = "চালিয়ে যান";
+"Select a language for your convenience" = "আপনার সুবিধার জন্য একটি ভাষা নির্বাচন করুন";
+"Select your Language" = "আপনার ভাষা নির্বাচন করুন";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "TuDime সারা বিশ্বের ব্যবহারকারীদের মেসেজিং, ফোনে সরাসরি কল এবং অন্যান্য পরিষেবা প্রদান করে। অনুগ্রহ করে আমাদের পরিষেবার শর্তাবলী পড়ুন যাতে আপনি TuDime এর ব্যবহার বুঝতে পারেন৷";
+"Terms & Policies" = "শর্তাবলী এবং নীতি";
+"Chinese" = "চীনা";
+"English" = "ইংরেজি";
+"AGREE & CONTINUE" = "সম্মত হন এবং চালিয়ে যান";
+"Choose a way to verify" = "যাচাই করার একটি উপায় বেছে নিন";
+"Please select to continue TuDime registration with your Email/Mobile No" = "অনুগ্রহ করে আপনার ইমেল/মোবাইল নম্বর দিয়ে TuDime রেজিস্ট্রেশন চালিয়ে যেতে নির্বাচন করুন";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDime মেসেঞ্জার একটি এককালীন SMS পাঠাবে। আপনার ফোন নম্বর শেয়ার করা হবে না। এটি শুধুমাত্র যাচাইকরণের উদ্দেশ্যে ব্যবহার করা হবে";
+"Enter phone number." = "ফোন নম্বর লিখুন।";
+"Enter your NickName." = "তোমার ডাকনাম প্রবেশ করাও.";
+"Please enter your email address for registration" = "নিবন্ধনের জন্য আপনার ইমেল ঠিকানা লিখুন";
+"Enter your email id" = "আপনার ইমেইল আইডি লিখুন";
+"We have sent a verification code to" = "আমরা একটি যাচাইকরণ কোড পাঠিয়েছি";
+"Please enter the received verification code below" = "নীচে প্রাপ্ত যাচাইকরণ কোড লিখুন দয়া করে";
+"Enter verification code" = "আপনার যাচাইকরণ সংকেতটি প্রবেশ করুন";
+"A code was sent to you by text message.\n if not, click on this link." = "টেক্সট মেসেজের মাধ্যমে আপনাকে একটি কোড পাঠানো হয়েছে।\n না হলে এই লিঙ্কে ক্লিক করুন।";
+"A code was sent to you by email.\n if not, click on this link." = "আপনাকে একটি কোড ইমেলের মাধ্যমে পাঠানো হয়েছে৷\n না হলে, এই লিঙ্কে ক্লিক করুন৷";
+"VERIFY" = "যাচাই করুন";
+"Send Code" = "সংকেত পাঠাও";
+"again" = "আবার";
+"eCards" = "ইকার্ড";
+"Store-Stickers & Gifs" = "স্টোর-স্টিকার এবং জিআইএফ";
+"Schedule Events" = "সময়সূচী ইভেন্ট";
+"Subscription Manager" = "সাবস্ক্রিপশন ম্যানেজার";
+"Change Language" = "ভাষা পরিবর্তন করুন";
+"Settings" = "সেটিংস";
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "এটি আপনার ব্যবহারকারীর নাম বা পিন নয়। এই নামটি আপনার TuDime পরিচিতিদের কাছে দৃশ্যমান হবে";
+"Status and phone" = "স্ট্যাটাস এবং ফোন";
+"Private" = "ব্যক্তিগত";
+"Your Current Status" = "আপনার বর্তমান অবস্থা";
+"Select Your Status" = "আপনার স্থিতি নির্বাচন করুন";
+"Urgent calls only" = "শুধুমাত্র জরুরি কল";
+"Hey! I'm using TuDime" = "আরে! আমি TuDime ব্যবহার করছি";
+"Available" = "উপলভ্য";
+"Busy" = "ব্যস্ত";
+"At School" = "স্কুলে";
+"At work" = "কাজে";
+"At the movies" = "চলচ্চিত্রে";
+"Battery about to die" = "ব্যাটারি শেষের পথে";
+"Can't talk, TuDime only" = "কথা বলা যাবে না, শুধু TuDime";
+"Sleeping" = "ঘুমানো";
+"In a meeting" = "একটা মিটিং এ";
+"Keeping more eCards may slow down the speed of the app" = "বেশি ইকার্ড রাখলে অ্যাপের গতি কমে যেতে পারে";
+"Personalize" = "ব্যক্তিগত করুন";
+"Make it personal!" = "এটা ব্যক্তিগত করুন!";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "ভালো পছন্দ!\nএখন, এই সুন্দর কার্ডের মাধ্যমে\nআপনার অনুভূতি প্রকাশ করুন!";
+"Add Photos" = "ছবি যুক্ত করো";
+"Add Text" = "টেক্সট যোগ করুন";
+"Add Signature" = "স্বাক্ষর যোগ করুন";
+"Add Frames" = "ফ্রেম যোগ করুন";
+"Add Voice" = "ভয়েস যোগ করুন";
+"Preview" = "প্রিভিউ";
+
+
+"Go!" = "যাওয়া!";
+"Download More" = "আরও ডাউনলোড করুন";
+"Schedule Events" = "সময়সূচী ইভেন্ট";
+"Long Tap On Date To Set Schedule" = "সময়সূচী সেট করতে তারিখে দীর্ঘ আলতো চাপুন";
+"New Event" = "নতুন ঘটনা";
+"Enter Event Name" = "ইভেন্টের নাম লিখুন";
+"Enter Time" = "সময় লিখুন";
+"Remove Account" = "অ্যাকাউন্ট অপসারণ";
+"Activate TuDime Pin" = "TuDime পিন সক্রিয় করুন";
+"Set Pin to TuDime" = "TuDime এ পিন সেট করুন";
+"Remove Pin" = "পিন সরান";
+"Welcome Back" = "ফিরে আসার জন্য স্বাগতম";
+" Pin" = "পিন";
+"Forgot" = "ভুলে গেছি";
+"Enter Pin to Open TuDime" = "TuDime খুলতে পিন লিখুন";
+"Security Answer" = "নিরাপত্তা সংক্রান্ত প্রশ্ন";
+"Security Questions"= "নিরাপত্তা প্রশ্ন";
+"Confirm New Pin" = "নতুন পিন নিশ্চিত করুন";
+"Your New Pin" = "আপনার নতুন পিন";
+"What time of the day was your first child born? (hh:mm)" = "দিনের কোন সময়ে আপনার প্রথম সন্তানের জন্ম হয়েছিল? (hh:mm)";
+"What time of the day were you born? (hh:mm)" = "দিনের কোন সময়ে আপনার জন্ম হয়েছিল? (hh:mm)";
+"In what town or city did your mother and father meet?" = "আপনার মা এবং বাবা কোন শহরে বা শহরে দেখা করেছিলেন?";
+"What is your spouse or partner's mother's maiden name?" = "আপনার স্ত্রী বা সঙ্গীর মায়ের প্রথম নাম কি?";
+"What is your grandmother's (on your mother's side) maiden name?" = "আপনার দাদীর (আপনার মায়ের পাশে) প্রথম নাম কি?";
+"What are the last five digits of your driver's licence number?" = "আপনার ড্রাইভারের লাইসেন্স নম্বরের শেষ পাঁচটি সংখ্যা কী?";
+"What is the middle name of your oldest child?" = "আপনার বড় সন্তানের মধ্যম নাম কি?";
+"In what town or city did you meet your spouse/partner?" = "কোন শহরে বা শহরে আপনি আপনার স্ত্রী/সঙ্গীর সাথে দেখা করেছেন?";
+"In what town or city was your first full time job?" = "কোন শহরে বা শহরে আপনার প্রথম ফুলটাইম কাজ ছিল?";
+"What primary school did you attend?" = "আপনি কোন প্রাথমিক বিদ্যালয়ে পড়েছিলেন?";
+"What were the last four digits of your childhood telephone number?" = "আপনার শৈশবের টেলিফোন নম্বরের শেষ চারটি সংখ্যা কী ছিল?";
+"What was the house number and street name you lived in as a child?" = "ছোটবেলায় আপনি যে বাড়ির নম্বর ও রাস্তার নাম থাকতেন?";
+"Select a Sequrity Question" = "একটি সিকিউরিটি প্রশ্ন নির্বাচন করুন";
+
+"Pincode" = "পিনকোড";
+"Phone No" = "ফোন নম্বর";
+"Full Name" = "পুরো নাম";
+"Write us your concern here and we will get back to you shortly." = "আপনার উদ্বেগ আমাদের এখানে লিখুন এবং আমরা শীঘ্রই আপনার কাছে ফিরে আসব।";
+"GET IN TOUCH" = "যোগাযোগ করুন";
+"Application Version" = "অ্যাপ্লিকেশন সংস্করণ";
+"Version no:" = "সংস্করণ নং:";
+"FAQ" = "FAQ"
+;
+"Terms & Privacy Policy" = "শর্তাবলী এবং গোপনীয়তা নীতি";
+"10. Can i restore messages that i deleted?" = "10. আমি মুছে ফেলা বার্তা পুনরুদ্ধার করতে পারি?";
+"9. How to find out friends?" = "9. কিভাবে বন্ধুদের খুঁজে বের করতে?";
+
+"8. The difference between ID and Nickname?" = "8. আইডি এবং ডাকনামের মধ্যে পার্থক্য?";
+"7. What is ID?" = "7. আইডি কি?";
+"6. My friend can see my phone number?" = "6. আমার বন্ধু আমার ফোন নম্বর দেখতে পারে?";
+"5. How to subscribe service?" = "5. কিভাবে সেবা সাবস্ক্রাইব করবেন?";
+"4. Everybody can use TuDime??" = "4. সবাই TuDime ব্যবহার করতে পারে??";
+"3. Service packages?" = "3. সার্ভিস প্যাকেজ?";
+"2. What is TuDime?" = "2. TuDime কি?";
+"1. With a feature phone, can i use this service?" = "1. একটি ফিচার ফোনের সাথে, আমি কি এই পরিষেবাটি ব্যবহার করতে পারি?";
+
+
+
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "নিশ্চিত। TuDime এসএমএস, IVR, ওয়েব, অ্যাপে সরবরাহ করা হয়েছে। একটি ফিচার ফোনের মাধ্যমে, ব্যবহারকারী এসএমএস এবং আইভিআর-এর মাধ্যমে পরিষেবার অভিজ্ঞতা নিতে পারেন।";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" = "TuDime হল একটি প্রিমিয়াম সলিউশন, ভিয়েটেল গ্রাহকরা সহজেই অ্যাক্সেস করতে এবং বন্ধুদের সাথে চ্যাট করতে পারে বা SMS, ওয়েব, অ্যাপ এবং IVR এর মাধ্যমে একটি দুর্দান্ত অভিজ্ঞতার মাধ্যমে তাত্ক্ষণিকভাবে বন্ধু তৈরি করতে পারে৷ SMS এবং IVR-এ, ব্যবহারকারী খুঁজে বের করতে এবং অন্যদের সাথে যোগাযোগ করতে বা প্রোফাইল তৈরি করতে পারে৷ তাহাদের জন্য. অ্যাপ TuDime ভয়েস বার্তা, ভিডিও, ছবি এবং পাঠ্য পাঠাতে সমর্থন করে। আপনি গ্রুপে চ্যাট করতে পারেন বা আপনি বন্ধুদের খুঁজে পেতে পারেন। TuDime অ্যাপটি সমস্ত iOS ডিভাইস, অ্যান্ড্রয়েড, উইন্ডোজ ফোন, সিম্বিয়ান এবং ব্ল্যাকবেরিতে কাজ করে";
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. দৈনিক: 1.500 দিন/দিন, 2. সাপ্তাহিক: 7.000 দিন/সপ্তাহ, 3. মাসিক: 22.000 দিন/মাস";
+"All Viettel subscribers can use service." = "সমস্ত ভিয়েটেল গ্রাহক পরিষেবা ব্যবহার করতে পারেন।";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "ক এসএমএস কমান্ড: DK1 পাঠান 1517 এ: দৈনিক প্যাকেজ DK3 পাঠান 1517 এ: সাপ্তাহিক প্যাকেজ DK30 পাঠান 1517 এ: মাসিক প্যাকেজ খ। IVR: 1517 এ কল করুন, নির্দেশাবলী শুনুন এবং অনুসরণ করুন গ। ওয়েব/অ্যাপ: নির্দেশাবলী অনুসরণ করুন";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "না। এসএমএস, অ্যাপ, ওয়েবে: বন্ধুরা শুধুমাত্র আপনার ডাকনাম দেখতে পারে। IVR-এ: বন্ধুরা শুধুমাত্র আপনার আইডি দেখতে পারে।";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "ডি চ্যাটে একটি কোড রয়েছে যার মধ্যে 7 সংখ্যা রয়েছে, TuDime-এ যোগদানকারী প্রতিটি ব্যবহারকারীকে 1টি আইডি দেওয়া হবে যা পরিবর্তন করা যাবে না।";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "আইডি: ব্যবহারকারী পরিবর্তন করতে পারে না, এটি সিস্টেম দ্বারা সরবরাহ করা হয়। ডাকনাম: ব্যবহারকারী পরিবর্তন করতে পারে, এটি ব্যবহারকারী দ্বারা তৈরি করা হয়।";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "আপনি এর মাধ্যমে বন্ধুদের খুঁজে পেতে পারেন: -এসএমএস: টেক্সট টিআইএম পাঠান 1517 আইভিআর: সাবস্ক্রাইব করার পরে, 1517 এ কল করুন, নতুন বন্ধু খুঁজে পেতে 1 টিপুন, নির্দেশাবলী শুনতে এবং অনুসরণ করুন অ্যাপ/ওয়েব: বৈশিষ্ট্যের চারপাশে দেখুন";
+"No." = "না।";
+"Please give your feedback" = "আপনার মতামত দিন";
+
+
+
+
+
+"SUBMIT" = "জমা দিন";
+"Please enter valid OTP" = "অনুগ্রহ করে বৈধ ওটিপি লিখুন";
+"OTP field can't be blank" = "OTP ক্ষেত্র ফাঁকা হতে পারে না";
+"A New OTP Sended Successfully" = "একটি নতুন ওটিপি সফলভাবে পাঠানো হয়েছে৷";
+"OTP verified Successfully" = "OTP সফলভাবে যাচাই করা হয়েছে";
+"Please fill all the details" = "সমস্ত বিবরণ পূরণ করুন";
+"Please select a language." = "একটি ভাষা নির্বাচন করুন.";
+"Please enter your phone number." = "অনুগ্রহ করে আপনার ফোন নাম্বারটি প্রদান করুন।";
+"Please enter a valid phone number." = "একটি বৈধ ফোন নম্বর লিখুন দয়া করে।";
+"Please enter your email id." = "আপনার ইমেইল আইডি লিখুন দয়া করে";
+"Please enter a valid email id." = "একটি বৈধ ইমেল আইডি লিখুন.";
+"Please select your NickName." = "আপনার ডাকনাম নির্বাচন করুন.";
+"Please enter a valid Nickname between 4-12 characters." = "অনুগ্রহ করে 4-12 অক্ষরের মধ্যে একটি বৈধ ডাকনাম লিখুন।";
+"Entered nickname is already taken." = "প্রবেশ করা ডাকনাম ইতিমধ্যে নেওয়া হয়েছে.";
+"Please select a country" = "একটি দেশ নির্বাচন করুন";
+"Secret Chat" = "গোপন চ্যাট";
+"Delete Chat" = "চ্যাট মুছুন";
+"Detail View" = "বিস্তারিত দেখুন";
+
+
+
+"Send eCard" = "ইকার্ড পাঠান";
+"Video call" = "ভিডিও কল";
+"Voice call" = "ভয়েস কল";
+"Enter text here" = "এখানে টেক্সট লিখুন";
+"Enter Text:" = "লেখা অন্তর্ভুক্ত করুন";
+"Select language in which you want to convert the text" = "আপনি যে ভাষাতে পাঠ্য রূপান্তর করতে চান তা নির্বাচন করুন";
+"TuDime Translation" = "TuDime Translation";
+"Refresh Contacts" = "পরিচিতি রিফ্রেশ করুন";
+"Proceed To Chat" = "চ্যাট করতে এগিয়ে যান";
+"Unarchive" = "সংরক্ষণাগারমুক্ত করুন";
+"Account Details" = "বিস্তারিত হিসাব";
+"For any changes in details, Please contact support" = "বিস্তারিত কোন পরিবর্তনের জন্য, সমর্থন যোগাযোগ করুন";
+"Plan Type" = "পরিকল্পনার ধরন";
+"Plan Details" = "পরিকল্পনার বিবরণ";
+"Buy TuDime Membership" = "TuDime সদস্যতা কিনুন";
+"365-Days TuDime Annual Membership" = "365-দিনের TuDime বার্ষিক সদস্যপদ";
+"30-Days Free Trial of Premium Features" = "প্রিমিয়াম বৈশিষ্ট্যের 30-দিনের বিনামূল্যের ট্রায়াল";
+"TuDime Annual Membership" = "TuDime বার্ষিক সদস্যপদ";
+
+
+"Free Trial" = "বিনামূল্যে ট্রায়াল";
+"Next Renew Date" = "পরবর্তী পুনর্নবীকরণ তারিখ";
+"Best Chat App In The World - More Features than any other!" = "বিশ্বের সেরা চ্যাট অ্যাপ - অন্য যে কোনও তুলনায় বেশি বৈশিষ্ট্য!";
+"25% discount if you join with in 15 days - $11.25" = "আপনি 15 দিনের মধ্যে যোগদান করলে 25% ছাড় - $11.25৷";
+
+
+"Text Chat" = "টেক্সট চ্যাট";
+"Call Any number In The World" = "বিশ্বের যেকোনো নম্বরে কল করুন";
+"Send Greeting Cards" = "গ্রিটিং কার্ড পাঠান";
+"Built in Translation" = "অনুবাদে নির্মিত";
+"About 20 other incredible features" = "প্রায় 20টি অন্যান্য অবিশ্বাস্য বৈশিষ্ট্য";
+"1 Year TuDime Membership" = "1 বছরের TuDime সদস্যতা";
+"SUBSCRIBE" = "সাবস্ক্রাইব";
+
+
+
+
+"Please select to continue Tudime registration with your Email/Mobile No" = "অনুগ্রহ করে আপনার ইমেল/মোবাইল নম্বর দিয়ে Tudime রেজিস্ট্রেশন চালিয়ে যেতে নির্বাচন করুন";
+"Select your Language" = "আপনার ভাষা নির্বাচন করুন";
+"Search your country" = "আপনার দেশ অনুসন্ধান করুন";
+"Enter email address" = "ইমেইল অ্যাড্রেস দিন";
+"Enter your NickName" = "তোমার ডাকনাম প্রবেশ করাও";
+"Your Security Question :" = "আপনার নিরাপত্তা প্রশ্ন:";
+"What was the house number and street name you lived in as a child?" = "ছোটবেলায় আপনি যে বাড়ির নম্বর ও রাস্তার নাম থাকতেন?";
+"Security Answer :" = "নিরাপত্তা সংক্রান্ত প্রশ্ন :";
+"Enter Security answer" = "নিরাপত্তা উত্তর লিখুন";
+"Your New Pin :" = "আপনার নতুন পিন";
+"Confirm New Pin :" = "নতুন পিন নিশ্চিত করুন";
+"Buy" = "কেনা";
+"No Membership Yet" = "এখনো কোনো সদস্যপদ নেই";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "আপনি TuDime Now এর সদস্যপদ কেনার উপর 25% ছাড় পাবেন যদি আপনি নিবন্ধনের প্রথম 15 ক্যালেন্ডার দিনের মধ্যে ক্রয় করেন। এই সদস্যতা হবে %@ এর পরিবর্তে %@ এই অফারটি প্রারম্ভিক রেজিস্ট্রেশনের 15 তম দিন পর্যন্ত বৈধ। এর পরে সদস্যপদ হবে %@ বার্ষিক। রেজিস্ট্রেশনের 30 দিন পরে বিনামূল্যে ট্রায়ালের মেয়াদ শেষ হবে এবং TuDime ব্যবহার চালিয়ে যেতে %@ এর সম্পূর্ণ সদস্যতার মূল্য প্রয়োজন হবে। তুমি এখন কি করতে চাও?
+* TuDime বার্ষিক সদস্যপদ কিনুন
+* 30 দিনের ফ্রি ট্রায়াল পিরিয়ড সহ চালিয়ে যান।
+আমরা আপনাকে একটি মূল্যবান সদস্য হিসাবে চালিয়ে যাওয়ার জন্য উন্মুখ।
+ধন্যবাদ. TuDime স্টাফ";
+"Subscribe Now" = "এখন সাবস্ক্রাইব করুন";
+"Personalize" = "ব্যক্তিগত করুন";
+"Good Choice! Now, express your feelings through this beautiful card !" = "ভাল পছন্দ! এখন, এই সুন্দর কার্ডের মাধ্যমে আপনার অনুভূতি প্রকাশ করুন!";
+"Preview" = "প্রিভিউ";
+"Share" = "শেয়ার";
+
+
+
+"Add Frames" = "ফ্রেম যোগ করুন";
+"Add Audio" = "অডিও যোগ করুন";
+"Tap to record Audio" = "অডিও রেকর্ড করতে আলতো চাপুন";
+"To place a TuDime call, open a chat and tap at the top" = "একটি TuDime কল করতে, একটি চ্যাট খুলুন এবং শীর্ষে আলতো চাপুন৷";
+"Your Unique id is : " = "আপনার অনন্য আইডি হল:";
+"Profile Photo Gallary" = "প্রোফাইল ফটো গ্যালারি";
+"Tap To Change Group Icon" = "গ্রুপ আইকন পরিবর্তন করতে আলতো চাপুন";
+"Users" = "ব্যবহারকারীরা";
+"Add Participants" = "অংশগ্রহণকারীদের যোগ করুন";
+"Exit Group" = "গ্রুপ থেকে প্রস্থান করুন";
+"Enter new group Name" = "নতুন গ্রুপের নাম লিখুন";
+"Create Group Chat" = "গ্রুপ চ্যাট তৈরি করুন";
+"Invite Contacts" = "পরিচিতিগুলিকে আমন্ত্রণ জানান৷";
+"Invite" = "আমন্ত্রণ";
+"Your New Pin :" = "আপনার নতুন পিন";
+"Confirm New Pin :" = "নতুন পিন নিশ্চিত করুন";
+"Security Question :" = "নিরাপত্তা প্রশ্ন";
+"Security Answer :" = "নিরাপত্তা সংক্রান্ত প্রশ্ন";
+"Add Profile Picture" = "প্রোফাইল ছবি যোগ করুন";
+"Clipart" = "ক্লিপার্ট";
+"Text" = "পাঠ্য";
+"Brush" = "ব্রাশ";
+"Enter Your Status" = "আপনার স্থিতি লিখুন";
+"Set Defualt" = "ডিফল্ট সেট করুন";
+"Drag left or right to see font size:" = "ফন্টের আকার দেখতে বাম বা ডান দিকে টেনে আনুন:";
+"Select Font Color: " = "ফন্টের রঙ নির্বাচন করুন:";
+"Select Font Style: " = "ফন্ট শৈলী নির্বাচন করুন:";
+"FILL ADDRESS" = "ঠিকানা পূরণ করুন";
+"Pay Now" = "এখন পরিশোধ করুন";
+
+
+
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "অনুগ্রহ করে মনে রাখবেন যে আপনার নম্বর “+” এবং আপনার দেশের কোড দিয়ে শুরু করা উচিত। যেমন “+14155522233”। এখানে “+” প্রিফিক্স প্রয়োজন, “1” হল ইউএস কান্ট্রি কোড";
+"Click here to check call cradit rates." = "কল ক্রেডিট রেট চেক করতে এখানে ক্লিক করুন.";
+"Calling..." = "কল করছে...";
+"Please choose a Plan For Continue Recharge" = "অবিরত রিচার্জের জন্য অনুগ্রহ করে একটি প্ল্যান বেছে নিন";
+"My Balance" = "আমার ব্যালেন্স";
+"BUY CALL CREDIT" = "কল ক্রেডিট কিনুন";
+"Group Name" = "দলের নাম";
+"Device Contacts" = "ডিভাইস পরিচিতি";
+"Proceed To Chat" = "চ্যাট করতে এগিয়ে যান";
+"Search with phone, name, email, or unique id" = "ফোন, নাম, ইমেল বা অনন্য আইডি দিয়ে অনুসন্ধান করুন";
+"Select your Language" = "আপনার ভাষা নির্বাচন করুন";
+"Enter text here" = "এখানে টেক্সট লিখুন";
+"Get started with disappearing messages" = "অদৃশ্য বার্তা দিয়ে শুরু করুন";
+"Select files..." = "ফাইল নির্বাচন করুন...";
+"Tap to change group icon" = "Tap to change group icon";
+"Username" = "ব্যবহারকারীর নাম";
+"Leaving..." = "ছাড়ছি...";
+
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "আপনি কি সত্যিই নির্বাচিত চ্যাট মুছতে চান?\nএটি করলে স্থায়ীভাবে মুছে যাবে";
+"Yes" = "হ্যাঁ";
+"Call Credit Amount" = "কল ক্রেডিট পরিমাণ";
+"Invite\nFriends" = "বন্ধুদের\nআমন্ত্রণ জানান";
+"CALLS" = "কল";
+"Archived" = "সংরক্ষণাগারভুক্ত";
+"Notes" = "মন্তব্য";
+"Star Message" = "তারকা বার্তা";
+"Report" = "রিপোর্ট";
+"Phone/Email" = "ফোন/ইমেল";
+"E-Cards" = "ই-কার্ড";
+"Disappear Chat" = "চ্যাট অদৃশ্য";
+
+"Default theme setting" = "ডিফল্ট থিম সেটিং";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "আপনি কি নিশ্চিত যে আপনি ডিফল্ট থিম লক করতে চান? আপনি যদি ডিফল্ট থিম লক করেন তাহলে আপনার পরিচিতিরা আপনার সাথে থিম সেট করতে পারবে না।";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70+ বৈশিষ্ট্য, সম্ভবত বিশ্বের অন্য যেকোনো চ্যাট অ্যাপের চেয়ে বেশি! সীমিত সময়ের অফার! TuDime কিনুন এক বছরের সাবস্ক্রিপশন 15 ক্যালেন্ডার দিন বিনামূল্যে ট্রায়াল পিরিয়ড আপনার কার্ড চার্জ হওয়ার আগে। চার্জ করা এড়াতে আপনি 15 তম ক্যালেন্ডার দিনের আগে যেকোনো সময় বাতিল করতে পারেন .\nশুধুমাত্র %@ প্রাথমিক মূল্যে Tudime বার্ষিক সদস্যতা কিনুন";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "লক্ষ্য করুন";
+"Unlock default Theme" = "ডিফল্ট থিম আনলক করুন";
+"Theme unlocked" = "থিম আনলক করা হয়েছে";
+"Post" = "পোস্ট";
+"Add a comment" = "একটা মন্তব্য যোগ করুন";
+"Write Post..." = "পদ লিখ...";
+"Create Post" = "পোস্ট তৈরি করুন";
+"Tudime Feature List" = "Tudime বৈশিষ্ট্য তালিকা";
+"Share Everywhere" = "সর্বত্র শেয়ার করুন";
+"Share on Tudime" = "টুডিমে শেয়ার করুন";
+"Choose one" = "একটি চয়ন করুন";

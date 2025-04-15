@@ -1,0 +1,728 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+
+
+
+
+
+
+// chat dialog
+
+// message text statuses
+
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+
+"Ok" = "Ok" ;
+"Cancel" = "Kanselahin" ;
+"Loading" = "Naglo-load";
+"Logged in" = "Naka-log in";
+"Sending" = "Nagpapadala" ;
+"Completed" = "Nakumpleto" ;
+"Leave" = "Umalis" ;
+"Left" = "Kaliwa" ;
+"Leaving" = "Aalis" ;
+"Warning" = "Babala" ;
+"Block" = "Harangan" ;
+"Unblock" = "I-unblock";
+"Login as" = "Mag-login bilang";
+"Logout..." = "Logout..." ;
+"Typing..." = "Typing..." ;
+"Connecting to chat..." = "Kumokonekta sa chat...";
+"Connected" = "Connected" ;
+"Disconnected" = "Nakadiskonekta" ;
+"Reconnected" = "Reconnected" ;
+"Logging in REST as " = "Pag-log in sa REST bilang";
+"Loading dialog" = "Naglo-load ng dialog";
+"Loading dialogs" = "Naglo-load ng mga dialog";
+"Done" = "Tapos na";
+"added" = "idinagdag" ;
+"created the group chat" = "nilikha ang panggrupong chat";
+"Call" = "Tawag" ;
+"Message" = "Mensahe" ;
+"Can't send a message" = "Hindi makapagpadala ng mensahe";
+"Loading users" = "Naglo-load ng mga user";
+"Can't download users" = "Hindi ma-download ang mga user";
+"Can't download dialogs" = "Hindi ma-download ang mga dialog";
+"Failed to load dialogs" = "Nabigong i-load ang mga dialog";
+"You are in the blacklist" = "Ikaw ay nasa blacklist";
+"forbidden" = "bawal" ;
+"Loading messages" = "Naglo-load ng mga mensahe";
+"Uploading attachment" = "Nag-a-upload ng attachment";
+"Enter chat name" = "Ipasok ang pangalan ng chat";
+"Dialog created" = "Nilikha ang dialog";
+"Send" = "Ipadala" ;
+"last activity date" = "petsa ng huling aktibidad";
+"Add occupants" = "Magdagdag ng mga nakatira";
+"Create" = "Lumikha" ;
+"New chat" = "Bagong chat";
+"New message" = "Bagong mensahe";
+"has left dialog." = "ay umalis sa dialog.";
+"Chat info" = "Impormasyon sa chat";
+"Read" = "Basahin" ;
+"Delivered" = "Naihatid" ;
+
+"Seen" = "Nakita" ;
+"Sent" = "Ipinadala" ;
+"Didn't send" = "Hindi nagpadala";
+"Sending" = "Nagpapadala" ;
+"Unknown" = "Hindi alam";
+"Note that you will not receive any private message from this user" = "Tandaan na hindi ka makakatanggap ng anumang pribadong mensahe mula sa user na ito";
+"Note that you will not receive any group chat message from this user" = "Tandaan na hindi ka makakatanggap ng anumang mensahe ng panggrupong chat mula sa user na ito";
+"Do you really want to leave selected dialog?" = "Gusto mo ba talagang umalis sa napiling dialog?";
+"Unblock user in 1-1 chat" = "I-unblock ang user sa 1-1 chat";
+"Try again" = "Subukan muli";
+"Delete" = "Tanggalin" ;
+"Error" = "Error" ;
+
+"Error leaving" = "Error leaving";
+"Bad Gateway, please try again" = "Masamang Gateway, pakisubukang muli";
+"Connection network error, please try again" = "Error sa network ng koneksyon, pakisubukang muli";
+"Did not connect with error:" = "Hindi kumonekta sa error:";
+"Chat failed with error:" = "Nabigo ang chat nang may error:";
+"Message failed to send" = "Nabigong ipadala ang mensahe";
+"Group Name" = "Pangalan ng Grupo";
+"Choose photo from..." = "Pumili ng larawan mula sa...";
+
+
+
+"Camera" = "Camera" ;
+"Gallery" = "Gallery" ;
+"Cancel" = "Kanselahin" ;
+" (You)" = "(Ikaw)" ;
+"Loading users" = "Naglo-load ng mga user";
+"Please add group image." = "Mangyaring magdagdag ng larawan ng pangkat.";
+
+
+"Create" = "Lumikha" ;
+"Search" = "Paghahanap";
+"Dialog created" = "Nilikha ang dialog";
+"No user with that name" = "Walang gumagamit na may ganoong pangalan";
+"Calling..." = "Tumatawag..." ;
+"Closed" = "Sarado" ;
+"Failed" = "Nabigo" ;
+"Hung Up" = "Hung Up";
+"Rejected" = "Rejected" ;
+
+
+"No Answer" = "Walang Sagot";
+"Time out" = "Time out";
+"Unmute" = "I-unmute";
+"Mute" = "I-mute";
+"Cam on" = "Cam on";
+"Cam off" = "Cam off";
+"Mic" = "Mic" ;
+"Speaker" = "Speaker" ;
+"End call" = "Tapusin ang tawag";
+"Stop sharing" = "Itigil ang pagbabahagi";
+"Screen share" = "Screen share";
+"Swap cam" = "Magpalit ng cam";
+"Loading stats report..." = "Naglo-load ng ulat ng istatistika...";
+"Search" = "Paghahanap";
+"Login" = "Mag log in";
+"Incoming" = "Papasok ";
+"Calling" = "Pagtawag";
+"TuDime" = "TuDime" ;
+"You have no credit recharge please!" = "Wala kang credit recharge please!";
+"Blocked User" = "Blocked User";
+"Subscription Manager" = "Tagapamahala ng Subscription";
+"Reload" = "I-reload";
+"Your account suspended please purchased subscription." = "Nasuspinde ang iyong account, mangyaring bumili ng subscription.";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "Nabili mo na ang subscription na ito maaari mong ibalik ang subscription na ito sa pamamagitan ng pag-click sa ibalik.";
+"Product load from the itunes." = "Pag-load ng produkto mula sa itunes.";
+"Free Trial is Expired" = "Nag-expire na ang Libreng Pagsubok";
+"Days Free Trial of Premium Features" = "Mga Araw na Libreng Pagsubok ng Mga Premium na Tampok";
+"Leave Chat" = "Umalis sa Chat";
+"Chat info" = "Impormasyon sa chat";
+"Edit Message" = "I-edit ang Mensahe";
+"Delete" = "Tanggalin";
+"Forward" = "Ipasa" ;
+"Delivered to..." = "Inihatid sa...";
+"Viewed by..." = "Tiningnan ni...";
+"Save attachment" = "I-save ang attachment";
+
+
+"Delete For Me" = "Delete For Me";
+"Delete For All" = "Tanggalin Para sa Lahat";
+"Re-Translate" = "Muling Isalin";
+"Self-Destruct" = "Self-Destruct";
+"Quote Reply" = "Quote Sagot";
+"Share Via" = "Ibahagi Via";
+"View file" = "Tingnan ang file";
+" is typing..." = "ay nagta-type...";
+" are typing..." = "ay nagta-type...";
+" and 2 more are typing..." = " at 2 pa ang nagta-type...";
+"No user with that name" = "Walang gumagamit na may ganoong pangalan";
+"Add Occupants" = "Add Occupants";
+
+"Message forwarded" = "Ipinasa ang mensahe";
+"Delete" = "Tanggalin";
+"Send" = "Ipadala" ;
+"Error" = "Error" ;
+"Create" = "Lumikha" ;
+"Message delivered to" = "Naihatid ang mensahe sa";
+"Message viewed by" = "Mensaheng tiningnan ni";
+"Finish" = "Tapos na";
+"New Chat" = "Bagong Chat";
+"QBChat is not Connected" = "QBChat is not Connected";
+"New Group Chat" = "Bagong Panggrupong Chat";
+"New Chat" = "Bagong Chat";
+"No user with that name" = "Walang gumagamit na may ganoong pangalan";
+"Please allow the app to access your contacts through the device's settings." = "Please allow the app to access your contacts through device settings.";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Tingnan ang TuDime para sa iyong smartphone. I-download ito ngayon mula sa (https://www.TuDime.com)";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "Gamitin ang iyong email o mga alphanumeric na character sa hanay mula 3 hanggang 50. Ang unang character ay dapat na isang titik.";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "Gumamit ng mga alphanumeric na character at mga puwang sa isang hanay mula 3 hanggang 20. Hindi maaaring maglaman ng higit sa isang puwang sa isang hilera.";
+"Send eCards" = "Magpadala ng mga eCards";
+"Details View" = "Tingnan ang Mga Detalye";
+"Delete Chat" = "Tanggalin ang Chat";
+"Chat Disappearing timer" = "Chat Disappearing timer";
+"Block" = "Harangan" ;
+
+"Category" = "Kategorya" ;
+"5 Minutes" = "5 Minuto";
+"10 Minutes" = "10 Minuto";
+"20 Minutes" = "20 Minuto";
+"30 Minutes" = "30 Minuto";
+"40 Minutes" = "40 Minuto";
+"50 Minutes" = "50 Minuto";
+"60 Minutes" = "60 Minuto";
+"Online" = "Online";
+"Offline" = "Offline" ;
+"Today" = "Ngayon" ;
+"Yesterday" = "Kahapon" ;
+
+"Bad Gateway, please try again" = "Masamang Gateway, pakisubukang muli";
+"Connection network error, please try again" = "Error sa koneksyon sa network, pakisubukang muli";
+"Doodle" = "Doodle" ;
+"Image" = "Larawan" ;
+"Location" = "Lokasyon" ;
+"Theme" = "Tema" ;
+"Contact" = "Contact" ;
+"Files" = "Mga File";
+"Audio/Video" = "Audio/Video";
+"TuDime Translation" = "TuDime Translation";
+"Select language in which you want to convert the text" = "Piliin ang wika kung saan mo gustong i-convert ang teksto";
+"Enter Text:" = "Ipasok ang Teksto:";
+"Edit Message" = "I-edit ang Mensahe";
+"Do you really want to Archieve this chat?" = "Gusto mo ba talagang i-archive ang chat na ito?";
+"Archiving Chat" = "Pag-archive ng Chat";
+"Can't use options when you are in secret chat" = "Hindi magagamit ang mga opsyon kapag nasa lihim kang chat";
+"Details View" = "Tingnan ang Mga Detalye";
+"Leave Chat" = "Umalis sa Chat";
+"Send eCards" = "Send eCards";
+"Details View" = "Tingnan ang Mga Detalye";
+"Delete Chat" = "Tanggalin ang Chat";
+"Chat Disappearing timer" = "Chat Disappearing timer";
+"Can't set theme when you are in secret chat" = "Hindi maitakda ang tema kapag nasa lihim kang chat";
+"Choose photo from..." = "Pumili ng larawan mula sa...";
+"Sorry,no language found" = "Paumanhin, walang nahanap na wika";
+"Please select translate language first" = "Mangyaring pumili muna ng wikang isalin";
+"Do you really want to leave selected dialog?" = "Gusto mo ba talagang umalis sa napiling dialog?";
+"Open Settings" = "Buksan ang Mga Setting";
+"Warning" = "Warning";
+
+"This message will be self destruct after 10 Seconds" = "Magiging self destruct ang mensaheng ito pagkatapos ng 10 Segund";
+"You can send 1 attachment per message" = "Maaari kang magpadala ng 1 attachment bawat mensahe";
+
+"Save error" = "I-save ang error";
+"Your Device can't make a phone call" = "Hindi makakatawag ang iyong Device";
+"User denied access to speech recognition" = "Tinanggihan ng user ang access sa speech recognition";
+"Speech recognition restricted on this device" = "Restricted ang speech recognition sa device na ito";
+"Speech recognition not yet authorized" = "Hindi pa awtorisado ang speech recognition";
+"Recognition not available" = "Hindi available ang pagkilala";
+"Add Photos" = "Magdagdag ng mga Larawan";
+"Choose photo from..." = "Pumili ng larawan mula sa...";
+"Warning" = "Babala" ;
+"You don't have camera" = "Wala kang camera";
+"Are you sure want to unblock this user?" = "Sigurado ka bang gusto mong i-unblock ang user na ito?";
+"Are you sure want to block this user? Later you can unblock from setting." = "Sigurado ka bang gusto mong i-block ang user na ito? Mamaya maaari mong i-unblock mula sa setting.";
+"The uploaded file exceeds maximum file size (100MB)" = "Ang na-upload na file ay lumampas sa maximum na laki ng file (100MB)";
+"Error loading image" = "Error sa paglo-load ng larawan";
+"Video is not compatible With Photos Album" = "Ang video ay hindi tugma sa Photos Album";
+"The app doesn't have access to the camera, please go to settings and enable it." = "Walang access ang app sa camera, mangyaring pumunta sa mga setting at paganahin ito.";
+"Microphone error" = "Error sa mikropono";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "Walang access ang app sa mikropono, mangyaring pumunta sa mga setting at paganahin ito.";
+"Settings" = "Mga Setting";
+"Unknown user" = "Hindi kilalang user";
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "MEMORY WARNING: pag-alis sa tawag. Mangyaring bawasan ang kalidad ng mga setting ng video";
+"Session did close due to time out" = "Nagsara ang session dahil sa time out";
+"New" = "Bago" ;
+"Pending" = "Nakabinbin" ;
+"Closed" = "Sarado" ;
+"Failed" = "Nabigo" ;
+"Hung Up" = "Hung Up";
+"Rejected" = "Rejected" ;
+"No Answer" = "Walang Sagot";
+
+"Time out" = "Time out";
+"Please select your Language first" = "Pakipili muna ang iyong Wika";
+"Select your country" = "Piliin ang iyong bansa";
+"Nick name must be 3 characters long." = "Dapat na 3 na character ang haba ng palayaw.";
+"Select Country" = "Piliin ang Bansa";
+"Sorry, no country found by this name!" = "Paumanhin, walang bansang nahanap na may ganitong pangalan!";
+"Too many Attempts! Try again after sometime" = "Masyadong maraming Pagsubok! Subukang muli pagkatapos ng ilang sandali";
+
+"Incomplete Pin" = "Hindi Kumpletong Pin";
+"Please Enter Your Security Answer" = "Pakilagay ang Iyong Seguridad na Sagot";
+"Security Answer is incorrect!" = "Mali ang sagot sa Seguridad!";
+"Success" = "Tagumpay" ;
+"Pin setted Successfully!" = "Matagumpay na naitakda ang Pin!";
+"Confirm Pin Mismatched!" = "Kumpirmahin na Hindi Nagtugma ang Pin!";
+"Please Enter The New Pin Again!" = "Pakilagay Muli ang Bagong Pin!";
+"Please Enter A New Pin!" = "Mangyaring Maglagay ng Bagong Pin!";
+"Subscription Details" = "Mga Detalye ng Subscription";
+"Your Payment is successfull!" = "Ang iyong Pagbabayad ay matagumpay!";
+"Payment Details" = "Mga Detalye ng Pagbabayad";
+"Address" = "Address";
+"Country" = "Bansa" ;
+"State" = "Estado" ;
+"ZIP" = "ZIP" ;
+"City" = "Lungsod" ;
+"Email" = "Email" ;
+"Country Code" = "Code ng Bansa";
+"Valid email" = "Valid na email";
+"address field can't be blank!" = "Hindi maaaring blangko ang field ng address!";
+"state field can't be blank!" = "Hindi maaaring blangko ang field ng estado!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "Pakipasok nang walang Numeric Charecter(e.g John Doe)";
+"pincode field can't be blank!" = "Hindi maaaring blangko ang field ng pincode!";
+"country field can't be blank!" = "hindi maaaring blangko ang field ng bansa!";
+"Please enter with out special Charecter(e.g John Doe)" = "Mangyaring pumasok nang walang espesyal na Charecter(e.g John Doe)";
+
+"city field can't be blank!" = "Hindi maaaring blangko ang field ng lungsod!";
+"Email field can't be blank!" = "Hindi maaaring blangko ang field ng email!";
+"Entered email is not valid!" = "Hindi wasto ang inilagay na email!";
+"Some Data is missing" = "May kulang na Data";
+"Your Payment is successfull!" = "Ang iyong Pagbabayad ay matagumpay!";
+"Please enter a Number" = "Mangyaring magpasok ng Numero";
+"Please enter a country code" = "Mangyaring magpasok ng isang code ng bansa";
+"You have no credit recharge please!" = "Wala kang credit recharge please!";
+"Sinch Client not" = "Sinch Client hindi";
+"Intitialised.!" = "Intitial.!" ;
+"Please wait Inititalising..." = "Mangyaring maghintay sa Pagsisimula...";
+"Sinch Client" = "Sinch Client";
+"No number available!" = "Walang available na numero!";
+
+"Can't be placed more!" = "Hindi maaaring ilagay ang higit pa!";
+"Call ended" = "Natapos ang tawag";
+"Call connected" = "Nakakonekta ang tawag";
+"Calling..." = "Tumatawag..";
+"Edit Profile" = "I-edit ang Profile";
+"Accounts" = "Mga Account";
+"Appearance" = "Hitsura";
+"Contact Us" = "Makipag-ugnayan sa Amin";
+"About & Help"= "Tungkol sa & Tulong";
+"Secret Chat" = "Lihim na Chat";
+"Blocked User" = "Naka-block na User";
+"Store Stickers/Gifs" = "Tindahan ng Mga Sticker/Gif";
+"Font successfully defualt set" = "Matagumpay na naitakda ang default ng font";
+"Font Color successfully defualt set" = "Ang Kulay ng Font ay matagumpay na na-defualt set";
+
+"Font size successfully defualt set" = "Ang laki ng font ay matagumpay na na-defualt set";
+"Font successfully set" = "Matagumpay na naitakda ang font";
+"Font size successfully set" = "Matagumpay na naitakda ang laki ng font";
+"Font color successfully set" = "Matagumpay na naitakda ang kulay ng font";
+"Privacy" = "Pagkapribado";
+"Delete Accounts" = "Tanggalin ang Mga Account";
+"Do you want to delete your account?" = "Gusto mo bang tanggalin ang iyong account?";
+"Once you delete your account, all your data will be removed permanently" = "Sa sandaling tanggalin mo ang iyong account, ang lahat ng iyong data ay permanenteng aalisin";
+"No Profile id found!" = "Walang nakitang Profile id!";
+"Contact Us" = "Makipag-ugnayan sa Amin";
+"Name field can't be blank!" = "Hindi maaaring blangko ang field ng pangalan!";
+"Phone field can't be blank!" = "Hindi maaaring blangko ang field ng telepono!";
+"Please Enter a valid Phone Number" = "Mangyaring Magpasok ng wastong Numero ng Telepono";
+"Email field can't be blank!" = "Hindi maaaring blangko ang field ng email!";
+"Please Enter a valid Email" = "Mangyaring Magpasok ng wastong Email";
+"Country field can't be blank!" = "Hindi maaaring blangko ang field ng bansa!";
+"Comments field can't be blank!" = "Hindi maaaring blangko ang field ng mga komento!";
+"Your response uploaded Successfully" = "Ang iyong tugon ay Matagumpay na Na-upload";
+"Terms & Privacy Policy" = "Mga Tuntunin at Patakaran sa Privacy";
+"Feedback" = "Feedback" ;
+"Feedback field can't be empty!" = "Hindi maaaring walang laman ang field ng feedback!";
+"Your feedback sent Successfully" = "Matagumpay na naipadala ang iyong feedback";
+"Work in Progress!" = "Isinasagawa ang Trabaho!";
+"Buy Call Credit" = "Buy Call Credit";
+"You Choose $5 Package" = "Pumili ka ng $5 na Package";
+
+"You Choose $10 Package" = "Pumili ka ng $10 na Package";
+"You Choose $15 Package" = "Pumili ka ng $15 na Package";
+"Please set Unique ID" = "Pakitakda ang Natatanging ID";
+"Your Uniqe id is: " = "Ang iyong Uniqe id ay";
+"Public" = "Pampubliko" ;
+"Choose" = "Pumili" ;
+"Unique id created successfully" = "Matagumpay na nalikha ang natatanging id";
+"Profile Privacy updated Successfully" = "Matagumpay na na-update ang Privacy ng Profile";
+
+"You don't have camera" = "Wala kang camera";
+"Profile" = "Profile";
+"Hey, I am using Tudime!" = "Uy, gumagamit ako ng Tudime!";
+"Status:" = "Katayuan:";
+"Enter Your Name" = "Ilagay ang Iyong Pangalan";
+"Set Unique ID" = "Itakda ang Natatanging ID";
+"Enter Your Name" = "Ilagay ang Iyong Pangalan";
+"Enter Your Unique id" = "Ipasok ang Iyong Natatanging id";
+"Set" = "Itakda" ;
+"Nickname updated successfully" = "Matagumpay na na-update ang palayaw";
+"No special characters allowed." = "Hindi pinapayagan ang mga espesyal na character.";
+"Must be contain minimum 4 characters." = "Dapat na naglalaman ng hindi bababa sa 4 na character.";
+"Set Status" = "Itakda ang Katayuan";
+"Status updated Successfully" = "Matagumpay na na-update ang katayuan";
+
+"Schedule Event" = "Iskedyul ng Kaganapan";
+"Enter Description" = "Ipasok ang Paglalarawan";
+"Events Loading Error" = "Events Loading Error";
+"The calender could not load system events. It is possibly a problem with permissions" = "Hindi ma-load ng kalendaryo ang mga kaganapan sa system. Posibleng problema ito sa mga pahintulot";
+
+"New Event" = "Bagong Kaganapan";
+"Enter Event Name" = "Ipasok ang Pangalan ng Kaganapan";
+"Enter Description" = "Ipasok ang Paglalarawan";
+"Enter Time" = "Ipasok ang Oras";
+"Enter Description" = "Ipasok ang Paglalarawan";
+"Please enter event name" = "Pakilagay ang pangalan ng kaganapan";
+"Please enter event time" = "Pakilagay ang oras ng kaganapan";
+"Schedule created successfully" = "Matagumpay na nalikha ang iskedyul";
+"Time:" = "Oras:" ;
+"Date:" = "Petsa:" ;
+"Profile Picture Gallery" = "Profile Picture Gallery";
+"Profile Photo Updated Successfully!" = "Matagumpay na Na-update ang Larawan sa Profile!";
+
+"Set as Profile Picture" = "Itakda bilang Larawan sa Profile";
+"Delete Photo" = "Tanggalin ang Larawan";
+"No photo available!" = "Walang available na larawan!";
+"Select one option" = "Pumili ng isang opsyon";
+
+"Custom Status" = "Custom Status";
+"Status updated Successfully" = "Matagumpay na na-update ang katayuan";
+"This is already current status" = "Ito ay kasalukuyang katayuan na";
+"Status can't be blank!" = "Hindi maaaring blangko ang status!";
+"Sorry! no card is available right now" = "Paumanhin! walang magagamit na card ngayon";
+"Keeping more ecards, may slow down your device" = "Ang pagpapanatili ng higit pang mga ecard, maaaring magpabagal sa iyong device";
+"Love" = "Pag-ibig";
+"Birthday"= "Birthday";
+"Friendship" = "Pagkakaibigan" ;
+"Some1 Special" = "Some1 Special";
+"Miss You" = "Miss You";
+"Congratulations" = "Congratulations" ;
+"Good Luck" = "Good Luck";
+"Get Well Soon" = "Get Well Soon";
+"Invitations" = "Mga Imbitasyon";
+"Thank You" = "Salamat" ;
+"Sorry" = "Paumanhin" ;
+"Tap to Stop Recording" = "I-tap para Ihinto ang Pagre-record";
+"Tap to Record" = "I-tap para I-record";
+"Recording Successfull." = "Tagumpay ang Pagre-record.";
+"Recording Failed :(" = "Nabigo ang Pagre-record :(";
+"Make it personal !" = "Gawin mong personal!";
+"Choose photo from..." = "Pumili ng larawan mula sa...";
+"Everything need to be selected!" = "Kailangan mapili ang lahat!";
+"You don't have camera" = "Wala kang camera";
+"Something is wrong!" = "May mali!";
+"Please add recorded Audio." = "Pakidagdag ng naka-record na Audio.";
+"No signature found!" = "Walang nakitang pirma!";
+"Text Dialog" = "Text Dialog";
+"Sorry,no language found" = "Paumanhin, walang nahanap na wika";
+"Please select translate language first" = "Mangyaring pumili muna ng wikang isalin";
+"TuDime Translation" = "Pagsasalin ng TuDime";
+"Select language in which you want to convert the text" = "Piliin ang wika kung saan mo gustong i-convert ang teksto";
+"User denied access to speech recognition" = "Tinanggihan ng user ang access sa speech recognition";
+"Speech recognition restricted on this device" = "Pinaghihigpitan ang speech recognition sa device na ito";
+"Speech recognition not yet authorized" = "Hindi pa awtorisado ang speech recognition";
+
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Tingnan ang TuDime para sa iyong smartphone. I-download ito ngayon mula sa (https://www.TuDime.com)";
+"Group Chat" = "Panggrupong Chat";
+"Secret Chat" = "Lihim na Chat";
+"Bad Gateway, please try again" = "Masamang Gateway, pakisubukang muli";
+"Connection network error, please try again" = "Error sa koneksyon sa network, pakisubukang muli";
+"Select a user to start Chat" = "Pumili ng user para simulan ang Chat";
+"Please add more members for Group Chat!" = "Mangyaring magdagdag ng higit pang mga miyembro para sa Group Chat!";
+"Theme changed successfully!" = "Matagumpay na nabago ang tema!";
+"You don't have camera" = "Wala kang camera";
+"Theme changed successfully!" = "Matagumpay na nabago ang tema!";
+"Archive Chat" = "I-archive ang Chat";
+"25%% discount if you join with in %d days %@" = "25%% na diskwento kung sasali ka sa %d araw na %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "25%% ang bisa ng diskwento ay nag-expire. Sumali sa %d araw upang maiwasan ang pagsususpinde ng account";
+
+"ACCOUNT SUSPENDED" = "NASUSPINDE ANG ACCOUNT";
+"Your account suspended please purchased subscription." = "Nasuspinde ang iyong account, mangyaring bumili ng subscription.";
+"Please select a color" = "Mangyaring pumili ng isang kulay";
+"Please select a Picture" = "Mangyaring pumili ng Larawan";
+"Opss! Cliend Error." = "Opss! Cliend Error.";
+"Failed to fetch data" = "Nabigong kumuha ng data";
+"No Internet Connection." = "Walang Koneksyon sa Internet";
+"Server Error." = "Error sa Server.";
+"Successful Fetch." = "Matagumpay na Fetch.";
+"Failed to covert data to stirng." = "Nabigong itago ang data sa stirng.";
+"Data couldn't JSONSerialize" = "Hindi ma-JSONSerialize ang data";
+"Couldn't convert link string to NSURL" = "Hindi ma-convert ang string ng link sa NSURL";
+"couldn't format json body for the request." = "Hindi ma-format ang katawan ng json para sa kahilingan.";
+"Image not available" = "Hindi magagamit ang larawan";
+"Welcome to TuDime" = "Maligayang pagdating sa TuDime";
+"TuDime Chat App - More Features than any other !" = "TuDime Chat App - Higit pang Mga Tampok kaysa sa iba pa!";
+"Set Language" = "Itakda ang Wika";
+"CONTINUE" = "TULOY" ;
+"Select a language for your convenience" = "Pumili ng wika para sa iyong kaginhawahan";
+"Select your Language" = "Piliin ang iyong Wika";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "Ang TuDime ay nagbibigay ng pagmemensahe, direktang pagtawag sa telepono at iba pang mga serbisyo sa mga user sa buong mundo. Pakibasa ang aming Mga Tuntunin ng Mga Serbisyo upang maunawaan mo ang paggamit ng TuDime.";
+"Terms & Policies" = "Mga Tuntunin at Patakaran";
+"Chinese" = "Intsik" ;
+"English" = "Ingles" ;
+"AGREE & CONTINUE" = "SANG-AYON AT MAGPATULOY";
+"Choose a way to verify" = "Pumili ng paraan para ma-verify";
+
+"Please select to continue TuDime registration with your Email/Mobile No" = "Pakipili upang magpatuloy sa pagpaparehistro ng TuDime gamit ang iyong Email/Mobile No";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "Magpapadala ang TuDime Messenger ng isang beses na SMS. Ang iyong numero ng telepono ay hindi ibabahagi.Ito ay gagamitin lamang para sa mga layunin ng pag-verify";
+"Enter phone number." = "Ilagay ang Numero ng telepono.";
+"Enter your NickName." = "Ilagay ang iyong palayaw.";
+
+"Please enter your email address for registration" = "Pakilagay ang iyong email address para sa pagpaparehistro";
+"Enter your email id" = "Ipasok ang iyong email id";
+"We have sent a verification code to" = "Nagpadala kami ng verification code sa";
+"Please enter the received verification code below" = "Pakilagay ang natanggap na verification code sa ibaba";
+"Enter verification code" = "Ipasok ang verification code";
+"A code was sent to you by text message.\n if not, click on this link." = "Isang code ang ipinadala sa iyo sa pamamagitan ng text message.\n kung hindi, i-click ang link na ito.";
+"A code was sent to you by email.\n if not, click on this link." = "Isang code ang ipinadala sa iyo sa pamamagitan ng email.\n kung hindi, i-click ang link na ito.";
+"Store-Stickers & Gifs" = "Mga Store-Sticker at Gif";
+"Schedule Events" = "Iskedyul ng Mga Kaganapan";
+"Subscription Manager" = "Tagapamahala ng Subscription";
+"TuDime CAN" = "MAAARI ang TuDime";
+"Change Language" = "Baguhin ang Wika";
+"Settings" = "Mga Setting";
+"Feedback" = "Feedback" ;
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "Hindi ito ang iyong username o pin. Ang pangalang ito ay makikita ng iyong mga contact sa TuDime.";
+"Status and phone" = "Katayuan at telepono";
+"Your Current Status" = "Ang Iyong Kasalukuyang Katayuan";
+"Select Your Status" = "Piliin ang Iyong Katayuan";
+"Urgent calls only" = "Mga agarang tawag lang";
+"Available" = "Available";
+"Busy" = "Abala" ;
+"At School" = "Sa Paaralan";
+"At work" = "Sa trabaho";
+"At the movies" = "Sa mga pelikula";
+"Battery about to die" = "Malapit nang mamatay ang baterya";
+"Can't talk, TuDime only" = "Hindi makapagsalita, TuDime lang";
+"Sleeping" = "Natutulog" ;
+"In a meeting" = "Sa isang pulong";
+"Keeping more eCards may slow down the speed of the app" = "Ang pagpapanatiling mas maraming eCards ay maaaring makapagpabagal sa bilis ng app";
+"Personalize" = "I-personalize";
+"Make it personal!" = "Gawin mong personal!";
+
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "Good Choice!\nNgayon, ipahayag ang iyong mga pinagdaanan\nsa pamamagitan ng magandang card na ito!";
+"Add Photos" = "Magdagdag ng mga Larawan";
+"Add Text" = "Magdagdag ng Teksto";
+"Add Signature" = "Magdagdag ng Lagda";
+"Add Frames" = "Magdagdag ng Mga Frame";
+"Add Voice" = "Magdagdag ng Boses";
+"Preview" = "Preview";
+"Go!" = "Pumunta ka!";
+"Download More" = "Mag-download ng Higit Pa";
+"Schedule Events" = "Iskedyul ng Mga Kaganapan";
+"Long Tap On Date To Set Schedule" = "Long Tap Sa Petsa Para Magtakda ng Iskedyul";
+"New Event" = "Bagong Kaganapan";
+"Activate TuDime Pin" = "I-activate ang TuDime Pin";
+"Set Pin to TuDime" = "Itakda ang Pin sa TuDime";
+"Remove Pin" = "Alisin ang Pin";
+"Welcome Back" = "Maligayang Pagbabalik";
+" Pin" = "Pin" ;
+"Forgot" = "Nakalimutan";
+"Enter Pin to Open TuDime" = "Enter Pin to Open TuDime";
+"Security Answer" = "Security Answer";
+"Security Questions"= "Mga Tanong sa Seguridad";
+"Confirm New Pin" = "Kumpirmahin ang Bagong Pin";
+"Your New Pin" = "Iyong Bagong Pin";
+"What time of the day was your first child born? (hh:mm)" = "Anong oras ng araw ipinanganak ang iyong unang anak? (hh:mm)";
+"What time of the day were you born? (hh:mm)" = "Anong oras ng araw ka ipinanganak? (hh:mm)";
+"In what town or city did your mother and father meet?" = "Saang bayan o lungsod nagkakilala ang nanay at tatay mo?";
+"What is your spouse or partner's mother's maiden name?" = "Ano ang pangalan ng ina ng asawa o kasama mo?";
+"What is your grandmother's (on your mother's side) maiden name?" = "Ano ang pangalan ng dalaga (sa side ng nanay mo) ng lola mo?";
+"What are the last five digits of your driver's licence number?" = "Ano ang huling limang digit ng numero ng iyong lisensya sa pagmamaneho?";
+"What is the middle name of your oldest child?" = "Ano ang middle name ng panganay mong anak?";
+"In what town or city did you meet your spouse/partner?" = "Saang bayan o lungsod mo nakilala ang iyong asawa/kapareha?";
+"In what town or city was your first full time job?" = "Saang bayan o lungsod ang iyong unang full time na trabaho?";
+"What primary school did you attend?" = "Anong primary school ang pinasukan mo?";
+"What were the last four digits of your childhood telephone number?" = "Ano ang huling apat na numero ng numero ng telepono ng iyong pagkabata?";
+"What was the house number and street name you lived in as a child?" = "Ano ang numero ng bahay at pangalan ng kalye na tinitirhan mo noong bata ka?";
+"Select a Sequrity Question" = "Pumili ng Sequity Question";
+
+"Phone No" = "No Phone";
+"Write us your concern here and we will get back to you shortly." = "Isulat mo sa amin ang iyong alalahanin dito at babalikan ka namin kaagad.";
+"GET IN TOUCH" = "HIMUKIN";
+"Contact Us" = "Makipag-ugnayan sa Amin";
+
+"Application Version" = "Bersyon ng Application";
+"Version no:" = "Bersyon no:";
+"FAQ" = "FAQ" ;
+"Terms & Privacy Policy" = "Mga Tuntunin at Patakaran sa Privacy";
+"10. Can i restore messages that i deleted?" = "10. Maaari ko bang ibalik ang mga mensaheng tinanggal ko?";
+"9. How to find out friends?" = "9. Paano malalaman ang mga kaibigan?";
+
+"8. The difference between ID and Nickname?" = "8. Ang pagkakaiba ng ID at Nickname?";
+"7. What is ID?" = "7. Ano ang ID?";
+"6. My friend can see my phone number?" = "6. Nakikita ng kaibigan ko ang numero ng telepono ko?";
+"5. How to subscribe service?" = "5. Paano mag-subscribe ng serbisyo?";
+"4. Everybody can use TuDime??" = "4. Lahat pwede gumamit ng TuDime??";
+"3. Service packages?" = "3. Mga service package?";
+"2. What is TuDime?" = "2. Ano ang TuDime?";
+"1. With a feature phone, can i use this service?" = "1. Sa isang feature phone, maaari ko bang gamitin ang serbisyong ito?";
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "Oo naman. Ibinigay ang TuDime sa SMS, IVR, Web, App. Sa isang tampok na telepono, ang user ay maaaring makaranas ng serbisyo sa pamamagitan ng SMS at IVR.";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" = "Ang TuDime ay isang premium na solusyon, ang suporta sa mga subscriber ng Viettel ay madaling ma-access at makipag-chat sa mga kaibigan o makipagkaibigan kaagad sa pamamagitan ng SMS, Web, App at IVR na may magandang karanasan. Sa SMS at IVR, ang user ay maaaring malaman at makipag-ugnayan sa iba o gumawa ng profile para sa kanilang sarili. Sinusuportahan ng App TuDime ang pagpapadala ng mga voice message, video, larawan at text. Maaari ka ring makipag-chat sa grupo o maghanap ng mga kaibigan. Gumagana ang TuDime App sa lahat ng iOS device, Android, Windows Phone, Symbian at Blackberry";
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. Araw-araw: 1.500 d/araw, 2. Lingguhan: 7.000 d/linggo, 3. Buwan-buwan: 22.000 d/buwan";
+"All Viettel subscribers can use service." = "Ang lahat ng mga subscriber ng Viettel ay maaaring gumamit ng serbisyo.";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "a. Mga SMS command:DK1 ipadala sa 1517:Araw-araw na package DK3 ipadala sa1517:Lingguhang package DK30 ipadala sa1517:Buwanang package b. IVR: Tumawag sa 1517, makinig at sundin ang mga tagubilin c. Web/App: sundin ang mga tagubilin";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "Hindi. Sa SMS, App, Web: Ang mga kaibigan lang ang makakakita sa iyong Nickname. Sa IVR: Ang mga kaibigan lang ang makakakita ng iyong ID.";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "Ang D chat ay isang code na may kasamang 7 digit, bawat user na sumali sa TuDime ay bibigyan ng 1 ID na hindi mababago.";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "ID: User ay hindi maaaring baguhin, ito ay ibinigay ng system. Palayaw: user ay maaaring baguhin, ito ay nilikha ng user.";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "Maaari mong malaman ang mga kaibigan sa pamamagitan ng: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature";
+"No." = "Hindi.";
+"Please give your feedback" = "Mangyaring ibigay ang iyong puna";
+
+
+"Please enter valid OTP" = "Pakilagay ang wastong OTP";
+"OTP field can't be blank" = "Hindi maaaring blangko ang field ng OTP";
+"A New OTP Sended Successfully" = "Isang Bagong OTP na Matagumpay na Naipadala";
+"OTP verified Successfully" = "Matagumpay na na-verify ang OTP";
+"Please fill all the details" = "Mangyaring punan ang lahat ng mga detalye";
+"Please select a language." = "Mangyaring pumili ng isang wika.";
+"Please enter your phone number." = "Pakibigay na lng po ng phone number niyo.";
+"Please enter a valid phone number." = "Mangyaring magpasok ng wastong numero ng telepono.";
+"Please enter your email id." = "Pakilagay ang iyong email id.";
+"Please enter a valid email id." = "Mangyaring maglagay ng wastong email id.";
+"Please select your NickName." = "Pakipili ang iyong NickName.";
+"Please enter a valid Nickname between 4-12 characters." = "Mangyaring maglagay ng wastong Nickname sa pagitan ng 4-12 character.";
+"Entered nickname is already taken." = "Ang inilagay na palayaw ay nakuha na.";
+"Please select a country" = "Mangyaring pumili ng isang bansa";
+"Secret Chat" = "Lihim na Chat";
+"Delete Chat" = "Tanggalin ang Chat";
+"Detail View" = "Tingnan ang Detalye";
+
+"Select language in which you want to convert the text" = "Piliin ang wika kung saan mo gustong i-convert ang teksto";
+"TuDime Translation" = "Pagsasalin ng TuDime";
+"Invite" = "Imbitahan" ;
+"Refresh Contacts" = "I-refresh ang Mga Contact";
+"Proceed To Chat" = "Magpatuloy Upang Makipag-chat";
+"Unarchive" = "Alisin sa archive";
+"Account Details" = "Mga Detalye ng Account";
+"For any changes in details, Please contact support" = "Para sa anumang mga pagbabago sa mga detalye, Mangyaring makipag-ugnayan sa suporta";
+"Plan Type" = "Uri ng Plano";
+"Plan Details" = "Mga Detalye ng Plano";
+"Buy TuDime Membership" = "Buy TuDime Membership";
+"365-Days TuDime Annual Membership" = "365-Days TuDime Annual Membership";
+"30-Days Free Trial of Premium Features" = "30-Araw na Libreng Pagsubok ng Mga Premium na Tampok";
+"TuDime Annual Membership" = "TuDime Annual Membership";
+"Free Trial"= "Libreng subok";
+"Next Renew Date" = "Susunod na Petsa ng Pag-renew";
+"Best Chat App In The World - More Features than any other!" = "Pinakamahusay na Chat App Sa Mundo - Higit pang Mga Tampok kaysa sa iba pa!";
+"25% discount if you join with in 15 days - $11.25" = "25% na diskwento kung sasali ka sa loob ng 15 araw - $11.25";
+"Text Chat" = "Text Chat";
+"Video Chat" = "Video Chat";
+
+
+"Call Any number In The World" = "Tawagan ang Any number In The World";
+"Send Greeting Cards" = "Magpadala ng mga Greeting Card";
+"Built in Translation" = "Built in Translation";
+"About 20 other incredible features" = "Tungkol sa 20 iba pang hindi kapani-paniwalang mga tampok";
+"Please select to continue Tudime registration with your Email/Mobile No" = "Mangyaring piliin upang ipagpatuloy ang pagpaparehistro ng Tudime gamit ang iyong Email/Mobile No";
+"What was the house number and street name you lived in as a child?" = "Ano ang numero ng bahay at pangalan ng kalye na tinitirhan mo noong bata ka?";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "Makakakuha ka ng 25% na Diskwento sa pagbili ng membership ng TuDime Now kung bibili ka sa loob ng unang 15 araw ng kalendaryo mula sa pagpaparehistro. Ang membership na ito ay magiging %@ sa halip na %@. Ang alok na ito ay may bisa hanggang sa ika-15 araw ng paunang pagpaparehistro. Pagkatapos ng membership na iyon ay magiging %@ taun-taon. Ang panahon ng libreng pagsubok ay magtatapos 30 araw pagkatapos ng pagpaparehistro at ang buong presyo ng membership na %@ ay kakailanganin upang magpatuloy sa paggamit ng TuDime. Anong gusto mong gawin ngayon?
+* Bumili ng TuDime Taunang Membership
+* Magpatuloy sa 30 araw na libreng trialPeriod.
+Inaasahan namin na patuloy kang maging miyembro ng halaga.
+Salamat. TuDime Staff";
+"Good Choice! Now, express your feelings through this beautiful card !" = "Magandang Pagpili! Ngayon, ipahayag ang iyong mga damdamin sa pamamagitan ng magandang card na ito!";
+
+"To place a TuDime call, open a chat and tap at the top" = "Upang tumawag sa TuDime, magbukas ng chat at mag-tap sa itaas";
+"Add Participants" = "Magdagdag ng mga Kalahok";
+"Exit Group" = "Lumabas sa Grupo";
+"Enter new group Name" = "Enter new group Name";
+"Create Group Chat" = "Lumikha ng Panggrupong Chat";
+"Invite Contacts" = "Invite Contacts";
+"Enter Your Status" = "Ipasok ang Iyong Katayuan";
+"Set Defualt" = "Itakda ang Defualt";
+"Drag left or right to see font size:" = "I-drag pakaliwa o pakanan upang makita ang laki ng font:";
+"Select Font Style: " = "Piliin ang Estilo ng Font:";
+"FILL ADDRESS" = "PUNAN ANG ADDRESS";
+
+"Pay Now" = "Magbayad Ngayon";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "Pakitandaan na ang iyong numero ay dapat magsimula sa “+” at sa iyong Country Code. Hal. “+14155522233”. Dito ang “+” ay kinakailangang prefix, ang “1” ay US Country Code";
+"Click here to check call cradit rates." = "Mag-click dito para tingnan ang mga rate ng call cradit";
+"Please choose a Plan For Continue Recharge" = "Mangyaring pumili ng Plano Para sa Ipagpatuloy ang Pag-recharge";
+"My Balance" = "Aking Balanse";
+"BUY CALL CREDIT" = "BUMILI NG CALL CREDIT";
+"Device Contacts" = "Mga Contact sa Device";
+"Proceed To Chat" = "Magpatuloy Upang Makipag-chat";
+"Search with phone, name, email, or unique id" = "Maghanap gamit ang telepono, pangalan, email, o natatanging id";
+"Select your Language" = "Piliin ang iyong Wika";
+"Get started with disappearing messages" = "Magsimula sa nawawalang mga mensahe";
+"Security Answer :" = "Sagot sa Seguridad";
+"Enter Security answer" = "Ipasok ang sagot sa Seguridad";
+"Your New Pin :" = "Iyong Bagong Pin";
+"Confirm New Pin :" = "Kumpirmahin ang Bagong Pin :";
+"Buy" = "Bumili";
+"Username" = "Username";
+"Leaving..." = "Aalis...";
+
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "Gusto mo ba talagang tanggalin ang napiling chat?\nAng paggawa nito ay permanenteng magde-delete";
+"Yes" = "Oo";
+
+"Call Credit Amount" = "Halaga ng credit sa tawag";
+"Invite\nFriends" = "Mag-imbita ng\nmga kaibigan";
+"CALLS" = "MGA TAWAG";
+"CHATS" = "MGA CHAT";
+"Archived" = "Naka-archive";
+"Notes" = "Mga Tala";
+"Star Message" = "Star Message";
+"Report" = "Ulat";
+"Phone/Email" = "Telepono/Email";
+"E-Cards" = "Mga E-Card";
+"Voice call" = "Voice call";
+"Video call" = "Video call";
+"Disappear Chat" = "Mawala ang Chat";
+
+"Default theme setting" = "Default na setting ng tema";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "Sigurado ka bang gusto mong i-lock ang default na tema? Kung i-lock mo ang default na tema, hindi makakapagtakda ang iyong mga contact ng tema kasama mo.";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70+ Features, Posibleng Higit Sa Anumang Ibang Chat App Sa Mundo! Limitadong Oras na Alok! Bumili ng TuDime Isang Taon na Subscription 15 Araw ng Kalendaryo Panahon ng Libreng Pagsubok Bago Masingil ang Iyong Card. Maaari kang magkansela anumang oras bago ang ika-15 araw ng kalendaryo upang maiwasang masingil .\nBumili ng taunang subscription ng Tudime sa panimulang presyo na %@";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "Pansinin";
+"Unlock default Theme" = "I-unlock ang default na Tema";
+"Theme unlocked" = "Naka-unlock ang tema";
+"Post" = "I-post";
+"Add a comment" = "Magdagdag ng komento";
+"Write Post..." = "Sumulat ng Post...";
+"Create Post" = "Gumawa ng Post";
+"Tudime Feature List" = "Listahan ng Tampok ng Tudime";
+"Share Everywhere" = "Ibahagi Kahit saan";
+"Share on Tudime" = "Ibahagi sa Tudime";
+"Choose one" = "Pumili ng isa";
