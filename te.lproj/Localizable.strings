@@ -1,0 +1,832 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+"Ok" = "సరే";
+"Cancel" = "రద్దు";
+"Loading" = "లోడ్ అవుతోంది";
+"Logged in" = "లాగ్ ఇన్";
+"Sending" = "పంపుతోంది";
+"Completed" = "పూర్తయింది";
+"Leave" = "వదిలించు";
+"Left" = "ఎడమ";
+"Leaving" = "నిష్క్రమించడం";
+"Warning" = "హెచ్చరిక";
+"Block" = "బ్లాక్" ;
+"Unblock" = "అన్‌బ్లాక్" ;
+
+
+"Login as" = "లాగిన్";
+"Logout" = "లాగ్అవుట్";
+"Logout..." = "లాగ్ అవుట్...";
+"Typing..." = "టైపింగ్...";
+"Connecting to chat..." = "చాట్‌కి కనెక్ట్ అవుతోంది...";
+"Connected" = "కనెక్ట్ చేయబడింది";
+"Disconnected" = "డిస్‌కనెక్ట్ చేయబడింది";
+"Reconnected" = "మళ్లీ కనెక్ట్ చేయబడింది";
+"Logging in REST as " = "RESTని  లాగా ఇన్ చేయడం";
+"Loading dialog" = "డైలాగ్ లోడ్ అవుతోంది";
+"Loading dialogs" = "డైలాగ్‌లను లోడ్ చేస్తోంది";
+"Done" = "పూర్తయింది" ;
+"added" = "జోడించబడింది" ;
+
+
+
+
+
+
+"created the group chat" = "సమూహ చాట్ సృష్టించబడింది";
+"Call" = "కాల్" ;
+"Message" = "సందేశం" ;
+"Can't send a message" = "సందేశాన్ని పంపడం సాధ్యం కాదు";
+"Loading users" = "వినియోగదారులను లోడ్ చేస్తోంది";
+"Can't download users" = "వినియోగదారులను డౌన్‌లోడ్ చేయలేరు";
+"Can't download dialogs" = "డైలాగ్‌లను డౌన్‌లోడ్ చేయడం సాధ్యం కాదు";
+"Failed to load dialogs" = "డైలాగ్‌లను లోడ్ చేయడంలో విఫలమైంది";
+"You are in the blacklist" = "మీరు బ్లాక్‌లిస్ట్‌లో ఉన్నారు";
+"forbidden" = "నిషిద్ధం" ;
+"Loading messages" = "సందేశాలను లోడ్ చేస్తోంది";
+"Uploading attachment" = "అటాచ్‌మెంట్‌ను అప్‌లోడ్ చేస్తోంది";
+"Enter chat name" = "చాట్ పేరును నమోదు చేయండి";
+
+
+"Dialog created" = "డైలాగ్ సృష్టించబడింది";
+"Send" = "పంపు" ;
+"last activity date" = "చివరి కార్యాచరణ తేదీ";
+"Add occupants" = "ఆక్రమణదారులను జోడించు";
+"Create" = "సృష్టించు";
+"New chat" = "కొత్త చాట్";
+"New message" = "కొత్త సందేశం";
+"has left dialog." = "డైలాగ్ వదిలిపెట్టారు";
+"Chat info" = "చాట్ సమాచారం";
+"Read" = "చదవండి" ;
+"Delivered" = "డెలివరీ చేయబడింది";
+"Seen" = "చూసింది" ;
+"Sent" = "పంపబడింది" ;
+"Didn't send" = "పంపలేదు";
+"Sending" = "పంపుతోంది" ;
+"Unknown" = "తెలియదు" ;
+"Note that you will not receive any private message from this user" = "మీరు ఈ వినియోగదారు నుండి ఎటువంటి ప్రైవేట్ సందేశాన్ని స్వీకరించరని గమనించండి";
+"Note that you will not receive any group chat message from this user" = "మీరు ఈ వినియోగదారు నుండి ఎటువంటి సమూహ చాట్ సందేశాన్ని స్వీకరించరని గమనించండి";
+"Do you really want to leave selected dialog?" = "మీరు నిజంగా ఎంచుకున్న డైలాగ్‌ను వదిలివేయాలనుకుంటున్నారా?";
+"Unblock user in 1-1 chat" = "1-1 చాట్‌లో వినియోగదారుని అన్‌బ్లాక్ చేయండి";
+
+
+"Try again" = "మళ్లీ ప్రయత్నించండి";
+"Delete" = "తొలగించు" ;
+"Error" = "లోపం" ;
+"Error leaving" = "నిష్క్రమించడంలో లోపం";
+"Bad Gateway, please try again" = "బాడ్ గేట్‌వే, దయచేసి మళ్లీ ప్రయత్నించండి";
+"Connection network error, please try again" = "కనెక్షన్ నెట్‌వర్క్ లోపం, దయచేసి మళ్లీ ప్రయత్నించండి";
+"Did not connect with error:" = "దోషంతో కనెక్ట్ కాలేదు:";
+"Chat failed with error:" = "దోషంతో చాట్ విఫలమైంది";
+"Message failed to send" = "సందేశం పంపడంలో విఫలమైంది";
+"Group Name" = "గ్రూప్ పేరు" ;
+"Choose photo from..." = "దాని నుండి ఫోటోను ఎంచుకోండి...";
+"Camera" = "కెమెరా" ;
+"Gallery" = "గ్యాలరీ" ;
+"Cancel" = "రద్దు" ;
+" (You)" = "(మీరు)" ;
+"Loading users" = "వినియోగదారులను లోడ్ చేస్తోంది";
+"Please add group image." = "దయచేసి సమూహ చిత్రాన్ని జోడించండి.";
+"Create" = "సృష్టించు" ;
+"SEARCH" = "శోధన" ;
+"Dialog created" = "డైలాగ్ సృష్టించబడింది";
+
+
+"No user with that name" = "ఆ పేరుతో వినియోగదారు లేరు";
+"Calling..." = "కాలింగ్...";
+"Closed" = "మూసివేయబడింది" ;
+"Failed" = "విఫలమైంది" ;
+"Hung Up" = "హంగ్ అప్";
+"Rejected" = "తిరస్కరించబడింది" ;
+"No Answer" = "సమాధానం లేదు";
+"Time out" = "టైమ్ అవుట్";
+"Disconnected" = "డిస్‌కనెక్ట్ చేయబడింది" ;
+"Unmute" = "అన్‌మ్యూట్" ;
+"Mute" = "మ్యూట్" ;
+"Cam on" = "కామ్ ఆన్";
+"Cam off" = "కామ్ ఆఫ్";
+"Mic" = "మైక్" ;
+"Speaker" = "స్పీకర్";
+"End call" = "ఎండ్ కాల్";
+"End call" = "ఎండ్ కాల్";
+"Stop sharing" = "షేరింగ్ ఆపు";
+"Screen share" = "స్క్రీన్ షేర్";
+"Swap cam" = "స్వాప్ క్యామ్";
+"Swap cam" = "స్వాప్ క్యామ్";
+"Loading stats report..." = "గణాంకాల నివేదిక లోడ్ అవుతోంది...";
+"Search" = "శోధన" ;
+"Login" = "లాగిన్" ;
+"Incoming" = "ఇన్కమింగ్" ;
+"Calling" = "కాలింగ్" ;
+"TuDime" = "టుడైమ్" ;
+
+
+"You have no credit recharge please!" = "దయచేసి మీకు క్రెడిట్ రీఛార్జ్ లేదు!";
+"Blocked User" = "బ్లాక్ చేయబడిన వినియోగదారు";
+"Subscription Manager" = "సబ్‌స్క్రిప్షన్ మేనేజర్";
+"Reload" = "రీలోడ్" ;
+"Your account suspended please purchased subscription." = "మీ ఖాతా సస్పెండ్ చేయబడింది దయచేసి చందాను కొనుగోలు చేయండి.";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "మీరు ఇప్పటికే ఈ సభ్యత్వాన్ని కొనుగోలు చేసారు, మీరు పునరుద్ధరించడాన్ని క్లిక్ చేయడం ద్వారా ఈ సభ్యత్వాన్ని పునరుద్ధరించవచ్చు.";
+"Product load from the itunes." = "ఐట్యూన్స్ నుండి ఉత్పత్తి లోడ్.";
+"Free Trial is Expired" = "ఉచిత ట్రయల్ గడువు ముగిసింది";
+"Days Free Trial of Premium Features" = "డేస్ ఫ్రీ ట్రయల్ ఆఫ్ ప్రీమియం ఫీచర్స్";
+"Leave Chat" = "చాట్ వదిలేయండి";
+"Chat info" = "చాట్ సమాచారం";
+"Edit Message" = "సందేశాన్ని సవరించు";
+"Delete" = "తొలగించు" ;
+"Forward" = "ఫార్వర్డ్" ;
+"Delivered to..." = "బట్వాడా చేయబడింది...";
+"Viewed by..." = "వీక్షించారు..." ;
+"Save attachment" = "అటాచ్‌మెంట్‌ను సేవ్ చేయి";
+"Delete For Me" = "నా కోసం తొలగించు";
+"Delete For All" = "అందరికీ తొలగించు";
+"Re-Translate" = "తిరిగి అనువదించు";
+"Self-Destruct" = "సెల్ఫ్ డిస్ట్రాక్ట్";
+"Quote Reply" = "కోట్ ప్రత్యుత్తరం";
+"Share Via" = "ద్వారా భాగస్వామ్యం చేయండి";
+"View file" = "ఫైల్‌ని వీక్షించండి";
+" is typing..." = " టైప్ చేస్తోంది...";
+" are typing..." = "టైప్ చేస్తున్నారు...";
+" and 2 more are typing..." = "మరియు మరో 2 మంది టైప్ చేస్తున్నారు...";
+"No user with that name" = "ఆ పేరుతో వినియోగదారు లేరు";
+"Add Occupants" = "ఆక్రమణదారులను జోడించు";
+
+
+"Message forwarded" = "సందేశం ఫార్వార్డ్ చేయబడింది";
+"Delete" = "తొలగించు" ;
+"Send" = "పంపు" ;
+"Error" = "లోపం" ;
+"Create" = "సృష్టించు" ;
+"Message delivered to" = "మెసేజ్ డెలివరీ చేయబడింది";
+"Message viewed by" = "సందేశాన్ని వీక్షించారు";
+"Finish" = "ముగించు" ;
+"New Chat" = "కొత్త చాట్";
+"QBChat is not Connected" = "QBChat కనెక్ట్ కాలేదు";
+"New Group Chat" = "కొత్త గ్రూప్ చాట్";
+"New Chat" = "కొత్త చాట్";
+"No user with that name" = "ఆ పేరుతో వినియోగదారు లేరు";
+"Please allow the app to access your contacts through the device's settings." = "దయచేసి పరికరం సెట్టింగ్‌ల ద్వారా మీ పరిచయాలను యాక్సెస్ చేయడానికి యాప్‌ను అనుమతించండి.";
+"No user with that name" = "ఆ పేరుతో వినియోగదారు లేరు";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "మీ స్మార్ట్‌ఫోన్ కోసం TuDimeని తనిఖీ చేయండి. దీన్ని ఈరోజే (https://www.TuDime.com) నుండి డౌన్‌లోడ్ చేసుకోండి";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "మీ స్మార్ట్‌ఫోన్ కోసం TuDimeని తనిఖీ చేయండి. దీన్ని ఈరోజే (https://www.TuDime.com) నుండి డౌన్‌లోడ్ చేసుకోండి";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "మీ ఇమెయిల్ లేదా ఆల్ఫాన్యూమరిక్ అక్షరాలను 3 నుండి 50 పరిధిలో ఉపయోగించండి. మొదటి అక్షరం తప్పనిసరిగా అక్షరం అయి ఉండాలి.";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "3 నుండి 20 పరిధిలో ఆల్ఫాన్యూమరిక్ అక్షరాలు మరియు ఖాళీలను ఉపయోగించండి. వరుసగా ఒకటి కంటే ఎక్కువ ఖాళీలను కలిగి ఉండకూడదు.";
+"Send eCards" = "ఇకార్డులను పంపు";
+"Details View" = "వివరాల వీక్షణ";
+"Delete Chat" = "చాట్ తొలగించు";
+"Archive Chat" = "ఆర్కైవ్ చాట్";
+"Chat Disappearing timer" = "చాట్ అదృశ్యమవుతున్న టైమర్";
+"Block" = "బ్లాక్" ;
+"Category" = "వర్గం" ;
+"5 Minutes" = "5 నిమిషాలు";
+"10 Minutes" = "10 నిమిషాలు";
+"20 Minutes" = "20 నిమిషాలు";
+"30 Minutes" = "30 నిమిషాలు";
+"40 Minutes" = "40 నిమిషాలు";
+"50 Minutes" = "50 నిమిషాలు";
+"60 Minutes" = "60 నిమిషాలు";
+
+
+"Online" = "ఆన్‌లైన్" ;
+"Offline" = "ఆఫ్‌లైన్" ;
+"Today" = "ఈనాడు" ;
+"Yesterday" = "నిన్న" ;
+
+"Bad Gateway, please try again" = "బాడ్ గేట్‌వే, దయచేసి మళ్లీ ప్రయత్నించండి";
+"Connection network error, please try again" = "కనెక్షన్ నెట్‌వర్క్ లోపం, దయచేసి మళ్లీ ప్రయత్నించండి";
+"Doodle" = "డూడుల్" ;
+"Image" = "చిత్రం" ;
+"Location" = "స్థానం" ;
+"Theme" = "థీమ్" ;
+"Contact" = "సంప్రదింపు" ;
+"Files" = "ఫైల్స్" ;
+"Audio/Video" = "ఆడియో/వీడియో";
+"TuDime Translation" = "టుడైమ్ అనువాదం";
+"Select language in which you want to convert the text" = "మీరు వచనాన్ని మార్చాలనుకుంటున్న భాషను ఎంచుకోండి";
+"Enter Text:" = "వచనాన్ని నమోదు చేయండి:";
+"Edit Message" = "సందేశాన్ని సవరించు";
+"WARNING" = "హెచ్చరిక" ;
+"Do you really want to Archieve this chat?" = "మీరు నిజంగా ఈ చాట్‌ని ఆర్కైవ్ చేయాలనుకుంటున్నారా?";
+"Cancel" = "రద్దు" ;
+"Okay" = "సరే" ;
+"Archiving Chat" = "ఆర్కైవింగ్ చాట్";
+"Can't use options when you are in secret chat" = "మీరు రహస్య చాట్‌లో ఉన్నప్పుడు ఎంపికలను ఉపయోగించలేరు";
+"Details View" = "వివరాల వీక్షణ";
+"Leave Chat" = "చాట్ వదిలేయండి";
+"Send eCards" = "ఇకార్డులను పంపు";
+"Details View" = "వివరాల వీక్షణ";
+"Delete Chat" = "చాట్ తొలగించు";
+"Chat Disappearing timer" = "చాట్ అదృశ్యమవుతున్న టైమర్";
+"Can't set theme when you are in secret chat" = "మీరు రహస్య చాట్‌లో ఉన్నప్పుడు థీమ్‌ని సెట్ చేయలేరు";
+"Choose photo from..." = "దాని నుండి ఫోటోను ఎంచుకోండి...";
+"Camera" = "కెమెరా" ;
+"Gallery" = "గ్యాలరీ" ;
+"Sorry,no language found" = "క్షమించండి, భాష కనుగొనబడలేదు";
+"Please select translate language first" = "దయచేసి ముందుగా అనువదించు భాషను ఎంచుకోండి";
+"You" = "మీరు" ;
+"Do you really want to leave selected dialog?" = "మీరు నిజంగా ఎంచుకున్న డైలాగ్‌ను వదిలివేయాలనుకుంటున్నారా?";
+"DELETE" = "తొలగించు" ;
+"Open Settings" = "సెట్టింగ్‌లను తెరవండి";
+"Warning" = "హెచ్చరిక" ;
+"This message will be self destruct after 10 Seconds" = "ఈ సందేశం 10 సెకన్ల తర్వాత స్వీయ నాశనం అవుతుంది";
+"You can send 1 attachment per message" = "మీరు ఒక సందేశానికి 1 జోడింపును పంపవచ్చు";
+
+
+
+"Save error" = "లోపాన్ని సేవ్ చేయి";
+"Your Device can't make a phone call" = "మీ పరికరం ఫోన్ కాల్ చేయదు";
+"User denied access to speech recognition" = "స్పీచ్ రికగ్నిషన్‌కు వినియోగదారు యాక్సెస్ నిరాకరించారు";
+"Speech recognition restricted on this device" = "ఈ పరికరంలో స్పీచ్ రికగ్నిషన్ పరిమితం చేయబడింది";
+"Speech recognition not yet authorized" = "స్పీచ్ రికగ్నిషన్ ఇంకా అధీకృతం కాలేదు";
+"Recognition not available" = "గుర్తింపు అందుబాటులో లేదు";
+"Add Photos" = "ఫోటోలను జోడించు";
+"Choose photo from..." = "దాని నుండి ఫోటోను ఎంచుకోండి...";
+"You don't have camera" = "మీ దగ్గర కెమెరా లేదు";
+"Alert" = "హెచ్చరిక" ;
+"Are you sure want to unblock this user?" = "మీరు ఖచ్చితంగా ఈ వినియోగదారుని అన్‌బ్లాక్ చేయాలనుకుంటున్నారా?";
+"Are you sure want to block this user? Later you can unblock from setting." = "మీరు ఖచ్చితంగా ఈ వినియోగదారుని బ్లాక్ చేయాలనుకుంటున్నారా? తర్వాత మీరు సెట్టింగ్ నుండి అన్‌బ్లాక్ చేయవచ్చు.";
+"Unblock" = "అన్‌బ్లాక్" ;
+"The uploaded file exceeds maximum file size (100MB)" = "అప్‌లోడ్ చేయబడిన ఫైల్ గరిష్ట ఫైల్ పరిమాణాన్ని (100MB) మించిపోయింది";
+"Error loading image" = "చిత్రాన్ని లోడ్ చేయడంలో లోపం";
+"Video is not compatible With Photos Album" = "ఫోటోల ఆల్బమ్‌తో వీడియో అనుకూలంగా లేదు";
+"Camera error" = "కెమెరా లోపం";
+"The app doesn't have access to the camera, please go to settings and enable it." = "యాప్‌కి కెమెరాకు యాక్సెస్ లేదు, దయచేసి సెట్టింగ్‌లకు వెళ్లి దాన్ని ప్రారంభించండి.";
+"Microphone error" = "మైక్రోఫోన్ లోపం";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "యాప్‌కి మైక్రోఫోన్ యాక్సెస్ లేదు, దయచేసి సెట్టింగ్‌లకు వెళ్లి దాన్ని ప్రారంభించండి.";
+"Settings" = "సెట్టింగ్‌లు" ;
+"Unknown user" = "తెలియని వినియోగదారు";
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "మెమొరీ హెచ్చరిక: కాల్ నుండి నిష్క్రమించండి. దయచేసి, వీడియో సెట్టింగ్‌ల నాణ్యతను తగ్గించండి";
+"Session did close due to time out" = "సమయం ముగిసినందున సెషన్ మూసివేయబడింది";
+
+
+
+
+"New" = "కొత్తది" ;
+"Pending" = "పెండింగ్" ;
+"Closed" = "మూసివేయబడింది" ;
+"Failed" = "విఫలమైంది" ;
+"Hung Up" = "హంగ్ అప్";
+"Rejected" = "తిరస్కరించబడింది" ;
+"No Answer" = "సమాధానం లేదు";
+
+"Time out" = "టైమ్ అవుట్";
+"Disconnected" = "";
+"Please select your Language first" = "దయచేసి ముందుగా మీ భాషను ఎంచుకోండి";
+"Registration" = "రిజిస్ట్రేషన్" ;
+"Select your country" = "మీ దేశాన్ని ఎంచుకోండి";
+"Nick name must be 3 characters long." = "నిక్ నేమ్ తప్పనిసరిగా 3 అక్షరాల పొడవు ఉండాలి.";
+"Registration" = "";
+"Select Country" = "దేశాన్ని ఎంచుకోండి";
+"Sorry, no country found by this name!" = "క్షమించండి, ఈ పేరుతో ఏ దేశం కనుగొనబడలేదు!";
+"Too many Attempts! Try again after sometime" = "చాలా ప్రయత్నాలు! కొంత సమయం తర్వాత మళ్లీ ప్రయత్నించండి";
+"Incomplete Pin" = "అసంపూర్ణ పిన్";
+"Please Enter Your Security Answer" = "దయచేసి మీ భద్రతా సమాధానాన్ని నమోదు చేయండి";
+"Security Answer is incorrect!" = "భద్రతా సమాధానం తప్పు!";
+"Success" = "విజయం" ;
+"Pin setted Successfully!" = "పిన్ విజయవంతంగా సెట్ చేయబడింది!";
+"Confirm Pin Mismatched!" = "పిన్ సరిపోలలేదని నిర్ధారించండి!";
+"Please Enter The New Pin Again!" = "దయచేసి మళ్లీ కొత్త పిన్‌ని నమోదు చేయండి!";
+"Please Enter A New Pin!" = "దయచేసి కొత్త పిన్‌ని నమోదు చేయండి!";
+"Subscription Details" = "చందా వివరాలు";
+"Your Payment is successfull!" = "మీ చెల్లింపు విజయవంతమైంది!";
+"Payment Details" = "చెల్లింపు వివరాలు";
+"Address" = "చిరునామా" ;
+"Country" = "దేశం" ;
+"State" = "స్టేట్" ;
+"ZIP" = "జిప్" ;
+"City" = "నగరం" ;
+
+
+"Email" = "ఇమెయిల్" ;
+"Address" = "చిరునామా" ;
+"Country" = "దేశం";
+"Country Code" = "దేశం కోడ్";
+"Valid email" = "చెల్లుబాటు అయ్యే ఇమెయిల్";
+"address field can't be blank!" = "చిరునామా ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"state field can't be blank!" = "రాష్ట్ర క్షేత్రం ఖాళీగా ఉండకూడదు!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "దయచేసి న్యూమరిక్ క్యారెక్టర్ లేకుండా నమోదు చేయండి(ఉదా. జాన్ డో)";
+"pincode field can't be blank!" = "పిన్‌కోడ్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"country field can't be blank!" = "దేశ క్షేత్రం ఖాళీగా ఉండకూడదు!";
+"Please enter with out special Charecter(e.g John Doe)" = "దయచేసి ప్రత్యేక అక్షరాలు లేకుండా నమోదు చేయండి(ఉదా. జాన్ డో)";
+
+"city field can't be blank!" = "సిటీ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Email field can't be blank!" = "ఇమెయిల్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Entered email is not valid!" = "నమోదు చేసిన ఇమెయిల్ చెల్లదు!";
+"Some Data is missing" = "కొంత డేటా లేదు";
+"Your Payment is successfull!" = "మీ చెల్లింపు విజయవంతమైంది!";
+"Please enter a Number" = "దయచేసి ఒక సంఖ్యను నమోదు చేయండి";
+"Please enter a country code" = "దయచేసి దేశం కోడ్‌ను నమోదు చేయండి";
+"You have no credit recharge please!" = "దయచేసి మీకు క్రెడిట్ రీఛార్జ్ లేదు!";
+"Sinch Client not" = "సించ్ క్లయింట్ కాదు";
+"Intitialised.!" = "ప్రారంభించబడింది.!" ;
+"Please wait Inititalising..." = "దయచేసి ప్రారంభించడం వేచి ఉండండి...";
+"Sinch Client" = "సించ్ క్లయింట్";
+"No number available!" = "నెంబర్ అందుబాటులో లేదు!";
+"Can't be placed more!" = "ఇంకా ఉంచలేము!";
+"Call ended" = "కాల్ ముగిసింది";
+"Call connected" = "కాల్ కనెక్ట్ చేయబడింది";
+"Calling..." = "కాలింగ్..." ;
+"Edit Profile" = "ప్రొఫైల్‌ని సవరించు";
+"Accounts" = "ఖాతాలు" ;
+"Appearance" = "ప్రదర్శన" ;
+"Contact Us" = "మమ్మల్ని సంప్రదించండి";
+"About & Help"= "గురించి & సహాయం";
+"Secret Chat" = "సీక్రెట్ చాట్";
+"Blocked User" = "బ్లాక్ చేయబడిన వినియోగదారు";
+"Store Stickers/Gifs" = "స్టోర్ స్టిక్కర్లు/Gifలు";
+"Font successfully defualt set" = "ఫాంట్ విజయవంతంగా డిఫాల్ట్ సెట్";
+"Font Color successfully defualt set" = "ఫాంట్ రంగు విజయవంతంగా డిఫాల్ట్ సెట్";
+
+
+
+"Font size successfully defualt set" = "ఫాంట్ పరిమాణం విజయవంతంగా డిఫాల్ట్ సెట్ చేయబడింది";
+"Font successfully set" = "ఫాంట్ విజయవంతంగా సెట్ చేయబడింది";
+"Font size successfully set" = "ఫాంట్ పరిమాణం విజయవంతంగా సెట్ చేయబడింది";
+"Font color successfully set" = "ఫాంట్ రంగు విజయవంతంగా సెట్ చేయబడింది";
+"Privacy" = "గోప్యత" ;
+"Delete Accounts" = "ఖాతాలను తొలగించు";
+"Archive Chat" = "ఆర్కైవ్ చాట్";
+"Do you want to delete your account?" = "మీరు మీ ఖాతాను తొలగించాలనుకుంటున్నారా?";
+"Once you delete your account, all your data will be removed permanently" = "మీరు మీ ఖాతాను తొలగించిన తర్వాత, మీ మొత్తం డేటా శాశ్వతంగా తీసివేయబడుతుంది";
+"No Profile id found!" = "ప్రొఫైల్ ఐడి కనుగొనబడలేదు!";
+"Contact Us" = "మమ్మల్ని సంప్రదించండి";
+"Name field can't be blank!" = "నేమ్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Phone field can't be blank!" = "ఫోన్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Please Enter a valid Phone Number" = "దయచేసి చెల్లుబాటు అయ్యే ఫోన్ నంబర్‌ను నమోదు చేయండి";
+"Email field can't be blank!" = "ఇమెయిల్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Please Enter a valid Email" = "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్‌ను నమోదు చేయండి";
+"Country field can't be blank!" = "దేశం ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Comments field can't be blank!" = "వ్యాఖ్యల ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Your response uploaded Successfully" = "మీ ప్రతిస్పందన విజయవంతంగా అప్‌లోడ్ చేయబడింది";
+"Terms & Privacy Policy" = "నిబంధనలు & గోప్యతా విధానం";
+"Feedback" = "అభిప్రాయం" ;
+"Feedback" = "";
+"Feedback field can't be empty!" = "ఫీడ్‌బ్యాక్ ఫీల్డ్ ఖాళీగా ఉండకూడదు!";
+"Your feedback sent Successfully" = "మీ అభిప్రాయం విజయవంతంగా పంపబడింది";
+"Work in Progress!" = "పని జరుగుచున్నది!";
+"Buy Call Credit" = "కాల్ క్రెడిట్ కొనండి";
+"You Choose $5 Package" = "మీరు $5 ప్యాకేజీని ఎంచుకోండి";
+"You Choose $10 Package" = "మీరు $10 ప్యాకేజీని ఎంచుకోండి";
+"You Choose $15 Package" = "మీరు $15 ప్యాకేజీని ఎంచుకోండి";
+"Please set Unique ID" = "దయచేసి ప్రత్యేక IDని సెట్ చేయండి";
+"Your Uniqe id is: " = "మీ యూనిక్ ఐడి: ";
+
+
+"Public" = "పబ్లిక్" ;
+"Choose" = "ఎంచుకోండి" ;
+"Camera" = "కెమెరా" ;
+"Gallery" = "గ్యాలరీ" ;
+"Cancel" = "రద్దు" ;
+"Unique id created successfully" = "ప్రత్యేక ఐడి విజయవంతంగా సృష్టించబడింది";
+"Profile Privacy updated Successfully" = "ప్రొఫైల్ గోప్యత విజయవంతంగా నవీకరించబడింది";
+
+"You don't have camera" = "మీ దగ్గర కెమెరా లేదు";
+"Profile" = "ప్రొఫైల్" ;
+"Hey, I am using Tudime!" = "హే, నేను తుడిమ్‌ని ఉపయోగిస్తున్నాను!";
+"Status:" = "స్థితి:" ;
+"Hey, I am using Tudime!" = "";
+"Enter Your Name" = "మీ పేరును నమోదు చేయండి";
+"Set Unique ID" = "ప్రత్యేక IDని సెట్ చేయండి";
+"Done" = "పూర్తయింది" ;
+"Enter Your Name" = "మీ పేరును నమోదు చేయండి";
+"Enter Your Unique id" = "మీ ప్రత్యేక ఐడిని నమోదు చేయండి";
+"Set" = "సెట్" ;
+"Nickname updated successfully" = "ముద్దుపేరు విజయవంతంగా నవీకరించబడింది";
+"No special characters allowed." = "ప్రత్యేక అక్షరాలు అనుమతించబడవు.";
+"Must be contain minimum 4 characters." = "కనీసం 4 అక్షరాలు ఉండాలి.";
+"Set Status" = "సెట్ స్టేటస్";
+"Status updated Successfully" = "స్థితి విజయవంతంగా నవీకరించబడింది";
+"Schedule Event" = "షెడ్యూల్ ఈవెంట్";
+"Enter Description" = "వివరణను నమోదు చేయండి";
+"Events Loading Error" = "ఈవెంట్‌లను లోడ్ చేయడంలో లోపం";
+"The calender could not load system events. It is possibly a problem with permissions" = "క్యాలెండర్ సిస్టమ్ ఈవెంట్‌లను లోడ్ చేయలేకపోయింది. ఇది బహుశా అనుమతులతో సమస్య కావచ్చు";
+"New Event" = "కొత్త ఈవెంట్";
+
+
+"Enter Event Name" = "ఈవెంట్ పేరును నమోదు చేయండి";
+"Enter Description" = "వివరణను నమోదు చేయండి";
+"Enter Time" = "సమయాన్ని నమోదు చేయండి";
+"Please enter event name" = "దయచేసి ఈవెంట్ పేరు నమోదు చేయండి";
+"Please enter event time" = "దయచేసి ఈవెంట్ సమయాన్ని నమోదు చేయండి";
+"Schedule created successfully" = "షెడ్యూల్ విజయవంతంగా సృష్టించబడింది";
+"Time:" = "సమయం:" ;
+"Date:" = "తేదీ:" ;
+"Profile Picture Gallery" = "ప్రొఫైల్ పిక్చర్ గ్యాలరీ";
+"Profile Photo Updated Successfully!" = "ప్రొఫైల్ ఫోటో విజయవంతంగా నవీకరించబడింది!";
+"Set as Profile Picture" = "ప్రొఫైల్ పిక్చర్‌గా సెట్ చేయి";
+"Delete Photo" = "ఫోటోను తొలగించు";
+"No photo available!" = "ఫోటో అందుబాటులో లేదు!";
+"Select one option" = "ఒక ఎంపికను ఎంచుకోండి";
+"Custom Status" = "అనుకూల స్థితి";
+"Status updated Successfully" = "స్థితి విజయవంతంగా నవీకరించబడింది";
+"This is already current status" = "ఇది ఇప్పటికే ప్రస్తుత స్థితి";
+"Status can't be blank!" = "హోదా ఖాళీగా ఉండకూడదు!";
+"Sorry! no card is available right now" = "క్షమించండి! ప్రస్తుతం కార్డ్ అందుబాటులో లేదు";
+"Keeping more ecards, may slow down your device" = "మరిన్ని ఈకార్డ్‌లను ఉంచడం, మీ పరికరం వేగాన్ని తగ్గించవచ్చు";
+
+
+"Love" = "ప్రేమ" ;
+"Birthday"= "పుట్టినరోజు";
+"Friendship" = "స్నేహం" ;
+"Some1 Special" = "సమ్1 స్పెషల్";
+"Miss You" = "మిస్ యు";
+"Congratulations" = "అభినందనలు" ;
+"Good Luck" = "గుడ్ లక్";
+"Get Well Soon" = "గెట్ వెల్ సూన్";
+"Invitations" = "ఆహ్వానాలు" ;
+"Thank You" = "ధన్యవాదాలు";
+"Sorry" = "క్షమించండి" ;
+"Tap to Record" = "రికార్డ్ చేయడానికి నొక్కండి";
+
+
+
+"Tap to Stop Recording" = "రికార్డింగ్‌ని ఆపడానికి నొక్కండి";
+"Tap to Record" = "రికార్డ్ చేయడానికి నొక్కండి";
+"Recording Successfull." = "రికార్డింగ్ విజయవంతమైంది.";
+"Recording Failed :(" = "రికార్డింగ్ విఫలమైంది :(";
+"Make it personal !" = "వ్యక్తిగతంగా చేయండి!";
+"Choose photo from..." = "దాని నుండి ఫోటోను ఎంచుకోండి..";
+"Everything need to be selected!" = "అంతా ఎంచుకోవాలి!";
+"Everything need to be selected!" = "";
+"You don't have camera" = "మీ దగ్గర కెమెరా లేదు";
+"Something is wrong!" = "ఏదో తప్పు ఉంది!";
+"Please add recorded Audio." = "దయచేసి రికార్డ్ చేసిన ఆడియోని జోడించండి.";
+"Please add recorded Audio." = "";
+"Signature" = "సంతకం";
+"No signature found!" = "సంతకం దొరకలేదు!";
+"Enter text here" = "వచనాన్ని ఇక్కడ నమోదు చేయండి";
+"Text Dialog" = "టెక్స్ట్ డైలాగ్";
+"Sorry,no language found" = "క్షమించండి, భాష కనుగొనబడలేదు";
+"Please select translate language first" = "దయచేసి ముందుగా అనువదించు భాషను ఎంచుకోండి";
+"TuDime Translation" = "టుడైమ్ అనువాదం";
+"Select language in which you want to convert the text" = "మీరు వచనాన్ని మార్చాలనుకుంటున్న భాషను ఎంచుకోండి";
+"Enter Text:" = "వచనాన్ని నమోదు చేయండి";
+"Enter text here" = "వచనాన్ని ఇక్కడ నమోదు చేయండి";
+"User denied access to speech recognition" = "వినియోగదారు ప్రసంగ గుర్తింపుకు ప్రాప్యతను నిరాకరించారు";
+"Speech recognition restricted on this device" = "ఈ పరికరంలో ప్రసంగ గుర్తింపు పరిమితం చేయబడింది";
+"Speech recognition not yet authorized" = "ప్రసంగ గుర్తింపు ఇంకా అధికారం ఇవ్వబడలేదు";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "మీ స్మార్ట్‌ఫోన్ కోసం TuDimeని తనిఖీ చేయండి. దీన్ని ఈరోజే (https://www.TuDime.com) నుండి డౌన్‌లోడ్ చేసుకోండి";
+"Group Chat" = "గ్రూప్ చాట్";
+"Secret Chat" = "సీక్రెట్ చాట్";
+"Bad Gateway, please try again" = "బాడ్ గేట్‌వే, దయచేసి మళ్లీ ప్రయత్నించండి";
+
+
+"Connection network error, please try again" = "కనెక్షన్ నెట్‌వర్క్ లోపం, దయచేసి మళ్లీ ప్రయత్నించండి";
+"Select a user to start Chat" = "చాట్ ప్రారంభించడానికి వినియోగదారుని ఎంచుకోండి";
+"Please add more members for Group Chat!" = "దయచేసి గ్రూప్ చాట్ కోసం మరింత మంది సభ్యులను జోడించండి!";
+"Theme changed successfully!" = "థీమ్ విజయవంతంగా మార్చబడింది!";
+"You don't have camera" = "మీ దగ్గర కెమెరా లేదు";
+"Theme changed successfully!" = "థీమ్ విజయవంతంగా మార్చబడింది!";
+"Archive Chat" = "ఆర్కైవ్ చాట్";
+"25%% discount if you join with in %d days %@" = "మీరు %d రోజులలో చేరితే 25%% తగ్గింపు %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "25%% తగ్గింపు చెల్లుబాటు గడువు ముగిసింది. ఖాతా సస్పెన్షన్‌ను నివారించడానికి %d రోజులతో చేరండి";
+"ACCOUNT SUSPENDED" = "ఖాతా సస్పెండ్ చేయబడింది";
+"Your account suspended please purchased subscription." = "మీ ఖాతా సస్పెండ్ చేయబడింది దయచేసి చందాను కొనుగోలు చేయండి.";
+"Please select a color" = "దయచేసి ఒక రంగును ఎంచుకోండి";
+"Please select a Picture" = "దయచేసి చిత్రాన్ని ఎంచుకోండి";
+"Opss! Cliend Error." = "ఓప్స్! క్లయిండ్ ఎర్రర్.";
+"Failed to fetch data" = "డేటా పొందడంలో విఫలమైంది";
+"No Internet Connection." = "ఇంటర్నెట్ కనెక్షన్ లేదు.";
+"Server Error." = "సర్వర్ లోపం.";
+"Successful Fetch." = "విజయవంతంగా పొందడం.";
+"Failed to covert data to stirng." = "కదలిక కోసం డేటాను దాచడంలో విఫలమైంది.";
+"Data couldn't JSONSerialize" = "డేటా JSONSerialize కాలేదు";
+"Couldn't convert link string to NSURL" = "లింక్ స్ట్రింగ్‌ను NSURLకి మార్చడం సాధ్యపడలేదు";
+"couldn't format json body for the request." = "అభ్యర్థన కోసం json బాడీని ఫార్మాట్ చేయడం సాధ్యపడలేదు.";
+"Image not available" = "చిత్రం అందుబాటులో లేదు";
+"Welcome to TuDime" = "టుడైమ్‌కు స్వాగతం";
+"TuDime Chat App - More Features than any other !" = "TuDime చాట్ యాప్ - ఇతర వాటి కంటే మరిన్ని ఫీచర్లు!";
+"Set Language" = "సెట్ లాంగ్వేజ్";
+"Select a language for your convenience" = "మీ సౌలభ్యం కోసం భాషను ఎంచుకోండి";
+"Select your Language" = "మీ భాషను ఎంచుకోండి";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "TuDime ప్రపంచవ్యాప్తంగా ఉన్న వినియోగదారులకు నేరుగా ఫోన్ మరియు ఇతర సేవలలో సందేశం పంపడం, కాల్ చేయడం అందిస్తుంది. దయచేసి మా సేవా నిబంధనలను చదవండి, తద్వారా మీరు TuDime వినియోగాన్ని అర్థం చేసుకుంటారు.";
+"Terms & Policies" = "నిబంధనలు & విధానాలు";
+"Chinese" = "చైనీస్" ;
+"English" = "ఇంగ్లీష్" ;
+
+
+
+"AGREE & CONTINUE" = "అంగీకరించి & కొనసాగించు";
+"Choose a way to verify" = "ధృవీకరించడానికి ఒక మార్గాన్ని ఎంచుకోండి";
+"Please select to continue TuDime registration with your Email/Mobile No" = "దయచేసి మీ ఇమెయిల్/మొబైల్ నంబర్‌తో TuDime నమోదును కొనసాగించడానికి ఎంచుకోండి";
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDime Messenger ఒక పర్యాయ SMSని పంపుతుంది. మీ ఫోన్ నంబర్ భాగస్వామ్యం చేయబడదు.ఇది ధృవీకరణ ప్రయోజనాల కోసం మాత్రమే ఉపయోగించబడుతుంది";
+"Enter phone number." = "ఫోన్ నంబర్‌ను నమోదు చేయండి.";
+"Enter your NickName." = "మీ మారుపేరును నమోదు చేయండి.";
+"Please enter your email address for registration" = "దయచేసి నమోదు కోసం మీ ఇమెయిల్ చిరునామాను నమోదు చేయండి";
+"Enter your email id" = "మీ ఇమెయిల్ ఐడిని నమోదు చేయండి";
+"We have sent a verification code to" = "మేము ధృవీకరణ కోడ్‌ని పంపాము";
+"Please enter the received verification code below" = "దయచేసి క్రింద అందుకున్న ధృవీకరణ కోడ్‌ను నమోదు చేయండి";
+"Enter verification code" = "ధృవీకరణ కోడ్‌ని నమోదు చేయండి";
+
+
+"A code was sent to you by text message.\n if not, click on this link." = "వచన సందేశం ద్వారా మీకు కోడ్ పంపబడింది.\n లేకపోతే, ఈ లింక్‌పై క్లిక్ చేయండి.";
+"A code was sent to you by email.\n if not, click on this link." = "మీకు ఇమెయిల్ ద్వారా కోడ్ పంపబడింది.\n లేకపోతే, ఈ లింక్‌పై క్లిక్ చేయండి.";
+"VERIFY" = "ధృవీకరించు" ;
+"Send Code" = "కోడ్ పంపు";
+"again" = "మళ్ళీ" ;
+"Profile" = "ప్రొఫైల్" ;
+"eCards" = "eCards" ;
+"Store-Stickers & Gifs" = "స్టోర్-స్టిక్కర్లు & Gifs";
+"Schedule Events" = "షెడ్యూల్ ఈవెంట్స్";
+"Subscription Manager" = "సబ్‌స్క్రిప్షన్ మేనేజర్";
+"TuDime CAN" = "TuDime CAN";
+"Change Language" = "భాషను మార్చు";
+"Settings" = "సెట్టింగ్‌లు" ;
+"Sign Out" = "సైన్ అవుట్";
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "ఇది మీ వినియోగదారు పేరు లేదా పిన్ కాదు. ఈ పేరు మీ TuDime పరిచయాలకు కనిపిస్తుంది.";
+
+
+"Private" = "ప్రైవేట్" ;
+"Your Current Status" = "మీ ప్రస్తుత స్థితి";
+"Select Your Status" = "మీ స్థితిని ఎంచుకోండి";
+"Urgent calls only" = "అత్యవసర కాల్‌లు మాత్రమే";
+"Hey! I'm using TuDime" = "హే! నేను TuDime ఉపయోగిస్తున్నాను";
+"Available" = "అందుబాటులో ఉంది";
+"Busy" = "బిజీ" ;
+"At School" = "పాఠశాలలో" ;
+"At work" = "పనిలో" ;
+"At the movies" = "సినిమాలలో";
+"Battery about to die" = "బ్యాటరీ చనిపోవబోతోంది";
+
+
+"Can't talk, TuDime only" = "మాట్లాడలేను, TuDime మాత్రమే";
+"Sleeping" = "స్లీపింగ్" ;
+"In a meeting" = "సమావేశంలో" ;
+"Keeping more eCards may slow down the speed of the app" = "ఎక్కువ ఈకార్డ్‌లను ఉంచడం వలన యాప్ వేగాన్ని తగ్గించవచ్చు";
+"Personalize" = "వ్యక్తిగతీకరించు" ;
+"Make it personal!" = "వ్యక్తిగతంగా చేయండి!";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "మంచి ఎంపిక!\nఇప్పుడు, ఈ అందమైన కార్డ్ ద్వారా\nమీ కక్షలను వ్యక్తపరచండి!";
+"Add Photos" = "ఫోటోలను జోడించు";
+"Add Text" = "వచనాన్ని జోడించు";
+"Add Signature" = "సంతకాన్ని జోడించు";
+"Add Frames" = "ఫ్రేమ్‌లను జోడించు";
+"Add Voice" = "వాయిస్ జోడించు";
+"Preview" = "ప్రివ్యూ" ;
+"Go!" = "వెళ్ళండి!" ;
+"Download More" = "మరిన్ని డౌన్‌లోడ్ చేయి";
+"Schedule Events" = "షెడ్యూల్ ఈవెంట్స్";
+"Long Tap On Date To Set Schedule" = "షెడ్యూల్ సెట్ చేయడానికి తేదీని ఎక్కువసేపు నొక్కండి";
+"New Event" = "కొత్త ఈవెంట్";
+"Remove Account" = "ఖాతా తీసివేయి";
+"Activate TuDime Pin" = "టుడైమ్ పిన్‌ని సక్రియం చేయి";
+"Set Pin to TuDime" = "పిన్‌ని TuDimeకి సెట్ చేయండి";
+"Remove Pin" = "పిన్ తీసివేయి";
+"Welcome Back" = "వెల్కమ్ బ్యాక్";
+" Pin" = "పిన్" ;
+"Forgot" = "మర్చిపోయాను";
+"Enter Pin to Open TuDime" = "TUDime తెరవడానికి పిన్‌ని నమోదు చేయండి";
+"Save" = "సేవ్" ;
+"Security Answer" = "భద్రతా సమాధానం";
+
+
+"Security Questions"= "భద్రతా ప్రశ్నలు";
+"Confirm New Pin" = "కొత్త పిన్ను నిర్ధారించండి";
+"Your New Pin" = "మీ కొత్త పిన్";
+"What time of the day was your first child born? (hh:mm)" = "మీ మొదటి బిడ్డ రోజులో ఏ సమయంలో జన్మించారు? (hh:mm)";
+"What time of the day were you born? (hh:mm)" = "మీరు రోజులో ఏ సమయంలో జన్మించారు? (hh:mm)";
+"In what town or city did your mother and father meet?" = "మీ అమ్మా నాన్న ఏ ఊరిలో కలిశారు?";
+"What is your spouse or partner's mother's maiden name?" = "మీ జీవిత భాగస్వామి లేదా భాగస్వామి తల్లి మొదటి పేరు ఏమిటి?";
+"What is your grandmother's (on your mother's side) maiden name?" = "మీ అమ్మమ్మ (మీ అమ్మ వైపు) మొదటి పేరు ఏమిటి?";
+"What are the last five digits of your driver's licence number?" = "మీ డ్రైవింగ్ లైసెన్స్ నంబర్‌లో చివరి ఐదు అంకెలు ఏమిటి?";
+"What is the middle name of your oldest child?" = "మీ పెద్ద పిల్లల మధ్య పేరు ఏమిటి?";
+"In what town or city did you meet your spouse/partner?" = "మీరు మీ జీవిత భాగస్వామి/భాగస్వామిని ఏ ఊరు లేదా నగరంలో కలిశారు?";
+"In what town or city was your first full time job?" = "మీ మొదటి పూర్తి సమయం ఉద్యోగం ఏ ఊరు లేదా నగరంలో?";
+"What primary school did you attend?" = "మీరు ఏ ప్రాథమిక పాఠశాలలో చదివారు?";
+"What were the last four digits of your childhood telephone number?" = "మీ చిన్ననాటి టెలిఫోన్ నంబర్‌లో చివరి నాలుగు అంకెలు ఏమిటి?";
+"What was the house number and street name you lived in as a child?" = "మీరు చిన్నప్పుడు నివసించిన ఇంటి నంబర్ మరియు వీధి పేరు ఏమిటి?";
+"Select a Sequrity Question" = "సీక్విటీ ప్రశ్నను ఎంచుకోండి";
+"Pincode" = "పిన్‌కోడ్" ;
+"Country" = "దేశం";
+"Phone No" = "ఫోన్ నంబర్";
+"Full Name" = "పూర్తి పేరు";
+"Write us your concern here and we will get back to you shortly." = "మీ ఆందోళనను మాకు ఇక్కడ వ్రాయండి మరియు మేము త్వరలో మిమ్మల్ని సంప్రదిస్తాము.";
+"GET IN TOUCH" = "గెట్ ఇన్ టచ్";
+"Contact Us" = "Contact Us";
+"Application Version" = "అప్లికేషన్ వెర్షన్";
+"Version no:" = "వెర్షన్ సంఖ్య:";
+"FAQ" = "FAQ" ;
+"Terms & Privacy Policy" = "నిబంధనలు & గోప్యతా విధానం";
+"10. Can i restore messages that i deleted?" = "10. నేను తొలగించిన సందేశాలను పునరుద్ధరించవచ్చా?";
+"9. How to find out friends?" = "9. స్నేహితులను ఎలా కనుగొనాలి?";
+
+"8. The difference between ID and Nickname?" = "8. ID మరియు మారుపేరు మధ్య తేడా?";
+"7. What is ID?" = "7. ID అంటే ఏమిటి?";
+"6. My friend can see my phone number?" = "6. నా స్నేహితుడు నా ఫోన్ నంబర్ చూడగలడా?";
+"5. How to subscribe service?" = "5. సేవను ఎలా సబ్‌స్క్రైబ్ చేయాలి?";
+"4. Everybody can use TuDime??" = "4. అందరూ TuDimeని ఉపయోగించవచ్చా??";
+"3. Service packages?" = "3. సర్వీస్ ప్యాకేజీలు?";
+"2. What is TuDime?" = "2. TuDime అంటే ఏమిటి?";
+"1. With a feature phone, can i use this service?" = "1. ఫీచర్ ఫోన్‌తో, నేను ఈ సేవను ఉపయోగించవచ్చా?";
+
+
+
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "తప్పకుండా. SMS, IVR, వెబ్, యాప్‌లో TuDime అందించబడింది. ఫీచర్ ఫోన్‌తో, వినియోగదారు SMS మరియు IVR ద్వారా సేవను అనుభవించవచ్చు.";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" = "TuDime ఒక ప్రీమియం పరిష్కారం, మద్దతు Viettel చందాదారులు సులభంగా యాక్సెస్ చేయవచ్చు మరియు స్నేహితులతో చాట్ చేయవచ్చు లేదా గొప్ప అనుభవంతో SMS, వెబ్, యాప్ మరియు IVR ద్వారా తక్షణమే స్నేహితులను చేసుకోవచ్చు. SMS మరియు IVRలో, వినియోగదారు ఇతరులను కనుగొనవచ్చు మరియు సంభాషించవచ్చు లేదా సృష్టించవచ్చు. వారి కోసం ప్రొఫైల్. App TuDime వాయిస్ సందేశాలు, వీడియో, చిత్రాలు మరియు వచనాన్ని పంపడానికి మద్దతు ఇస్తుంది. మీరు సమూహంలో కూడా చాట్ చేయవచ్చు లేదా మీరు స్నేహితులను కనుగొనవచ్చు. TuDime యాప్ అన్ని iOS పరికరాలలో పని చేస్తుంది, Android, Windows Phone, Symbian మరియు Blackberry";
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. రోజువారీ: 1.500 డి/రోజు, 2. వారం: 7.000 డి/వారం, 3. నెలవారీ: 22.000 డి/నెల";
+"All Viettel subscribers can use service." = "అందరు Viettel చందాదారులు సేవను ఉపయోగించవచ్చు.";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "a. SMS ఆదేశాలు:DK1ని 1517కి పంపండి:రోజువారీ ప్యాకేజీ DK3ని 1517కి పంపండి:వారంవారీ ప్యాకేజీ DK30కి పంపండి1517:నెలవారీ ప్యాకేజీ b. IVR: 1517కి కాల్ చేయండి, వినండి మరియు సూచనలను అనుసరించండి c. వెబ్/యాప్: సూచనలను అనుసరించండి";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "లేదు. SMS, యాప్, వెబ్‌లో: స్నేహితులు మాత్రమే మీ మారుపేరును చూడగలరు. IVRలో: స్నేహితులు మాత్రమే మీ IDని చూడగలరు.";
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "D చాట్ అనేది 7 అంకెలను కలిగి ఉండే కోడ్, TuDimeలో చేరిన ప్రతి వినియోగదారుకు మార్చలేని 1 ID అందించబడుతుంది.";
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "ID: వినియోగదారు మార్చలేరు, ఇది సిస్టమ్ ద్వారా అందించబడుతుంది. మారుపేరు: వినియోగదారు మార్చవచ్చు, ఇది వినియోగదారుచే సృష్టించబడుతుంది.";
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "మీరు దీని ద్వారా స్నేహితులను కనుగొనవచ్చు: -SMS: TIMని 1517 IVRకి పంపండి: సభ్యత్వం పొందిన తర్వాత, 1517కి కాల్ చేయండి, కొత్త స్నేహితుడిని కనుగొనడానికి 1 నొక్కండి, వినండి మరియు సూచనలను అనుసరించండి యాప్/వెబ్: ఫీచర్ చుట్టూ చూడండి";
+"No." = "లేదు." ;
+"Please give your feedback" = "దయచేసి మీ అభిప్రాయాన్ని తెలియజేయండి";
+
+
+"SUBMIT" = "సమర్పించు" ;
+"Please enter valid OTP" = "దయచేసి చెల్లుబాటు అయ్యే OTPని నమోదు చేయండి";
+"OTP field can't be blank" = "OTP ఫీల్డ్ ఖాళీగా ఉండకూడదు";
+"A New OTP Sended Successfully" = "కొత్త OTP విజయవంతంగా పంపబడింది";
+"OTP verified Successfully" = "OTP విజయవంతంగా ధృవీకరించబడింది";
+"Please fill all the details" = "దయచేసి అన్ని వివరాలను పూరించండి";
+"Please select a language." = "దయచేసి ఒక భాషను ఎంచుకోండి";
+"Please enter your phone number." = "దయచేసి మీ ఫోన్ నంబర్‌ను నమోదు చేయండి";
+"Please enter a valid phone number." = "దయచేసి చెల్లుబాటు అయ్యే ఫోన్ నంబర్‌ను నమోదు చేయండి";
+"Please enter your email id." = "దయచేసి మీ ఇమెయిల్ ఐడిని నమోదు చేయండి.";
+"Please enter a valid email id." = "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ ఐడిని నమోదు చేయండి.";
+"Please select your NickName." = "దయచేసి మీ మారుపేరును ఎంచుకోండి";
+"Please enter a valid Nickname between 4-12 characters." = "దయచేసి 4-12 అక్షరాల మధ్య చెల్లుబాటు అయ్యే మారుపేరును నమోదు చేయండి..";
+"Entered nickname is already taken." = "నమోదు చేసిన మారుపేరు ఇప్పటికే తీసుకోబడింది.";
+"Please select a country" = "దయచేసి ఒక దేశాన్ని ఎంచుకోండి";
+"Secret Chat" = "సీక్రెట్ చాట్" ;
+"Delete Chat" = "చాట్ తొలగించు";
+"Detail View" = "వివరమైన వీక్షణ";
+"Archive Chat" = "ఆర్కైవ్ చాట్";
+
+
+
+
+"Video call" = "వీడియో కాల్";
+"Voice call" = "వాయిస్ కాల్";
+"Enter text here" = "వచనాన్ని ఇక్కడ నమోదు చేయండి";
+"Enter Text:" = "వచనాన్ని నమోదు చేయండి:";
+"Select language in which you want to convert the text" = "మీరు వచనాన్ని మార్చాలనుకుంటున్న భాషను ఎంచుకోండి";
+"TuDime Translation" = "టుడైమ్ అనువాదం";
+"Invite" = "ఆహ్వానించు" ;
+"Refresh Contacts" = "రిఫ్రెష్ కాంటాక్ట్స్";
+"Proceed To Chat" = "చాట్ చేయడానికి కొనసాగండి";
+"Unarchive" = "అన్ ఆర్కైవ్";
+"Account Details" = "ఖాతా వివరాలు";
+"For any changes in details, Please contact support" = "వివరాలలో ఏవైనా మార్పుల కోసం, దయచేసి మద్దతును సంప్రదించండి";
+"Plan Type" = "ప్లాన్ రకం";
+"Plan Details" = "ప్లాన్ వివరాలు";
+"Buy TuDime Membership" = "TUDime సభ్యత్వం కొనండి";
+"365-Days TuDime Annual Membership" = "365-డేస్ TuDime వార్షిక సభ్యత్వం";
+"30-Days Free Trial of Premium Features" = "ప్రీమియం ఫీచర్ల 30-రోజుల ఉచిత ట్రయల్";
+"TuDime Annual Membership" = "TuDime వార్షిక సభ్యత్వం";
+"Free Trial"= "ఉచిత ప్రయత్నం";
+"Next Renew Date" = "తదుపరి పునరుద్ధరణ తేదీ";
+"Best Chat App In The World - More Features than any other!" = "ప్రపంచంలో అత్యుత్తమ చాట్ యాప్ - అన్నింటికంటే ఎక్కువ ఫీచర్లు!";
+"25% discount if you join with in 15 days - $11.25" = "మీరు 15 రోజుల్లో చేరితే 25% తగ్గింపు - $11.25";
+"Text Chat" = "టెక్స్ట్ చాట్";
+"Video Chat" = "వీడియో చాట్";
+"Call Any number In The World" = "ప్రపంచంలో ఏదైనా నంబర్‌కు కాల్ చేయండి";
+"Send Greeting Cards" = "గ్రీటింగ్ కార్డ్‌లను పంపండి";
+"Built in Translation" = "అనువాదంలో నిర్మించబడింది";
+"About 20 other incredible features" = "సుమారు 20 ఇతర అద్భుతమైన లక్షణాలు";
+"1 Year TuDime Membership" = "1 సంవత్సరం TuDime సభ్యత్వం";
+"SUBSCRIBE" = "SUBSCRIBE" ;
+"Stats" = "గణాంకాలు" ;
+
+
+"Please select to continue Tudime registration with your Email/Mobile No" = "దయచేసి మీ ఇమెయిల్/మొబైల్ నంబర్‌తో Tudime రిజిస్ట్రేషన్‌ని కొనసాగించడానికి ఎంచుకోండి";
+"Select your Language" = "మీ భాషను ఎంచుకోండి";
+"Search your country" = "మీ దేశాన్ని శోధించండి";
+"Enter email address" = "ఇమెయిల్ చిరునామాను నమోదు చేయండి";
+"Enter your NickName" = "మీ మారుపేరును నమోదు చేయండి";
+"Your Security Question :" = "మీ భద్రతా ప్రశ్న :";
+"What was the house number and street name you lived in as a child?" = "మీరు చిన్నప్పుడు నివసించిన ఇంటి నంబర్ మరియు వీధి పేరు ఏమిటి?";
+"Security Answer :" = "భద్రతా సమాధానం :";
+"Enter Security answer" = "భద్రతా సమాధానాన్ని నమోదు చేయండి";
+"Your New Pin :" = "మీ కొత్త పిన్ :";
+"Confirm New Pin :" = "కొత్త పిన్ను నిర్ధారించండి :";
+"Buy" = "కొనుగోలు" ;
+"No Membership Yet" = "ఇంకా సభ్యత్వం లేదు";
+
+
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "మీరు రిజిస్ట్రేషన్ నుండి మొదటి 15 క్యాలెండర్ రోజులలోపు కొనుగోలు చేస్తే TuDime Now సభ్యత్వాన్ని కొనుగోలు చేయడంపై మీకు 25% తగ్గింపు లభిస్తుంది. ఈ సభ్యత్వం %@ బదులుగా %@ అవుతుంది. ఈ ఆఫర్ ప్రారంభ నమోదు యొక్క 15వ రోజు వరకు చెల్లుతుంది. ఆ సభ్యత్వం తర్వాత సంవత్సరానికి %@ ఉంటుంది. ఉచిత ట్రయల్ వ్యవధి నమోదు అయిన 30 రోజుల తర్వాత ముగుస్తుంది మరియు TuDimeని ఉపయోగించడం కొనసాగించడానికి పూర్తి సభ్యత్వ ధర %@ అవసరం. మీరు ఇప్పుడు ఏమి చేయాలనుకుంటున్నారు?
+* TuDime వార్షిక సభ్యత్వాన్ని కొనుగోలు చేయండి
+* 30 రోజుల ఉచిత ట్రయల్ పీరియడ్‌తో కొనసాగించండి.
+మిమ్మల్ని విలువైన సభ్యునిగా కొనసాగించడానికి మేము ఎదురుచూస్తున్నాము.
+ధన్యవాదాలు. TuDime స్టాఫ్";
+"Subscribe Now" = "ఇప్పుడే సబ్స్క్రయిబ్";
+"Personalize" = "వ్యక్తిగతీకరించు";
+
+
+
+"Good Choice! Now, express your feelings through this beautiful card !" = "మంచి ఎంపిక! ఇప్పుడు, ఈ అందమైన కార్డ్ ద్వారా మీ భావాలను వ్యక్తపరచండి!";
+"Preview" = "ప్రివ్యూ" ;
+"Share" = "షేర్" ;
+"Add Frames" = "ఫ్రేమ్‌లను జోడించు";
+"Add Audio" = "ఆడియోను జోడించు";
+"Tap to record Audio" = "ఆడియోను రికార్డ్ చేయడానికి నొక్కండి";
+"TRANSLATE" = "అనువాదం" ;
+"Enter text here" = "వచనాన్ని ఇక్కడ నమోదు చేయండి";
+"To place a TuDime call, open a chat and tap at the top" = "TUDime కాల్ చేయడానికి, చాట్ తెరిచి, ఎగువన నొక్కండి";
+"Your Unique id is : " = "మీ ప్రత్యేక ఐడి :";
+"Profile Photo Gallary" = "ప్రొఫైల్ ఫోటో గ్యాలరీ";
+"Enter Your Name" = "మీ పేరును నమోదు చేయండి";
+"Tap To Change Group Icon" = "సమూహ చిహ్నాన్ని మార్చడానికి నొక్కండి";
+"Users" = "వినియోగదారులు" ;
+"Add Participants" = "పాల్గొనేవారిని జోడించు";
+"Exit Group" = "ఎగ్జిట్ గ్రూప్";
+"Enter new group Name" = "కొత్త గుంపు పేరును నమోదు చేయండి";
+"Create Group Chat" = "గ్రూప్ చాట్ సృష్టించు";
+"Invite Contacts" = "పరిచయాలను ఆహ్వానించు";
+"Your New Pin :" = "మీ కొత్త పిన్ :";
+"Confirm New Pin :" = "కొత్త పిన్ను నిర్ధారించండి :";
+"Security Question :" = "భద్రతా ప్రశ్న :";
+"Security Answer :" = "భద్రతా సమాధానం :";
+"Add Profile Picture" = "Add Profile Picture";
+"Text" = "వచనం";
+"Brush" = "బ్రష్";
+"Enter Your Status" = "మీ స్థితిని నమోదు చేయండి";
+"Set Defualt" = "డిఫాల్ట్‌గా సెట్ చేయండి";
+
+
+"Drag left or right to see font size:" = "ఫాంట్ పరిమాణాన్ని చూడటానికి ఎడమ లేదా కుడికి లాగండి:";
+"Select Font Color: " = "ఫాంట్ రంగును ఎంచుకోండి:";
+"Select Font Style: " = "ఫాంట్ శైలిని ఎంచుకోండి:";
+"FILL ADDRESS" = "చిరునామాను పూరించండి";
+"Pay Now" = "ఇప్పుడు చెల్లించండి";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "దయచేసి మీ నంబర్‌ను “+” మరియు మీ దేశ కోడ్‌తో ప్రారంభించాలని గుర్తుంచుకోండి. ఉదా. “+14155522233”. ఇక్కడ “+” ఉపసర్గ అవసరం, “1” అనేది US కంట్రీ కోడ్";
+"Click here to check call cradit rates." = "కాల్ క్రెడిట్ రేట్లను తనిఖీ చేయడానికి ఇక్కడ క్లిక్ చేయండి.";
+"Calling..." = "కాలింగ్..." ;
+"Please choose a Plan For Continue Recharge" = "దయచేసి రీఛార్జ్ కొనసాగించడానికి ప్లాన్‌ను ఎంచుకోండి";
+"My Balance" = "నా బ్యాలెన్స్";
+"BUY CALL CREDIT" = "కాల్ క్రెడిట్ కొనండి";
+"Group Name" = "గ్రూప్ పేరు";
+"Device Contacts" = "పరికర పరిచయాలు";
+"Proceed To Chat" = "చాట్ చేయడానికి కొనసాగండి";
+"Search with phone, name, email, or unique id" = "ఫోన్, పేరు, ఇమెయిల్ లేదా ప్రత్యేక ఐడితో శోధించండి";
+"Select your Language" = "మీ భాషను ఎంచుకోండి";
+"Enter text here" = "వచనాన్ని ఇక్కడ నమోదు చేయండి";
+"Get started with disappearing messages" = "కనుమరుగవుతున్న సందేశాలతో ప్రారంభించండి";
+"Select files..." = "ఫైళ్లను ఎంచుకోండి...";
+"Tap to change group icon" = "సమూహ చిహ్నాన్ని మార్చడానికి నొక్కండి";
+"Username" = "వినియోగదారు పేరు";
+"Leaving..." = "బయలుదేరుతోంది...";
+
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "మీరు ఎంచుకున్న చాట్‌ని నిజంగా తొలగించాలనుకుంటున్నారా?\nఅలా చేయడం వలన శాశ్వతంగా తొలగించబడుతుంది";
+"Yes" = "అవును";
+
+"Call Credit Amount" = "కాల్ క్రెడిట్ మొత్తం";
+"Invite\nFriends" = "స్నేహితులను\nఆహ్వానించండి";
+"CALLS" = "కాల్స్";
+"CHATS" = "చాట్‌లు";
+"Archived" = "ఆర్కైవ్ చేయబడింది";
+"Notes" = "గమనికలు";
+"Star Message" = "నక్షత్ర సందేశం";
+"Report" = "నివేదించండి";
+"Phone/Email" = "ఫోన్/ఈమెయిల్";
+"E-Cards" = "ఇ-కార్డులు";
+"Disappear Chat" = "చాట్ అదృశ్యం";
+
+"Default theme setting" = "డిఫాల్ట్ థీమ్ సెట్టింగ్";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "మీరు ఖచ్చితంగా డిఫాల్ట్ థీమ్‌ను లాక్ చేయాలనుకుంటున్నారా? మీరు డిఫాల్ట్ థీమ్‌ను లాక్ చేస్తే, మీ పరిచయాలు మీతో థీమ్‌ను సెట్ చేయలేరు.";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70+ ఫీచర్లు, బహుశా ప్రపంచంలోని ఇతర చాట్ యాప్‌ల కంటే ఎక్కువ ! పరిమిత కాల ఆఫర్! TuDime ఒక సంవత్సరం సభ్యత్వాన్ని కొనుగోలు చేయండి 15 క్యాలెండర్ రోజుల ఉచిత ట్రయల్ వ్యవధి మీ కార్డ్‌కు ఛార్జ్ చేయబడటానికి ముందు. మీరు ఛార్జ్ చేయబడకుండా ఉండటానికి 15వ క్యాలెండర్ రోజులోపు ఎప్పుడైనా రద్దు చేయవచ్చు .\nTudime వార్షిక సబ్‌స్క్రిప్షన్‌ను కేవలం %@ ప్రారంభ ధరతో కొనుగోలు చేయండి";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "గమనించండి";
+"Unlock default Theme" = "డిఫాల్ట్ థీమ్‌ను అన్‌లాక్ చేయండి";
+"Theme unlocked" = "థీమ్ అన్‌లాక్ చేయబడింది";
+"Post" = "పోస్ట్";
+"Add a comment" = "వ్యాఖ్యను జోడించు";
+"Write Post..." = "పోస్ట్ వ్రాయండి...";
+"Create Post" = "పోస్ట్ సృష్టించు";
+"Tudime Feature List" = "Tudime ఫీచర్ జాబితా";
+"Share Everywhere" = "ప్రతిచోటా భాగస్వామ్యం చేయండి";
+"Share on Tudime" = "Tudimeలో షేర్ చేయండి";
+"Choose one" = "ఒకటి ఎంచుకోండి";

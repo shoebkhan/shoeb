@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PostListViewController" customModule="TuDime" customModuleProvider="target">
+            <connections>
+                <outlet property="segment" destination="ikO-6v-VmU" id="L3E-AR-qPo"/>
+                <outlet property="segmentHeightConstraint" destination="tMs-ag-d8D" id="p96-jV-G6B"/>
+                <outlet property="tableView" destination="ZjX-ji-E9I" id="6oF-Sn-vgm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZjX-ji-E9I">
+                    <rect key="frame" x="0.0" y="125" width="393" height="693"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="AT2-dR-PXj"/>
+                        <outlet property="delegate" destination="-1" id="FdO-5i-2Hs"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02g-18-flM">
+                    <rect key="frame" x="338" y="758" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="3et-PP-BOm"/>
+                        <constraint firstAttribute="height" constant="40" id="5LI-Hu-5H1"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="new-post"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="createPost:" destination="-1" eventType="touchUpInside" id="OfJ-SP-EUN"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ikO-6v-VmU">
+                    <rect key="frame" x="20" y="79" width="353" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="tMs-ag-d8D"/>
+                    </constraints>
+                    <segments>
+                        <segment title="My Post"/>
+                        <segment title="Bookmark"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentControllClick:" destination="-1" eventType="valueChanged" id="eHp-ns-eQx"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZjX-ji-E9I" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3El-Us-Y4c"/>
+                <constraint firstItem="ikO-6v-VmU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="8tI-cq-M4K"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="02g-18-flM" secondAttribute="trailing" constant="15" id="D6p-Ac-cde"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ZjX-ji-E9I" secondAttribute="trailing" id="HQA-vM-eu0"/>
+                <constraint firstItem="ikO-6v-VmU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Lyy-fe-Kll"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ikO-6v-VmU" secondAttribute="trailing" constant="20" id="hQi-tb-H5o"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="02g-18-flM" secondAttribute="bottom" constant="20" id="qAL-c5-Ngf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ZjX-ji-E9I" secondAttribute="bottom" id="rkG-3R-7g2"/>
+                <constraint firstItem="ZjX-ji-E9I" firstAttribute="top" secondItem="ikO-6v-VmU" secondAttribute="bottom" constant="15" id="v2s-i9-hlo"/>
+            </constraints>
+            <point key="canvasLocation" x="84.732824427480907" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="new-post" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

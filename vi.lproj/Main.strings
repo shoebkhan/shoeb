@@ -1,0 +1,111 @@
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "2f2-uW-IAk"; */
+"2f2-uW-IAk.normalTitle" = "CONTINUE";
+
+/* Class = "UILabel"; text = "Your New Pin :"; ObjectID = "3Kj-oa-wkr"; */
+"3Kj-oa-wkr.text" = "Your New Pin :";
+
+/* Class = "UILabel"; text = "Confirm New Pin :"; ObjectID = "3ol-nX-KTq"; */
+"3ol-nX-KTq.text" = "Confirm New Pin :";
+
+/* Class = "UITextField"; placeholder = "Enter Security answer"; ObjectID = "4I6-YK-IUW"; */
+"4I6-YK-IUW.placeholder" = "Enter Security answer";
+
+/* Class = "UILabel"; text = "TuDime Messenger will send a one time SMS. Your Phone number will not be shared. It will be used only for verification purposes."; ObjectID = "6k6-Ed-wek"; */
+"6k6-Ed-wek.text" = "TuDime Messenger will send a one time SMS. Your Phone number will not be shared. It will be used only for verification purposes.";
+
+/* Class = "UILabel"; text = "p"; ObjectID = "AgS-fB-XWm"; */
+"AgS-fB-XWm.text" = "p";
+
+/* Class = "UITextField"; placeholder = "Enter your NickName"; ObjectID = "Ann-Gf-B8g"; */
+"Ann-Gf-B8g.placeholder" = "Enter your NickName";
+
+/* Class = "UITextField"; placeholder = "Enter phone number"; ObjectID = "Ci8-Wc-Apa"; */
+"Ci8-Wc-Apa.placeholder" = "Enter phone number";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "Df5-rc-uYL"; */
+"Df5-rc-uYL.text" = "label";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "DjB-MJ-WNn"; */
+"DjB-MJ-WNn.text" = "label";
+
+/* Class = "UITextField"; placeholder = "Enter your NickName"; ObjectID = "Eye-EQ-XbP"; */
+"Eye-EQ-XbP.placeholder" = "Enter your NickName";
+
+/* Class = "UITextField"; placeholder = "Enter email address"; ObjectID = "H6C-FY-TBs"; */
+"H6C-FY-TBs.placeholder" = "Enter email address";
+
+/* Class = "UILabel"; text = "Please select to continue Tudime registration with your Email/Mobile No"; ObjectID = "HG7-AO-Qiy"; */
+"HG7-AO-Qiy.text" = "Please select to continue Tudime registration with your Email/Mobile No";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IOq-2U-5e7"; */
+"IOq-2U-5e7.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Buy"; ObjectID = "ITk-Ln-poH"; */
+"ITk-Ln-poH.configuration.title" = "Buy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ITk-Ln-poH"; */
+"ITk-Ln-poH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Select your country"; ObjectID = "Io1-Ey-b30"; */
+"Io1-Ey-b30.text" = "Select your country";
+
+/* Class = "UITextField"; placeholder = "Select your Language"; ObjectID = "OC9-UO-IiT"; */
+"OC9-UO-IiT.placeholder" = "Select your Language";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TfM-s2-zrd"; */
+"TfM-s2-zrd.text" = "Label";
+
+/* Class = "UILabel"; text = "Security Answer :"; ObjectID = "VeQ-wW-L63"; */
+"VeQ-wW-L63.text" = "Security Answer :";
+
+/* Class = "UIButton"; normalTitle = "GO"; ObjectID = "bKb-TM-RYj"; */
+"bKb-TM-RYj.normalTitle" = "GO";
+
+/* Class = "UILabel"; text = "label"; ObjectID = "bee-rg-qX8"; */
+"bee-rg-qX8.text" = "label";
+
+/* Class = "UIButton"; normalTitle = "GO"; ObjectID = "d6f-Kl-dLo"; */
+"d6f-Kl-dLo.normalTitle" = "GO";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dM9-Ya-K3Q"; */
+"dM9-Ya-K3Q.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Send Code again"; ObjectID = "g0j-bc-kry"; */
+"g0j-bc-kry.normalTitle" = "Send Code again";
+
+/* Class = "UILabel"; text = "What was the house number and street name you lived in as a child?"; ObjectID = "grR-2E-QLj"; */
+"grR-2E-QLj.text" = "What was the house number and street name you lived in as a child?";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "l6z-Ox-vJs"; */
+"l6z-Ox-vJs.normalTitle" = "CONTINUE";
+
+/* Class = "UITextField"; placeholder = "Search your country"; ObjectID = "lp5-jj-EN7"; */
+"lp5-jj-EN7.placeholder" = "Search your country";
+
+/* Class = "UILabel"; text = "Enter Pin To Open TuDime"; ObjectID = "lqN-9t-OIt"; */
+"lqN-9t-OIt.text" = "Enter Pin To Open TuDime";
+
+/* Class = "UILabel"; text = "India"; ObjectID = "qVl-8u-Mmo"; */
+"qVl-8u-Mmo.text" = "India";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "qd3-lS-0nI"; */
+"qd3-lS-0nI.normalTitle" = "CONTINUE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qrp-hW-mWe"; */
+"qrp-hW-mWe.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sIb-dB-L1V"; */
+"sIb-dB-L1V.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "GO"; ObjectID = "t1i-HM-cF7"; */
+"t1i-HM-cF7.normalTitle" = "GO";
+
+/* Class = "UILabel"; text = "Your Security Question :"; ObjectID = "t5W-zx-jfw"; */
+"t5W-zx-jfw.text" = "Your Security Question :";
+
+/* Class = "UINavigationItem"; title = "Choose a way to verify"; ObjectID = "ySK-rn-EEp"; */
+"ySK-rn-EEp.title" = "Choose a way to verify";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "ygm-jw-aTW"; */
+"ygm-jw-aTW.text" = "--";
