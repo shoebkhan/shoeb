@@ -1,0 +1,43 @@
+name: IPA
+
+on:
+  workflow_dispatch:
+    inputs:
+      buildConfiguration:
+        description: 'Build configuration'
+        required: true
+        default: 'AdHocPreRelease'
+        type: choice
+        options:
+          - AdHocPreRelease
+          - AppStoreRelease
+          - Debug
+
+      store:
+        description: 'Store'
+        required: true
+        default: 'firebaseDistribution'
+        type: choice
+        options:
+          - firebaseDistribution
+          - appStore
+          - testFlight
+
+      comment:
+        description: 'Comment'
+        required: false
+        default: ''
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show selected options
+        run: |
+          echo "Build Configuration: ${{ github.event.inputs.buildConfiguration }}"
+          echo "Store: ${{ github.event.inputs.store }}"
+          echo "Comment: ${{ github.event.inputs.comment }}"
