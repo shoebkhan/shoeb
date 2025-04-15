@@ -1,0 +1,808 @@
+/*
+ Localizable.strings
+ sample-chat-swift
+ 
+ Created by Anton Sokolchenko on 4/24/15.
+ Copyright (c) 2015 quickblox. All rights reserved.
+ */
+
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_INFO" = "goToInfo";
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+"SA_STR_SEGUE_GO_TO_ADD_OPPONENTS" = "goToAddOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+
+// Errors
+
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+
+
+
+"Ok" = "Ok" ;
+"Cancel" = "Batal" ;
+"Loading" = "Memuatkan";
+"Logged in" = "Log masuk";
+"Sending" = "Menghantar" ;
+"Completed" = "Selesai";
+"Leave" = "Tinggalkan";
+"Left" = "Kiri";
+"Leaving" = "Meninggalkan";
+"Warning" = "Amaran";
+"Block" = "Blok" ;
+"Unblock" = "Nyahsekat" ;
+"Login as" = "Log masuk sebagai";
+"Logout" = "Log Keluar";
+
+"Typing..." = "Menaip..." ;
+"Connecting to chat..." = "Menyambung ke sembang...";
+"Connected" = "Bersambung" ;
+"Disconnected" = "Terputus sambungan";
+"Reconnected" = "Disambung semula";
+"Logging in REST as " = "Melog masuk REST sebagai";
+"Loading dialog" = "Memuatkan dialog";
+"Loading dialogs" = "Memuatkan dialog";
+
+
+"Done" = "Selesai" ;
+"added" = "tambah" ;
+"created the group chat" = "created the group chat";
+"Call" = "Panggil";
+"Message" = "Mesej" ;
+"Can't send a message" = "Tidak boleh menghantar mesej";
+"Loading users" = "Memuatkan pengguna";
+"Can't download users" = "Tidak boleh memuat turun pengguna";
+"Can't download dialogs" = "Tidak boleh memuat turun dialog";
+"Failed to load dialogs" = "Gagal memuatkan dialog";
+"You are in the blacklist" = "Anda berada dalam senarai hitam";
+"forbidden" = "dilarang" ;
+"Loading messages" = "Memuatkan mesej";
+"Uploading attachment" = "Memuat naik lampiran";
+"Enter chat name" = "Masukkan nama sembang";
+"Dialog created" = "Dialog dicipta";
+
+
+"Send" = "Hantar" ;
+"last activity date" = "tarikh aktiviti terakhir";
+"Add occupants" = "Tambah penghuni";
+"Create" = "Buat" ;
+"New chat" = "Sembang baharu";
+"New message" = "Mesej baharu";
+"has left dialog." = "telah meninggalkan dialog.";
+"Chat info" = "Maklumat sembang";
+"Read" = "Baca" ;
+"Delivered" = "Dihantar" ;
+"Seen" = "Dilihat" ;
+"Sent" = "Hantar" ;
+"Didn't send" = "Tidak menghantar";
+"Sending" = "Menghantar";
+"Unknown" = "Tidak diketahui";
+"Note that you will not receive any private message from this user" = "Perhatikan bahawa anda tidak akan menerima sebarang mesej peribadi daripada pengguna ini";
+"Note that you will not receive any group chat message from this user" = "Perhatikan bahawa anda tidak akan menerima sebarang mesej sembang kumpulan daripada pengguna ini";
+"Do you really want to leave selected dialog?" = "Adakah anda benar-benar mahu meninggalkan dialog yang dipilih?";
+"Unblock user in 1-1 chat" = "Nyahsekat pengguna dalam 1-1 sembang";
+"Try again" = "Cuba lagi";
+
+
+"Delete" = "Padam";
+"Error" = "Ralat" ;
+"Error leaving" = "Ralat meninggalkan";
+"Bad Gateway, please try again" = "Gerbang Buruk, sila cuba lagi";
+"Connection network error, please try again" = "Ralat rangkaian sambungan, sila cuba lagi";
+"Did not connect with error:" = "Tidak bersambung dengan ralat:";
+"Chat failed with error:" = "Chat failed with error:";
+"Message failed to send" = "Mesej gagal dihantar";
+
+
+"Group Name" = "Nama Kumpulan";
+"Choose photo from..." = "Pilih foto daripada...";
+"Camera" = "Kamera" ;
+"Gallery" = "Galeri" ;
+"Cancel" = "Batal";
+" (You)" = "(Anda)" ;
+"Loading users" = "Memuatkan pengguna";
+"Please add group image." = "Sila tambahkan imej kumpulan.";
+"Create" = "Buat" ;
+"SEARCH" = "Cari" ;
+"Dialog created" = "Dialog dicipta";
+
+
+"No user with that name" = "Tiada pengguna dengan nama itu";
+"Calling..." = "Memanggil..." ;
+"Closed" = "Tertutup" ;
+"Failed" = "Gagal" ;
+"Hung Up" = "Hung Up";
+"Rejected" = "Ditolak";
+"No Answer" = "Tiada Jawapan";
+"Time out" = "Masa tamat";
+"Disconnected" = "Terputus sambungan";
+"Unmute" = "Nyahredam" ;
+"Mute" = "Bisukan" ;
+"Cam on" = "Cam on";
+"Cam off" = "Cam off";
+"Mic" = "Mic" ;
+"Speaker" = "Speaker" ;
+"End call" = "Tamatkan panggilan";
+"End call" = "Tamatkan panggilan";
+"Stop sharing" = "Berhenti berkongsi";
+"Screen share" = "Bahagian skrin";
+"Swap cam" = "Swap cam";
+"Swap cam" = "Swap cam";
+"Loading stats report..." = "Memuatkan laporan statistik...";
+
+
+"Search" = "Cari";
+"Login" = "Log Masuk";
+"Incoming" = "Masuk";
+"Calling" = "Memanggil";
+"TuDime" = "TuDime";
+"You have no credit recharge please!" = "Tolong anda tiada caj semula kredit!";
+"Blocked User" = "Pengguna Disekat";
+"Subscription Manager" = "Pengurus Langganan";
+
+
+"Reload" = "Muat Semula";
+"Your account suspended please purchased subscription." = "Akaun anda digantung, sila beli langganan.";
+"You are already purchased this subscription you can restore this subscription by clicking restore." = "Anda sudah membeli langganan ini, anda boleh memulihkan langganan ini dengan mengklik pulihkan.";
+"Product load from the itunes." = "Muatan produk dari itunes.";
+
+
+
+"Free Trial is Expired" = "Percubaan Percuma Tamat Tempoh";
+"Days Free Trial of Premium Features" = "Percubaan Percuma Hari Ciri Premium";
+"Leave Chat" = "Tinggalkan Sembang";
+"Chat info" = "Maklumat sembang";
+"Edit Message" = "Edit Mesej";
+"Delete" = "Padam" ;
+"Forward" = "Maju" ;
+"Delivered to..." = "Dihantar kepada...";
+"Viewed by..." = "Dilihat oleh...";
+"Save attachment" = "Simpan lampiran";
+"Delete For Me" = "Padam Untuk Saya";
+"Delete For All" = "Padam Untuk Semua";
+"Re-Translate" = "Terjemah Semula";
+"Self-Destruct" = "Self-Destruct";
+"Quote Reply" = "Balasan Petikan";
+"Share Via" = "Kongsi Melalui";
+"View file" = "Lihat fail";
+" is typing..." = "sedang menaip...";
+" are typing..." = "sedang menaip...";
+" and 2 more are typing..." = " dan 2 lagi sedang menaip...";
+"No user with that name" = "Tiada pengguna dengan nama itu";
+"Add Occupants" = "Tambah Penghuni";
+
+
+"Message forwarded" = "Mesej dimajukan";
+"Delete" = "Padam" ;
+"Error" = "Ralat" ;
+"Create" = "Buat" ;
+"Message delivered to" = "Mesej dihantar kepada";
+"Message viewed by" = "Mesej dilihat oleh";
+"Finish" = "Selesai" ;
+"New Chat" = "Sembang Baharu";
+"QBChat is not Connected" = "QBChat is not Connected";
+"New Group Chat" = "Sembang Kumpulan Baharu";
+"New Chat" = "Sembang Baharu";
+"No user with that name" = "Tiada pengguna dengan nama itu";
+"Please allow the app to access your contacts through the device's settings." = "Sila benarkan apl mengakses kenalan anda melalui tetapan peranti.";
+"No user with that name" = "Tiada pengguna dengan nama itu";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Lihat TuDime untuk telefon pintar anda. Muat turun hari ini daripada (https://www.TuDime.com)";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Lihat TuDime untuk telefon pintar anda. Muat turun hari ini daripada (https://www.TuDime.com)";
+"Use your email or alphanumeric characters in a range from 3 to 50. First character must be a letter." = "Gunakan e-mel atau aksara abjad angka anda dalam julat dari 3 hingga 50. Aksara pertama mestilah huruf.";
+"Use alphanumeric characters and spaces in a range from 3 to 20. Cannot contain more than one space in a row." = "Gunakan aksara alfanumerik dan ruang dalam julat dari 3 hingga 20. Tidak boleh mengandungi lebih daripada satu ruang dalam satu baris.";
+"Send eCards" = "Hantar eKad";
+"Details View" = "Paparan Butiran";
+"Delete Chat" = "Padam Sembang";
+"Archive Chat" = "Sembang Arkib";
+"Chat Disappearing timer" = "Pemasa Menghilang Sembang";
+"Block" = "Blok" ;
+"Category" = "Kategori" ;
+"5 Minutes" = "5 Minit";
+"10 Minutes" = "10 Minit";
+"20 Minutes" = "20 Minit";
+"30 Minutes" = "30 Minit";
+"40 Minutes" = "40 Minit";
+"50 Minutes" = "50 Minit";
+"60 Minutes" = "60 Minit";
+"Online" = "Dalam talian";
+"Offline" = "Luar Talian";
+"Today" = "Hari ini";
+"Yesterday" = "Semalam";
+
+
+"Bad Gateway, please try again" = "Gerbang Buruk, sila cuba lagi";
+"Connection network error, please try again" = "Ralat rangkaian sambungan, sila cuba lagi";
+"Doodle" = "Doodle";
+"Image" = "Imej" ;
+"Location" = "Lokasi" ;
+"Theme" = "Tema" ;
+"Contact" = "Hubungi" ;
+"Files" = "Fail" ;
+"Audio/Video" = "Audio/Video";
+"TuDime Translation" = "Terjemahan TuDime";
+"Select language in which you want to convert the text" = "Pilih bahasa di mana anda ingin menukar teks";
+"Enter Text:" = "Masukkan Teks";
+"Edit Message" = "Edit Mesej";
+"Do you really want to Archieve this chat?" = "Adakah anda benar-benar mahu Arkibkan sembang ini?";
+"Can't use options when you are in secret chat" = "Tidak boleh menggunakan pilihan apabila anda berada dalam sembang rahsia";
+"Details View" = "Paparan Butiran";
+"Leave Chat" = "Tinggalkan Sembang";
+"Send eCards" = "Hantar eKad";
+"Details View" = "Paparan Butiran";
+"Delete Chat" = "Padam Sembang";
+"Chat Disappearing timer" = "Pemasa Menghilang Sembang";
+"Can't set theme when you are in secret chat" = "Tidak dapat menetapkan tema apabila anda berada dalam sembang rahsia";
+"Choose photo from..." = "Pilih foto daripada...";
+"Sorry,no language found" = "Maaf, tiada bahasa ditemui";
+"Please select translate language first" = "Sila pilih bahasa terjemah dahulu";
+"Do you really want to leave selected dialog?" = "Adakah anda benar-benar mahu meninggalkan dialog yang dipilih?";
+"Open Settings" = "Buka Tetapan";
+"This message will be self destruct after 10 Seconds" = "Mesej ini akan dimusnahkan sendiri selepas 10 Saat";
+"You can send 1 attachment per message" = "Anda boleh menghantar 1 lampiran setiap mesej";
+
+
+"Save error" = "Simpan ralat";
+"Your Device can't make a phone call" = "Peranti anda tidak boleh membuat panggilan telefon";
+"User denied access to speech recognition" = "Pengguna dinafikan akses kepada pengecaman pertuturan";
+"Speech recognition restricted on this device" = "Pengecaman pertuturan terhad pada peranti ini";
+"Speech recognition not yet authorized" = "Pengiktirafan ucapan belum dibenarkan";
+"Recognition not available" = "Pengiktirafan tidak tersedia";
+"Add Photos" = "Tambah Foto";
+"Choose photo from..." = "Pilih foto daripada...";
+"Warning" = "Amaran";
+"You don't have camera" = "Anda tidak mempunyai kamera";
+"Alert" = "Amaran";
+"Are you sure want to unblock this user?" = "Adakah anda pasti mahu menyahsekat pengguna ini?";
+"Are you sure want to block this user? Later you can unblock from setting." = "Adakah anda pasti mahu menyekat pengguna ini? Kemudian anda boleh menyahsekat daripada tetapan";
+"Unblock" = "Nyahsekat";
+"The uploaded file exceeds maximum file size (100MB)" = "Fail yang dimuat naik melebihi saiz fail maksimum (100MB)";
+"Error loading image" = "Ralat memuatkan imej";
+"Saved!" = "Disimpan!" ;
+"Video is not compatible With Photos Album" = "Video tidak serasi Dengan Album Foto";
+
+
+"Camera error" = "Ralat kamera";
+"The app doesn't have access to the camera, please go to settings and enable it." = "Apl tidak mempunyai akses kepada kamera, sila pergi ke tetapan dan dayakannya";
+"Microphone error" = "Ralat mikrofon";
+"The app doesn't have access to the microphone, please go to settings and enable it." = "Apl tidak mempunyai akses kepada mikrofon, sila pergi ke tetapan dan dayakannya.";
+"Unknown user" = "Pengguna tidak dikenali";
+
+"MEMORY WARNING: leaving out of call. Please, reduce the quality of the video settings" = "AMARAN INGATAN: meninggalkan panggilan. Sila kurangkan kualiti tetapan video";
+"Session did close due to time out" = "Sesi telah ditutup kerana masa tamat";
+"New" = "Baru";
+
+
+"Pending" = "Belum selesai";
+"Connected" = "Bersambung";
+"Closed" = "Tertutup";
+"Failed" = "Gagal" ;
+"Hung Up" = "Hung Up";
+"Rejected" = "Ditolak";
+"No Answer" = "Tiada Jawapan";
+
+
+"Time out" = "Masa tamat";
+"Please select your Language first" = "Sila pilih Bahasa anda dahulu";
+"Select your country" = "Pilih negara anda";
+"Nick name must be 3 characters long." = "Nama panggilan mestilah 3 aksara panjang";
+"Select Country" = "Pilih Negara";
+"Sorry, no country found by this name!" = "Maaf, tiada negara ditemui dengan nama ini!";
+"Too many Attempts! Try again after sometime" = "Terlalu banyak Percubaan! Cuba lagi selepas beberapa ketika";
+"Incomplete Pin" = "Pin Tidak Lengkap";
+"Please Enter Your Security Answer" = "Sila Masukkan Jawapan Keselamatan Anda";
+"Security Answer is incorrect!" = "Jawapan Keselamatan tidak betul!";
+"Success" = "Kejayaan";
+"Pin setted Successfully!" = "Pin ditetapkan dengan jayanya!";
+"Confirm Pin Mismatched!" = "Sahkan Pin Tidak Padan!";
+"Please Enter The New Pin Again!" = "Sila Masukkan Pin Baharu Semula!";
+"Please Enter A New Pin!" = "Sila Masukkan Pin Baharu!";
+"Subscription Details" = "Butiran Langganan";
+"Your Payment is successfull!" = "Pembayaran anda berjaya!";
+"Payment Details" = "Butiran Pembayaran";
+"Address" = "Alamat";
+"Country" = "Negara" ;
+"State" = "Negeri";
+"ZIP" = "ZIP";
+"City" = "Bandar";
+"Email" = "E-mel";
+"Country Code" = "Kod Negara";
+"Valid email" = "E-mel yang sah";
+"address field can't be blank!" = "medan alamat tidak boleh kosong!";
+"state field can't be blank!" = "medan negeri tidak boleh kosong!";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "Sila masukkan dengan keluar Numeric Charecter(cth John Doe)";
+"pincode field can't be blank!" = "medan kod pin tidak boleh kosong!";
+"country field can't be blank!" = "medan negara tidak boleh kosong!";
+"Please enter with out special Charecter(e.g John Doe)" = "Sila masuk tanpa Charecter khas(cth John Doe)";
+
+
+
+"Please enter with out Numeric Charecter(e.g John Doe)" = "Sila masukkan dengan keluar Numeric Charecter(cth John Doe)";
+"city field can't be blank!" = "medan bandar tidak boleh kosong!";
+"Please enter with out special Charecter(e.g John Doe)" = "Sila masuk tanpa Charecter khas(cth John Doe)";
+"Please enter with out Numeric Charecter(e.g John Doe)" = "Sila masukkan dengan keluar Numeric Charecter(cth John Doe)";
+"Email field can't be blank!" = "Medan e-mel tidak boleh kosong!";
+"Entered email is not valid!" = "E-mel yang dimasukkan tidak sah!";
+"Some Data is missing" = "Some Data is missing";
+"Your Payment is successfull!" = "Pembayaran anda berjaya!";
+"Please enter a Number" = "Sila masukkan Nombor";
+"Please enter a country code" = "Sila masukkan kod negara";
+"You have no credit recharge please!" = "Tolong anda tiada caj semula kredit!";
+"Sinch Client not" = "Sinch Client not";
+"Intitialised.!" = "Dicetuskan.!";
+"Please wait Inititalising..." = "Sila tunggu Memulakan...";
+"Sinch Client" = "Pelanggan Sinch";
+"No number available!" = "Tiada nombor tersedia!";
+"Can't be placed more!" = "Tidak boleh diletakkan lebih!";
+"Call ended" = "Panggilan ditamatkan";
+"Call connected" = "Panggilan disambungkan";
+"Calling..." = "Memanggil...";
+"Edit Profile" = "Edit Profil";
+"Accounts" = "Akaun";
+"Appearance" = "Penampilan";
+"Contact Us" = "Hubungi Kami";
+"About & Help"= "Perihal & Bantuan";
+"Secret Chat" = "Sembang Rahsia";
+"Blocked User" = "Pengguna Disekat";
+"Store Stickers/Gifs" = "Kedai Pelekat/Gif";
+"Font successfully defualt set" = "Font successfully defualt set";
+"Font Color successfully defualt set" = "Warna Fon berjaya set defualt";
+
+
+
+"Font size successfully defualt set" = "Saiz fon berjaya defualt set";
+"Font successfully set" = "Font successfully set";
+"Font size successfully set" = "Saiz fon berjaya ditetapkan";
+"Font color successfully set" = "Warna fon berjaya ditetapkan";
+"Privacy" = "Privasi" ;
+"Delete Accounts" = "Padam Akaun";
+"Archive Chat" = "Sembang Arkib";
+"Do you want to delete your account?" = "Adakah anda mahu memadamkan akaun anda?";
+"Once you delete your account, all your data will be removed permanently" = "Sebaik sahaja anda memadamkan akaun anda, semua data anda akan dialih keluar secara kekal";
+"No Profile id found!" = "Tiada id Profil ditemui!";
+"Contact Us" = "Hubungi Kami";
+"Name field can't be blank!" = "Medan nama tidak boleh kosong!";
+"Phone field can't be blank!" = "Medan telefon tidak boleh kosong!";
+"Please Enter a valid Phone Number" = "Sila Masukkan Nombor Telefon yang sah";
+"Email field can't be blank!" = "Medan e-mel tidak boleh kosong!";
+"Please Enter a valid Email" = "Sila Masukkan E-mel yang sah";
+"Country field can't be blank!" = "Medan negara tidak boleh kosong!";
+"Comments field can't be blank!" = "Medan ulasan tidak boleh kosong!";
+"Your response uploaded Successfully" = "Respons anda berjaya dimuat naik";
+"Terms & Privacy Policy" = "Terma & Dasar Privasi";
+"Feedback" = "Maklum Balas";
+
+
+"Feedback field can't be empty!" = "Medan maklum balas tidak boleh kosong!";
+"Your feedback sent Successfully" = "Maklum balas anda berjaya dihantar";
+"Work in Progress!" = "Kerja dalam proses!";
+"Buy Call Credit" = "Beli Kredit Panggilan";
+"You Choose $5 Package" = "Anda Pilih Pakej $5";
+"You Choose $10 Package" = "Anda Pilih Pakej $10";
+"You Choose $15 Package" = "Anda Pilih Pakej $15";
+"Please set Unique ID" = "Sila tetapkan ID Unik";
+"Your Uniqe id is: " = "ID Uniqe anda ialah:";
+"Unique id created successfully" = "Id unik berjaya dibuat";
+"Profile Privacy updated Successfully" = "Privasi Profil Berjaya dikemas kini";
+
+
+
+"You don't have camera" = "Anda tidak mempunyai kamera";
+"Profile" = "Profil" ;
+"Status:" = "Status:";
+"Hey, I am using Tudime!" = "Hei, saya menggunakan Tudime!";
+"Enter Your Name" = "Masukkan Nama Anda";
+"Set Unique ID" = "Tetapkan ID Unik";
+"Enter Your Name" = "Masukkan Nama Anda";
+"Enter Your Unique id" = "Masukkan id Unik Anda";
+"Set" = "Set";
+"Nickname updated successfully" = "Nama panggilan berjaya dikemas kini";
+"No special characters allowed." = "Tiada watak istimewa dibenarkan.";
+"Must be contain minimum 4 characters." = "Mesti mengandungi sekurang-kurangnya 4 aksara.";
+"Set Status" = "Tetapkan Status";
+"Status updated Successfully" = "Status Berjaya dikemas kini";
+"Schedule Event" = "Jadualkan Acara";
+"Events Loading Error" = "Ralat Memuatkan AcaraRalat Memuatkan Acara";
+"The calender could not load system events. It is possibly a problem with permissions" = "Kalender tidak dapat memuatkan acara sistem. Ia mungkin masalah dengan kebenaran";
+
+"New Event" = "Acara Baru";
+"Enter Event Name" = "Masukkan Nama Acara";
+"Enter Time" = "Masukkan Masa";
+"Enter Description" = "Masukkan Penerangan";
+"Please enter event name" = "Sila masukkan nama acara";
+"Please enter event time" = "Sila masukkan masa acara";
+"Schedule created successfully" = "Jadual berjaya dibuat";
+"Time:" = "Masa:";
+"Date:" = "Tarikh:";
+"Profile Picture Gallery" = "Galeri Gambar Profil";
+"Profile Photo Updated Successfully!" = "Foto Profil Berjaya Dikemas Kini!";
+"Set as Profile Picture" = "Tetapkan sebagai Gambar Profil";
+"Delete Photo" = "Padam Foto";
+"No photo available!" = "Tiada foto tersedia!";
+"Select one option" = "Pilih satu pilihan";
+
+
+"Custom Status" = "Status Tersuai";
+"Status updated Successfully" = "Status Berjaya dikemas kini";
+"This is already current status" = "Ini sudah pun status semasa";
+"Status can't be blank!" = "Status tidak boleh kosong!";
+"Sorry! no card is available right now" = "Maaf! tiada kad tersedia sekarang";
+"Keeping more ecards, may slow down your device" = "Menyimpan lebih banyak ekad, boleh melambatkan peranti anda";
+"Love" = "Cinta";
+"Birthday"= "Hari Lahir";
+"Friendship" = "Persahabatan";
+"Some1 Special" = "Some1 Istimewa";
+"Miss You" = "Rindu Awak";
+"Congratulations" = "Tahniah";
+"Good Luck" = "Semoga Berjaya";
+"Get Well Soon" = "Sembuh Cepat";
+"Invitations" = "Jemputan" ;
+"Thank You" = "Terima Kasih";
+
+
+"Sorry" = "Maaf";
+"Tap to Stop Recording" =" Ketik untuk Berhenti Rakaman";
+"Tap to Record" = "Ketik untuk Rakam";
+"Recording Successfull." = "Rakaman Berjaya.";
+"Recording Failed :(" = "Rakaman Gagal :(";
+"Make it personal !" = "Jadikan ia peribadi!";
+"Choose photo from..." = "Pilih foto daripada...";
+"Everything need to be selected!" = "Semuanya perlu dipilih!";
+"You don't have camera" = "Anda tidak mempunyai kamera";
+"Something is wrong!" = "Ada yang tidak kena!";
+"Please add recorded Audio." = "Sila tambah Audio yang dirakam.";
+"Please add recorded Audio." = "Sila tambah Audio yang dirakam.";
+"Signature" = "Tandatangan";
+"No signature found!" = "Tiada tandatangan ditemui!";
+"Enter text here" = "Masukkan teks di sini";
+"Text Dialog" = "Dialog Teks";
+
+"Sorry,no language found" = "Maaf, tiada bahasa ditemui";
+"Please select translate language first" = "Sila pilih bahasa terjemah dahulu";
+"TuDime Translation" = "Terjemahan TuDime";
+"Select language in which you want to convert the text" = "Pilih bahasa di mana anda ingin menukar teks";
+"Enter Text:" = "Masukkan Teks:";
+"Enter text here" = "Masukkan teks di sini";
+"User denied access to speech recognition" = "Pengguna dinafikan akses kepada pengecaman pertuturan";
+"Speech recognition restricted on this device" = "Pengecaman pertuturan terhad pada peranti ini";
+"Speech recognition not yet authorized" = "Pengiktirafan ucapan belum dibenarkan";
+"Check out TuDime for your smartphone. Download it today from (https://www.TuDime.com)" = "Lihat TuDime untuk telefon pintar anda. Muat turun hari ini daripada (https://www.TuDime.com)";
+"Group Chat" = "Sembang Kumpulan";
+"Secret Chat" = "Sembang Rahsia";
+"Bad Gateway, please try again" = "Gerbang Buruk, sila cuba lagi";
+"Connection network error, please try again" = "Ralat rangkaian sambungan, sila cuba lagi";
+"Select a user to start Chat" = "Pilih pengguna untuk memulakan Sembang";
+"Please add more members for Group Chat!" = "Sila tambah lagi ahli untuk Sembang Kumpulan!";
+"Theme changed successfully!" = "Tema berjaya ditukar!";
+"You don't have camera" = "Anda tidak mempunyai kamera";
+"Theme changed successfully!" = "Tema berjaya ditukar!";
+"Archive Chat" = "Sembang Arkib";
+"25%% discount if you join with in %d days %@" = "Diskaun 25%% jika anda menyertai dalam %d hari %@";
+"25%% discount validity is expired. Join with %d days to avoid suspension of the account" = "Kesahan diskaun 25%% telah tamat tempoh. Sertai dengan %d hari untuk mengelakkan penggantungan akaun";
+
+
+
+
+"ACCOUNT SUSPENDED" = "AKAUN DIGANTUNG";
+"Your account suspended please purchased subscription." = "Akaun anda digantung, sila beli langganan.";
+"Please select a color" = "Sila pilih warna";
+"Please select a Picture" = "Sila pilih Gambar";
+"Opss! Cliend Error." = "Opss! Ralat Pelanggan.";
+"Failed to fetch data" = "Gagal mengambil data";
+"No Internet Connection." = "Tiada sambungan internet.";
+"Server Error." = "Ralat Pelayan.";
+"Successful Fetch." = "Pengambilan Berjaya.";
+"Failed to covert data to stirng." = "Gagal untuk mengacau data rahsia.";
+"Data couldn't JSONSerialize" = "Data tidak dapat JSONSerialize";
+"Couldn't convert link string to NSURL" = "Tidak dapat menukar rentetan pautan kepada NSURL";
+"couldn't format json body for the request." = "tidak dapat memformat badan json untuk permintaan itu.";
+"Image not available" = "Imej tidak tersedia";
+"Welcome to TuDime" = "Selamat Datang ke TuDime";
+"TuDime Chat App - More Features than any other !" = "Apl Sembang TuDime - Lebih Banyak Ciri daripada yang lain !";
+"Set Language" = "Tetapkan Bahasa";
+"Select a language for your convenience" = "Pilih bahasa untuk kemudahan anda";
+"Select your Language" = "Pilih Bahasa anda";
+"TuDime provides messaging, calling directly on phone and other services to users around the world. Please read our Terms of Services so you understand the use of TuDime." = "TuDime menyediakan pemesejan, panggilan terus melalui telefon dan perkhidmatan lain kepada pengguna di seluruh dunia. Sila baca Syarat Perkhidmatan kami supaya anda memahami penggunaan TuDime.";
+"Terms & Policies" = "Terma & Polisi";
+"Chinese" = "Cina";
+"English" = "Bahasa Inggeris";
+"AGREE & CONTINUE" = "SETUJU & TERUSKAN";
+"Choose a way to verify" = "Pilih cara untuk mengesahkan";
+"Please select to continue TuDime registration with your Email/Mobile No" = "Sila pilih untuk meneruskan pendaftaran TuDime dengan E-mel/No Mudah Alih anda";
+
+"TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes" = "TuDime Messenger will send a one time SMS. Your Phone number will not be shared.It will be used only for verification purposes";
+"Enter phone number." = "Masukkan nombor telefon";
+"Enter your NickName." = "Masukkan nama samaran anda.";
+"Please enter your email address for registration" = "Sila masukkan alamat e-mel anda untuk pendaftaran";
+"Enter your email id" = "Masukkan id e-mel anda";
+"We have sent a verification code to" = "Kami telah menghantar kod pengesahan kepada";
+"Please enter the received verification code below" = "Sila masukkan kod pengesahan yang diterima di bawah";
+"Enter verification code" = "Masukkan kod pengesahan";
+"A code was sent to you by text message.\n if not, click on this link." = "Kod telah dihantar kepada anda melalui mesej teks.\n jika tidak, klik pada pautan ini";
+"A code was sent to you by email.\n if not, click on this link." = "Kod telah dihantar kepada anda melalui e-mel.\n jika tidak, klik pada pautan ini.";
+"Store-Stickers & Gifs" = "Sticker & Gif Kedai";
+"Schedule Events" = "Jadualkan Acara";
+"Subscription Manager" = "Pengurus Langganan";
+"TuDime CAN" = "TuDime BOLEH";
+"Change Language" = "Tukar Bahasa";
+"This is not your username or pin. This name will be visible to your TuDime contacts." = "Ini bukan nama pengguna atau pin anda. Nama ini akan kelihatan kepada kenalan TuDime anda.";
+"Status and phone" = "Status dan telefon";
+
+"Your Current Status" = "Status Semasa Anda";
+"Select Your Status" = "Pilih Status Anda";
+"Urgent calls only" = "Panggilan segera sahaja";
+"Available" = "Ada";
+"Busy" = "Sibuk";
+"At School" = "Di Sekolah";
+"At work" = "Di tempat kerja";
+"At the movies" = "Di filem";
+"Battery about to die" = "Bateri hampir mati";
+"Can't talk, TuDime only" = "Tidak boleh bercakap, TuDime sahaja";
+"Sleeping" = "Tidur";
+"In a meeting" = "Dalam mesyuarat";
+"Keeping more eCards may slow down the speed of the app" = "Menyimpan lebih banyak eKad boleh memperlahankan kelajuan apl";
+"Personalize" = "Peribadikan" ;
+"Make it personal!" = "Jadikan ia peribadi!";
+"Good Choice!\nNow,express your fellings\nthrough this beautiful card!" = "Pilihan yang Baik!\nSekarang, luahkan perasaan anda\nmelalui kad yang cantik ini!";
+"Add Photos" = "Tambah Foto";
+"Add Text" = "Tambah Teks";
+"Add Signature" = "Tambah Tandatangan";
+"Add Frames" = "Tambah Bingkai";
+"Add Voice" = "Tambah Suara";
+"Preview" = "Pratonton" ;
+"Go!" = "Pergi!";
+"Download More" = "Muat Turun Lagi";
+"Schedule Events" = "Jadualkan Acara";
+
+"Long Tap On Date To Set Schedule" = "Ketik Lama Pada Tarikh Untuk Tetapkan Jadual";
+"New Event" = "Acara Baru";
+"Enter Time" = "Masukkan Masa";
+"Edit Profile" = "Edit Profil";
+"Accounts" = "Akaun";
+"Contact Us" = "Hubungi Kami";
+"About & Help" = "Perihal & Bantuan";
+"Privacy" = "Privasi";
+"Archive Chat" = "Sembang Arkib";
+"Remove Account" = "Alih Keluar Akaun";
+"Activate TuDime Pin" = "Aktifkan Pin TuDime";
+"Set Pin to TuDime" = "Set Pin to TuDime";
+"Remove Pin" = "Alih Keluar Pin";
+"Welcome Back" = "Selamat Datang Kembali";
+" Pin" = "Pin" ;
+
+"Forgot" = "Terlupa";
+"Enter Pin to Open TuDime" = "Masukkan Pin untuk Membuka TuDime";
+"Save" = "Simpan";
+"Security Answer" = "Jawapan Keselamatan";
+"Security Questions"= "Soalan Keselamatan";
+"Confirm New Pin" = "Sahkan Pin Baharu";
+"Your New Pin" = "Pin Baharu Anda";
+"What time of the day was your first child born? (hh:mm)" = "Pukul berapakah anak pertama anda dilahirkan? (hh:mm)";
+"What time of the day were you born? (hh:mm)" = "Pukul berapa hari anda dilahirkan? (hh:mm)";
+"In what town or city did your mother and father meet?" = "Di bandar atau bandar manakah ibu dan ayah kamu bertemu?";
+"What is your spouse or partner's mother's maiden name?" = "Siapakah nama gadis ibu pasangan atau pasangan anda?";
+"What is your grandmother's (on your mother's side) maiden name?" = "Apakah nama anak dara nenek kamu (di sebelah ibu kamu)?";
+"What are the last five digits of your driver's licence number?" = "Apakah lima digit terakhir nombor lesen memandu awak?";
+"What is the middle name of your oldest child?" = "Siapa nama tengah anak sulung awak?";
+"In what town or city did you meet your spouse/partner?" = "Di bandar atau bandar manakah anda bertemu dengan pasangan/pasangan anda?";
+"In what town or city was your first full time job?" = "Di bandar atau bandar manakah pekerjaan sepenuh masa pertama anda?";
+"What primary school did you attend?" = "Kamu sekolah rendah mana?";
+"What were the last four digits of your childhood telephone number?" = "Apakah empat digit terakhir nombor telefon zaman kanak-kanak anda?";
+"What was the house number and street name you lived in as a child?" = "Apakah nombor rumah dan nama jalan yang anda tinggal semasa kecil?";
+"Select a Sequrity Question" = "Select a Sequity Question";
+"Comments" = "Comments";
+
+
+"Pincode" = "Kod pin";
+"Country" = "Negara" ;
+"Phone No" = "No Telefon";
+"Address" = "Alamat";
+"Email" = "E-mel";
+"Full Name" = "Nama Penuh";
+"Write us your concern here and we will get back to you shortly." = "Tulis kepada kami kebimbangan anda di sini dan kami akan menghubungi anda sebentar lagi.";
+"GET IN TOUCH" = "HUBUNGI";
+"Contact Us" = "Hubungi Kami";
+"Application Version" = "Versi Aplikasi";
+"Version no:" = "No versi:";
+"FAQ" = "Soalan Lazim";
+"Terms & Privacy Policy" = "Terma & Dasar Privasi";
+"10. Can i restore messages that i deleted?" = "10. Bolehkah saya memulihkan mesej yang saya padamkan?";
+"9. How to find out friends?" = "9. Bagaimana untuk mengetahui kawan-kawan?";
+"8. The difference between ID and Nickname?" = "8. Perbezaan antara ID dan Nama Panggilan?";
+"7. What is ID?" = "7. Apakah ID itu?";
+"6. My friend can see my phone number?" = "6. Kawan saya boleh lihat nombor telefon saya?";
+"5. How to subscribe service?" = "5. Bagaimana untuk melanggan perkhidmatan?";
+"4. Everybody can use TuDime??" = "4. Semua orang boleh guna TuDime??";
+"3. Service packages?" = "3. Pakej perkhidmatan?";
+"2. What is TuDime?" = "2. Apakah TuDime?";
+
+
+"1. With a feature phone, can i use this service?" = "1. Dengan telefon berciri, bolehkah saya menggunakan perkhidmatan ini?";
+"Sure. TuDime provided on SMS, IVR, Web, App. With a feature phone, user can experience service via SMS and IVR." = "Pasti. TuDime disediakan pada SMS, IVR, Web, Apl. Dengan telefon berciri, pengguna boleh merasai perkhidmatan melalui SMS dan IVR.";
+"TuDime is a premium solution, support Viettel subscribers can easily access and chat with friends or make friend instantly via SMS, Web, App and IVR with a great experience.On SMS and IVR, user can find out and interact to the others or create profile for themselves. App TuDime support sending voice messages, video, pictures and text. You can also chat on group or you find friends. TuDime App works on all iOS devices, Android, Windows Phone, Symbian and Blackberry" = "TuDime ialah penyelesaian premium, sokongan pelanggan Viettel boleh mengakses dan berbual dengan rakan dengan mudah atau berkawan serta-merta melalui SMS, Web, Apl dan IVR dengan pengalaman yang hebat. Melalui SMS dan IVR, pengguna boleh mengetahui dan berinteraksi dengan orang lain atau mencipta profil untuk diri mereka sendiri. Apl TuDime menyokong penghantaran mesej suara, video, gambar dan teks. Anda juga boleh bersembang dalam kumpulan atau anda mencari rakan. Apl TuDime berfungsi pada semua peranti iOS, Android, Telefon Windows, Symbian dan Blackberry";
+"1. Daily: 1.500 d/day, 2. Weekly: 7.000 d/week, 3. Monthly: 22.000 d/month" = "1. Harian: 1.500 d/hari, 2. Mingguan: 7.000 d/minggu, 3. Bulanan: 22.000 d/bulan";
+
+
+
+"All Viettel subscribers can use service." = "Semua pelanggan Viettel boleh menggunakan perkhidmatan";
+"a. SMS commands:DK1 send to 1517:Daily package DK3 send to1517:Weekly package DK30 send to1517:Monthly package b. IVR: Call to 1517, listen and follow instructions c. Web/App: follow instructions" = "a. Perintah SMS:DK1 hantar ke 1517:Pakej harian DK3 hantar ke1517:Pakej mingguan DK30 hantar ke1517:Pakej bulanan b. IVR: Panggil ke 1517, dengar dan ikut arahan c. Web/Apl: ikut arahan";
+"No. On SMS, App, Web: The friends only can see your Nickname.On IVR: The friends only can see your ID." = "Tidak. Pada SMS, Apl, Web: Rakan hanya boleh melihat Nama Panggilan anda. Pada IVR: Rakan hanya boleh melihat ID anda";
+
+"D chat is a code includes 7 digits, each user join in TuDime will be provided 1 ID that cant be changed." = "Sembang D ialah kod yang mengandungi 7 digit, setiap pengguna menyertai TuDime akan diberikan 1 ID yang tidak boleh ditukar.";
+
+"ID: User can not change, it be provided by system.Nickname: user can change, it be created by user." = "ID: Pengguna tidak boleh menukar, ia disediakan oleh sistem. Nama panggilan: pengguna boleh menukar, ia dicipta oleh pengguna";
+
+"You can find out friends via: -SMS: text TIM send to 1517 IVR: after subscribe, call to 1517, press 1 to find out new friend, listen and follow instructions App/Web: look around feature" = "Anda boleh mengetahui rakan melalui: -SMS: hantar teks TIM ke 1517 IVR: selepas melanggan, hubungi 1517, tekan 1 untuk mengetahui rakan baharu, dengar dan ikut arahan App/Web: look around feature";
+"No." = "Tidak.";
+"Please give your feedback" = "Sila berikan maklum balas anda";
+
+
+
+
+"SUBMIT" = "SERAH";
+"Please enter valid OTP" = "Sila masukkan OTP yang sah";
+"OTP field can't be blank" = "medan OTP tidak boleh kosong";
+"A New OTP Sended Successfully" = "OTP Baharu Berjaya Dihantar";
+"OTP verified Successfully" = "OTP disahkan Berjaya";
+"Please fill all the details" = "Sila isi semua butiran";
+"Please select a language." = "Sila pilih bahasa.";
+"Please enter your phone number." = "Sila masukkan nombor telefon anda.";
+"Please enter a valid phone number." = "Sila masukkan nombor telefon yang sah.";
+"Please enter your email id." = "Sila masukkan id e-mel anda.";
+"Please enter a valid email id." = "Sila masukkan id e-mel yang sah.";
+"Please select your NickName." = "Sila pilih Nama Samaran anda.";
+"Please enter a valid Nickname between 4-12 characters." = "Sila masukkan Nama Panggilan yang sah antara 4-12 aksara.";
+"Entered nickname is already taken." = "Nama panggilan yang dimasukkan sudah diambil.";
+"Please select a country" = "Sila pilih negara";
+"Secret Chat" = "Sembang Rahsia";
+"Delete Chat" = "Padam Sembang";
+"Detail View" = "Paparan Butiran";
+"Archive Chat" = "Sembang Arkib";
+
+"Send eCard" = "Hantar eKad";
+"Files" = "Fail";
+"Contact" = "Hubungi";
+"Theme" = "Tema";
+"Image" = "Imej";
+"Location" = "Lokasi";
+
+"Doodle" = "Doodle";
+"Video call" = "Panggilan video";
+"Voice call" = "Panggilan suara";
+"Select language in which you want to convert the text" = "Pilih bahasa di mana anda ingin menukar teks";
+"TuDime Translation" = "Terjemahan TuDime";
+"Contacts" = "Kenalan";
+"Invite" = "Jemput";
+"Refresh Contacts" = "Refresh Kenalan";
+"Proceed To Chat" = "Teruskan Sembang";
+"Archive Chat" = "Sembang Arkib";
+"Unarchive" = "Nyaharkib";
+"Account Details" = "Butiran Akaun";
+"For any changes in details, Please contact support" = "Untuk sebarang perubahan dalam butiran, Sila hubungi sokongan";
+
+"Plan Type" = "Jenis Pelan";
+"Plan Details" = "Butiran Pelan";
+"Buy TuDime Membership" = "Beli Keahlian TuDime";
+"365-Days TuDime Annual Membership" = "365-Days TuDime Annual Membership";
+"30-Days Free Trial of Premium Features" = "30-Hari Percubaan Percuma Ciri Premium";
+"TuDime Annual Membership" = "Keahlian Tahunan TuDime";
+"Free Trial" = "Cubaan percuma";
+"Next Renew Date" = "Tarikh Pembaharuan Seterusnya";
+"Best Chat App In The World - More Features than any other!" = "Apl Sembang Terbaik Di Dunia - Lebih Banyak Ciri daripada yang lain!";
+"25% discount if you join with in 15 days - $11.25" = "Diskaun 25% jika anda menyertai dalam 15 hari - $11.25";
+"Text Chat" = "Sembang Teks";
+
+
+"Video Chat" = "Sembang Video";
+"Call Any number In The World" = "Panggil Mana-mana nombor Di Dunia";
+"Send Greeting Cards" = "Hantar Kad Ucapan";
+"Built in Translation" = "Dibina dalam Terjemahan";
+"About 20 other incredible features" = "Kira-kira 20 ciri luar biasa lain";
+"1 Year TuDime Membership" = "1 Tahun Keahlian TuDime";
+"SUBSCRIBE" = "LANGGAN" ;
+"Stats" = "Statistik";
+"Decline" = "Tolak";
+"Accept" = "Terima";
+"Please select to continue Tudime registration with your Email/Mobile No" = "Sila pilih untuk meneruskan pendaftaran Tudime dengan E-mel/No Mudah Alih anda";
+"Select your Language" = "Pilih Bahasa anda";
+
+
+
+"Search your country" = "Cari negara anda";
+"Enter email address" = "Masukkan alamat e-mel";
+"Enter your NickName" = "Masukkan Nama Panggilan anda";
+"Your Security Question :" = "Soalan Keselamatan Anda ";
+"What was the house number and street name you lived in as a child?" = "Apakah nombor rumah dan nama jalan yang anda tinggal semasa kecil?";
+"No Membership Yet" = "Belum Ada Keahlian";
+"You will get 25%% Discount on buying a membership of TuDime Now if you purchase within first 15 calendar days from registration. This membership will be %@ instead of %@. This offer is valid upto the 15th day of initial registration. After that  membership will be %@ annually. The free trial period will be end 30 days after the registration and the full membership price of %@ will be required to continue using TuDime. What Do You want to Do Now?\n* Buy TuDime Yearly Membership\n* Continue  with 30 days free trialPeriod.\nWe look forward to continue having you as a value member.\nThank you.\nTuDime Staff" = "Anda akan mendapat Diskaun 25% untuk membeli keahlian TuDime Now jika anda membeli dalam tempoh 15 hari kalendar pertama selepas pendaftaran. Keahlian ini ialah %@ dan bukannya %@. Tawaran ini sah sehingga hari ke-15 pendaftaran awal. Selepas keahlian itu akan menjadi %@ setiap tahun. Tempoh percubaan percuma akan tamat 30 hari selepas pendaftaran dan harga keahlian penuh sebanyak %@ akan diperlukan untuk terus menggunakan TuDime. Apa Yang Anda Ingin Lakukan Sekarang?
+* Beli Keahlian Tahunan TuDime
+* Teruskan dengan 30 hari tempoh percubaan percuma.
+Kami berharap untuk terus mempunyai anda sebagai ahli nilai.
+Terima kasih. Kakitangan TuDime";
+"Subscribe Now" = "Langgan Sekarang";
+"Personalize" = "Peribadikan";
+"Good Choice! Now, express your feelings through this beautiful card !" = "Pilihan yang Baik! Sekarang, luahkan perasaan anda melalui kad yang cantik ini!";
+"Preview" = "Pratonton";
+"Share" = "Kongsi";
+"Add Frames" = "Tambah Bingkai";
+"Add Audio" = "Tambah Audio";
+"Tap to record Audio" = "Ketik untuk merakam Audio";
+"To place a TuDime call, open a chat and tap at the top" = "Untuk membuat panggilan TuDime, buka sembang dan ketik di bahagian atas";
+"Your Unique id is : " = "ID Unik anda ialah :";
+"Profile Photo Gallary" = "Galeri Foto Profil";
+"Add Participants" = "Tambah Peserta";
+"Enter new group Name" = "Masukkan Nama kumpulan baharu";
+"Create Group Chat" = "Buat Sembang Kumpulan";
+
+"Invite Contacts" = "Jemput Kenalan";
+"Invite" = "Jemput";
+"Add Profile Picture" = "Tambah Gambar Profil";
+"Brush" = "Berus";
+"Enter Your Status" = "Masukkan Status Anda";
+"Set Defualt" = "Set Defualt";
+"Drag left or right to see font size:" = "Seret ke kiri atau kanan untuk melihat saiz fon:";
+"Select Font Color: " = "Pilih Warna Fon:";
+"Select Font Style: " = "Pilih Gaya Fon:";
+"FILL ADDRESS" = "ISI ALAMAT";
+"Pay Now" = "Bayar Sekarang";
+"Please note that your number should be started with “+” and your Country Code. E.g. “+14155522233”. Here “+” is required prefix, “1” is US Country Code" = "Sila ambil perhatian bahawa nombor anda harus dimulakan dengan “+” dan Kod Negara anda. Cth. “+14155522233”. Di sini “+” diperlukan awalan, “1” ialah Kod Negara AS";
+
+"Click here to check call cradit rates." = "Klik di sini untuk menyemak kadar panggilan cradit.";
+"Please choose a Plan For Continue Recharge" = "Sila pilih Pelan Untuk Teruskan Caj Semula";
+"My Balance" = "Baki Saya";
+"BUY CALL CREDIT" = "BELI KREDIT PANGGILAN";
+"Device Contacts" = "Kenalan Peranti";
+"Proceed To Chat" = "Teruskan Sembang";
+"Search with phone, name, email, or unique id" = "Cari dengan telefon, nama, e-mel atau id unik";
+"Select your Language" = "Pilih Bahasa anda";
+"Get started with disappearing messages" = "Bermula dengan mesej yang hilang";
+"Select files..." = "Pilih fail...";
+"Tap to change group icon" = "Ketik untuk menukar ikon kumpulan";
+"Login" = "Log Masuk";
+"Username" = "Nama pengguna";
+"Leaving..." = "Meninggalkan...";
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "Adakah anda benar-benar mahu memadamkan sembang yang dipilih?\nMelakukannya akan memadamkan secara kekal";
+"Yes" = "Ya";
+"Call Credit Amount" = "Jumlah kredit panggilan";
+"Invite\nFriends" = "Menjemput\nkawan-kawan";
+"CALLS" = "PANGGILAN";
+"CHATS" = "SEmbang";
+"Archived" = "Diarkibkan";
+"Notes" = "Nota";
+"Star Message" = "Mesej Bintang";
+"Report" = "Laporan";
+"Phone/Email" = "Telefon/E-mel";
+"E-Cards" = "E-Kad";
+"Disappear Chat" = "Hilang Sembang";
+
+"Default theme setting" = "기본 테마 설정";
+"Are you sure you want to lock default theme? If you lock default theme then your contacts will not be able to set theme with you." = "Adakah anda pasti mahu mengunci tema lalai? Jika anda mengunci tema lalai maka kenalan anda tidak akan dapat menetapkan tema dengan anda.";
+
+"70+ Features, Possibly More Than Any Other Chat App In The World ! Limited Time Offer! Purchase TuDime One Year Subscription 15 Calendar Days Free Trial Period Before Your Card Is Charged. You may cancel anytime before the 15th calendar day to avoid being charged.\nBuy Tudime annual subscription at introductory price of only %@" = "70+ Ciri, Mungkin Lebih Daripada Mana-mana Apl Sembang Lain Di Dunia! Tawaran Masa Terhad! Beli TuDime Langganan Setahun 15 Hari Kalendar Tempoh Percubaan Percuma Sebelum Kad Anda Dicaj. Anda boleh membatalkan bila-bila masa sebelum hari kalendar ke-15 untuk mengelak daripada dicaj .\nBeli langganan tahunan Tudime pada harga pengenalan hanya %@";
+
+"TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees" = "TuDime Chat Application – More Than 70 Features! Announcing a brand-new chat messenger application, TuDime, that has more than 70 different features. Among the features are video chat, voice chat, texting instant messages, share screen, send greeting cards, instant translation with 15 of the most popular languages, edit messages already sent, disappearing messages, secret chat, and over 55 other features that are too numerous to list (TuDime has many features that no other chat application in the world has.  For a complete list of TuDime features Click here.\nTuDime will never sell your email address, mobile device number or personal information with any other third party. TuDime is end-end encrypted to protect your privacy.  annual registration for TuDime is an introductory offer to the first 100,000 people to download. This is an amazing and limited time offer and we believe that after you review the complete feature list,  that you will easily find many features that you will absolutely love. \nIMPORTANT:  Remember that after you download TuDime, that just like any other popular chat / messenger application, that you need to invite friends to download and register so that you can communicate with them (instant messaging / voice and video calling). After downloading TuDime, and completing registration with your $1 usd payment, you will see “Invite Friends” at the top of the page, and then you can select which friends to send the TuDime link to. Please send separate message to these friends that you also have TuDime installed on your mobile device. There are over 70 different features, many that no other chat application in the world has. TuDime is confident that you will find many features that the TuDime staff believes that you will love. TuDime looks forward to having you and your friends as valued registered users.\n  Thank You,\n  TuDime Staff And Employees";
+"Click here" = "Click here";
+"Notice" = "Notis";
+"Unlock default Theme" = "Buka kunci Tema lalai";
+"Theme unlocked" = "Tema dibuka kunci";
+"Post" = "Siaran";
+"Add a comment" = "Tambah komen";
+"Write Post..." = "Tulis pesanan...";
+"Create Post" = "Buat Catatan";
+"Tudime Feature List" = "Senarai Ciri Tudime";
+"Share Everywhere" = "Kongsi Di Mana-mana";
+"Share on Tudime" = "Kongsi di Tudime";
+"Choose one" = "Pilih satu";

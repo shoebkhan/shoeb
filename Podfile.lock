@@ -1,0 +1,415 @@
+PODS:
+  - Alamofire (5.0.2)
+  - AlamofireNetworkActivityIndicator (3.0.1):
+    - Alamofire (~> 5.0)
+  - AssetsPickerViewController (2.9.7):
+    - SnapKit
+  - ChromaColorPicker (1.8.0)
+  - Colorful (3.0.0)
+  - Firebase/Analytics (10.16.0):
+    - Firebase/Core
+  - Firebase/Core (10.16.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.16.0)
+  - Firebase/CoreOnly (10.16.0):
+    - FirebaseCore (= 10.16.0)
+  - Firebase/Database (10.16.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 10.16.0)
+  - FirebaseAnalytics (10.16.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.16.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.16.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.16.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAppCheckInterop (10.16.0)
+  - FirebaseCore (10.16.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Logger (~> 7.8)
+  - FirebaseCoreInternal (10.16.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseDatabase (10.16.0):
+    - FirebaseAppCheckInterop (~> 10.16)
+    - FirebaseCore (~> 10.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (10.16.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - Floaty (4.2.0)
+  - GoogleAppMeasurement (10.16.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.16.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.16.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.16.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.16.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.5):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - GoogleMLKit/MLKitCore (3.2.0):
+    - MLKitCommon (~> 8.0.0)
+  - GoogleMLKit/Translate (3.2.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTranslate (~> 2.2.0)
+  - GooglePlaces (7.4.0)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleToolboxForMac/StringEncoding (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.11.5):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.11.5):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.11.5):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.11.5)"
+  - GoogleUtilities/Reachability (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.11.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.2)
+  - HPRecorder (1.0.1)
+  - HSAttachmentPicker (1.2.0)
+  - ImageViewer.swift (3.3.3)
+  - ImageViewer.swift/Fetcher (3.3.3):
+    - SDWebImage
+  - iOSDropDown (0.3.4)
+  - iOSPhotoEditor (1.0.0)
+  - iRecordView (0.1.4)
+  - JFContactsPicker (2.0.0)
+  - Just (0.8.0)
+  - KDCalendar (1.8.9):
+    - KDCalendar/EventManager (= 1.8.9)
+  - KDCalendar/EventManager (1.8.9)
+  - Kingfisher (7.9.1)
+  - KNContactsPicker (0.3.0)
+  - KWVerificationCodeView (0.4.0)
+  - leveldb-library (1.22.2)
+  - libwebp (1.2.0):
+    - libwebp/demux (= 1.2.0)
+    - libwebp/mux (= 1.2.0)
+    - libwebp/webp (= 1.2.0)
+  - libwebp/demux (1.2.0):
+    - libwebp/webp
+  - libwebp/mux (1.2.0):
+    - libwebp/demux
+  - libwebp/webp (1.2.0)
+  - MLKitCommon (8.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitNaturalLanguage (4.2.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleToolboxForMac/StringEncoding (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLKitCommon (~> 8.0)
+    - Protobuf (~> 3.12)
+  - MLKitTranslate (2.2.0):
+    - MLKitNaturalLanguage (~> 4.2)
+    - SSZipArchive (~> 2.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - NewPopMenu (2.1.2)
+  - ObjectMapper (3.5.1)
+  - Popover (1.3.0)
+  - PromisesObjC (2.3.1)
+  - Protobuf (3.24.4)
+  - QCropper (0.1.5)
+  - QuickBlox (2.17.10)
+  - Quickblox-WebRTC (2.7.6):
+    - QuickBlox (>= 2.7)
+  - Refreshable (1.3.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SDWebImageWebPCoder (0.6.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.7)
+  - SemiModalViewController (1.0.1)
+  - SinchRTC (4.2.6)
+  - Sketch (3.0)
+  - SnapKit (5.6.0)
+  - SSZipArchive (2.4.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftLinkPreview (3.4.0)
+  - SwiftQRScanner (1.0.9)
+  - SwiftSignatureView (2.2.2)
+  - SwiftyBase64 (1.1.1)
+  - SwiftyGif (5.4.0)
+  - SwiftyXMLParser (5.6.0)
+  - Toast-Swift (5.0.1)
+  - Toaster (2.3.0)
+  - TrailerPlayer (1.4.8)
+  - TTTAttributedLabel (2.0.0)
+  - XLPagerTabStrip (8.1.0)
+  - YRPayment (1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireNetworkActivityIndicator
+  - AssetsPickerViewController
+  - ChromaColorPicker
+  - Colorful (~> 3.0)
+  - Firebase/Analytics
+  - Firebase/Database
+  - Floaty
+  - GoogleMaps
+  - GoogleMLKit/Translate (= 3.2.0)
+  - GooglePlaces
+  - HPRecorder
+  - HSAttachmentPicker
+  - ImageViewer.swift (~> 3.0)
+  - ImageViewer.swift/Fetcher (~> 3.0)
+  - iOSDropDown
+  - iOSPhotoEditor
+  - iRecordView
+  - JFContactsPicker (~> 2.0)
+  - Just
+  - KDCalendar (~> 1.8.9)
+  - Kingfisher (~> 7.9.1)
+  - KNContactsPicker
+  - KWVerificationCodeView
+  - NewPopMenu
+  - ObjectMapper
+  - Popover
+  - QCropper
+  - QuickBlox (~> 2.17.10)
+  - Quickblox-WebRTC (~> 2.7.6)
+  - Refreshable
+  - SDWebImage
+  - SDWebImageWebPCoder
+  - SemiModalViewController
+  - SinchRTC
+  - Sketch
+  - SVProgressHUD
+  - SwiftLinkPreview (~> 3.4.0)
+  - SwiftQRScanner (from `https://github.com/vinodiOS/SwiftQRScanner`)
+  - SwiftSignatureView
+  - SwiftyBase64
+  - SwiftyGif
+  - SwiftyXMLParser
+  - Toast-Swift
+  - Toaster
+  - TrailerPlayer (~> 1.4.8)
+  - TTTAttributedLabel
+  - XLPagerTabStrip
+  - YRPayment
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AssetsPickerViewController
+    - ChromaColorPicker
+    - Colorful
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAppCheckInterop
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - Floaty
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleMLKit
+    - GooglePlaces
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - HPRecorder
+    - HSAttachmentPicker
+    - ImageViewer.swift
+    - iOSDropDown
+    - iOSPhotoEditor
+    - iRecordView
+    - JFContactsPicker
+    - Just
+    - KDCalendar
+    - Kingfisher
+    - KNContactsPicker
+    - KWVerificationCodeView
+    - leveldb-library
+    - libwebp
+    - MLKitCommon
+    - MLKitNaturalLanguage
+    - MLKitTranslate
+    - nanopb
+    - NewPopMenu
+    - ObjectMapper
+    - Popover
+    - PromisesObjC
+    - Protobuf
+    - QCropper
+    - QuickBlox
+    - Quickblox-WebRTC
+    - Refreshable
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SemiModalViewController
+    - SinchRTC
+    - Sketch
+    - SnapKit
+    - SSZipArchive
+    - SVProgressHUD
+    - SwiftLinkPreview
+    - SwiftSignatureView
+    - SwiftyBase64
+    - SwiftyGif
+    - SwiftyXMLParser
+    - Toast-Swift
+    - Toaster
+    - TrailerPlayer
+    - TTTAttributedLabel
+    - XLPagerTabStrip
+    - YRPayment
+
+EXTERNAL SOURCES:
+  SwiftQRScanner:
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+CHECKOUT OPTIONS:
+  SwiftQRScanner:
+    :commit: 9eb7b0bb5397b596cbf1fcaa11636a197cc84132
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  AlamofireNetworkActivityIndicator: f7d4cd8d12bcf61dc569cbe000b0c35e9c8d8d32
+  AssetsPickerViewController: 4343e10ace86e425097043c17efa145c1ec868ce
+  ChromaColorPicker: 2e47f5acb805d53350fb7af1b511bc534b38ee31
+  Colorful: 9e093edacaa9fb73512ad9da157f0707b82d2542
+  Firebase: 25899099b77d255a636e3579c3d9dce10ec150d5
+  FirebaseAnalytics: 7b41efc4eba5ff841cc94d5994b5f339361258f4
+  FirebaseAppCheckInterop: 82358cff9f33452dd44259e88eea5e562500b1cb
+  FirebaseCore: 65a801af84cca84361ef9eac3fd868656968a53b
+  FirebaseCoreInternal: 26233f705cc4531236818a07ac84d20c333e505a
+  FirebaseDatabase: c30143ba53120307f5c37d9ecb9acd780a1f7c55
+  FirebaseInstallations: b822f91a61f7d1ba763e5ccc9d4f2e6f2ed3b3ee
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  GoogleAppMeasurement: 079d7632810e9d9704a99932547ba1554acc4342
+  GoogleDataTransport: 54dee9d48d14580407f8f5fbf2f496e92437a2f2
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  GoogleMLKit: 0017a6a8372e1a182139b9def4d89be5d87ca5a7
+  GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: 13e2c67ede716b8741c7989e26893d151b2b2084
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  HPRecorder: 79aeb04844d0470daf6a97aab27e55cc874b0c44
+  HSAttachmentPicker: 17ffd7e0819992a09f9126f51e9450332094de1c
+  ImageViewer.swift: 3dbb74a68ac4bdd6cdd585b3128dae17ccd733e5
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  iOSPhotoEditor: 2951f35246a31dcb428b6292248a9c065582d03e
+  iRecordView: 83aa080ce0c64db443a5f3969e441a7f12f9b8b5
+  JFContactsPicker: 2d2a8aeaf15932bd81a384d4f847c8d13200dfd9
+  Just: aef5105fb2c7069b65aa6f21aec8f429057f9c19
+  KDCalendar: a587bc486b992d82ef94bd04001fce9baf45e518
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  KNContactsPicker: 9c93c57e1557beecae277e3b7009ce283fd1102b
+  KWVerificationCodeView: 92cca6ad028546d3232fa75cda3a40d00109a1a2
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
+  MLKitCommon: f6da6c5659618c070b50a80db01248ebe2964175
+  MLKitNaturalLanguage: 3350ebe7436046cd3146b8df9a2e06d6ba7a6439
+  MLKitTranslate: e2998053668911b4de2cebe5ce072fd035189686
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  Popover: 10e1d9528f81d9504df984b7b3f491292bc1822d
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  Protobuf: 351e9022fe13a6e2af00e9aefc22077cb88520f8
+  QCropper: 050f4a47a0482324f5ab1a7e6b8af5a63c7bb8d6
+  QuickBlox: 49d85c6e1782993fb2383001301b788a8d7dcad3
+  Quickblox-WebRTC: 162d2421d91cfb3d4f7e01f87e095633ca52bb1d
+  Refreshable: 24d4a3595448f47e8b7b4fb7f5db27132b28415c
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
+  SemiModalViewController: 13fe8b991b501c7cd6a9ec7c782ed7a5c72c12e6
+  SinchRTC: fe399ba403baa6fa09715a39555da25aec4bbff1
+  Sketch: 49a4b71f7bc77316ed5f75ee79dedaa2b844d5e7
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLinkPreview: c1bc5b2cb3cd42f2865137c1a61f5d788dcf5c9c
+  SwiftQRScanner: e09dc7b549d0d7301cdca505d483665af8cda58e
+  SwiftSignatureView: 7c163f7b3d394d5db060a0ae1080ff8bc4c25c4e
+  SwiftyBase64: 8de4de96a08454e742fdda614dff12d2c62ecbe9
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  SwiftyXMLParser: 9b98995235961881322015ebe38d1f3d7c953bd7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+  TrailerPlayer: 9117cc50a183a6d060ae874552395b37951a6533
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+  YRPayment: 0f4c2caf631e974be21f702bf725d05ac7f96546
+
+PODFILE CHECKSUM: 141e1b0533c81820c6052e8993dd70e23e218465
+
+COCOAPODS: 1.15.2
